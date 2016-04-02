@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="c971dd5d-2007-4a22-8f37-df9c1837db51" name="Default" comment="" />
+    <ignored path="jitsi.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="jitsi" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="defaults.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4368932">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaultStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/styles/defaultStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/launcher/ChangeJVMFrame.java" />
+        <option value="$PROJECT_DIR$/resources/config/defaults.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="24" />
+    <option name="width" value="1311" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="communicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="communicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="communicator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jitsi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/config" />
+      <recent name="$PROJECT_DIR$/resources/images/impl/systray" />
+      <recent name="$PROJECT_DIR$/resources/images/impl" />
+      <recent name="$PROJECT_DIR$/resources/images/logo" />
+      <recent name="$PROJECT_DIR$/resources/images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.run">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jitsi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.run" />
+      <item index="1" class="java.lang.String" itemvalue="Application.run-v4" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration />
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c971dd5d-2007-4a22-8f37-df9c1837db51" name="Default" comment="" />
+      <created>1459182916137</created>
+      <option name="number" value="Default" />
+      <updated>1459182916137</updated>
+      <workItem from="1459182917657" duration="4294000" />
+      <workItem from="1459199748976" duration="280000" />
+      <workItem from="1459225572838" duration="651000" />
+      <workItem from="1459554236433" duration="1115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6340000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="24" width="1311" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+    <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="ant-usage" isVisible="true" />
+        <filter targetName="compile" isVisible="false" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="clean-bundles" isVisible="true" />
+        <filter targetName="clean-test-reports" isVisible="false" />
+        <filter targetName="clean-bundle-repositories" isVisible="false" />
+        <filter targetName="resource" isVisible="false" />
+        <filter targetName="native2ascii" isVisible="false" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="package" isVisible="false" />
+        <filter targetName="make" isVisible="true" />
+        <filter targetName="rebuild" isVisible="true" />
+        <filter targetName="make-and-deploy" isVisible="true" />
+        <filter targetName="-pre-version" isVisible="false" />
+        <filter targetName="version" isVisible="false" />
+        <filter targetName="init" isVisible="false" />
+        <filter targetName="prepare-local-accounts" isVisible="false" />
+        <filter targetName="identify-test" isVisible="false" />
+        <filter targetName="prepare-single-test" isVisible="false" />
+        <filter targetName="prepare-all-tests" isVisible="false" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="htmlreport" isVisible="false" />
+        <filter targetName="run-simple-tests" isVisible="true" />
+        <filter targetName="debug" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="run-with-profiler" isVisible="true" />
+        <filter targetName="run-v4" isVisible="true" />
+        <filter targetName="profile" isVisible="true" />
+        <filter targetName="deploy-os-specific-bundles" isVisible="false" />
+        <filter targetName="cc-buildloop" isVisible="true" />
+        <filter targetName="bundles" isVisible="false" />
+        <filter targetName="bundle-sc-launcher" isVisible="false" />
+        <filter targetName="bundle-splash-screen" isVisible="false" />
+        <filter targetName="bundle-history" isVisible="false" />
+        <filter targetName="bundle-history-slick" isVisible="false" />
+        <filter targetName="bundle-messagehistory" isVisible="false" />
+        <filter targetName="bundle-msghistory-slick" isVisible="false" />
+        <filter targetName="bundle-callhistory" isVisible="false" />
+        <filter targetName="bundle-callhistory-slick" isVisible="false" />
+        <filter targetName="bundle-fileaccess" isVisible="false" />
+        <filter targetName="bundle-fileaccess-slick" isVisible="false" />
+        <filter targetName="bundle-util" isVisible="false" />
+        <filter targetName="bundle-service-dns" isVisible="false" />
+        <filter targetName="bundle-impl-dns" isVisible="false" />
+        <filter targetName="bundle-dns-config" isVisible="false" />
+        <filter targetName="bundle-configuration" isVisible="false" />
+        <filter targetName="bundle-configuration-slick" isVisible="false" />
+        <filter targetName="bundle-credentialsstorage" isVisible="false" />
+        <filter targetName="bundle-credentialsstorage-slick" isVisible="false" />
+        <filter targetName="bundle-junit" isVisible="false" />
+        <filter targetName="bundle-libjitsi" isVisible="false" />
+        <filter targetName="bundle-neomedia" isVisible="false" />
+        <filter targetName="bundle-hid" isVisible="false" />
+        <filter targetName="bundle-hid-service" isVisible="false" />
+        <filter targetName="bundle-ldap" isVisible="false" />
+        <filter targetName="bundle-googlecontacts" isVisible="false" />
+        <filter targetName="bundle-googlecontacts-service" isVisible="false" />
+        <filter targetName="bundle-guava" isVisible="false" />
+        <filter targetName="bundle-hsql" isVisible="false" />
+        <filter targetName="bundle-servicebinder" isVisible="false" />
+        <filter targetName="bundle-architectureviewer" isVisible="false" />
+        <filter targetName="bundle-netaddr" isVisible="false" />
+        <filter targetName="bundle-netaddr-slick" isVisible="false" />
+        <filter targetName="bundle-slickless" isVisible="false" />
+        <filter targetName="bundle-slick-runner" isVisible="false" />
+        <filter targetName="bundle-sip" isVisible="false" />
+        <filter targetName="bundle-sip-slick" isVisible="false" />
+        <filter targetName="bundle-protocol" isVisible="false" />
+        <filter targetName="bundle-protocol-media" isVisible="false" />
+        <filter targetName="bundle-smacklib" isVisible="false" />
+        <filter targetName="bundle-phonenumbers" isVisible="false" />
+        <filter targetName="bundle-jmdnslib" isVisible="false" />
+        <filter targetName="bundle-jnalib" isVisible="false" />
+        <filter targetName="bundle-icq" isVisible="false" />
+        <filter targetName="bundle-icq-slick" isVisible="false" />
+        <filter targetName="bundle-mock" isVisible="false" />
+        <filter targetName="bundle-jabber" isVisible="false" />
+        <filter targetName="bundle-jabber-slick" isVisible="false" />
+        <filter targetName="bundle-msn" isVisible="false" />
+        <filter targetName="bundle-msn-slick" isVisible="false" />
+        <filter targetName="bundle-ssh" isVisible="false" />
+        <filter targetName="bundle-plugin-sshaccregwizz" isVisible="false" />
+        <filter targetName="bundle-yahoo" isVisible="false" />
+        <filter targetName="bundle-yahoo-slick" isVisible="false" />
+        <filter targetName="bundle-gibberish" isVisible="false" />
+        <filter targetName="bundle-gibberish-slick" isVisible="false" />
+        <filter targetName="bundle-ui-service" isVisible="false" />
+        <filter targetName="bundle-swing-ui" isVisible="false" />
+        <filter targetName="bundle-contactlist" isVisible="false" />
+        <filter targetName="meta-contactlist" isVisible="false" />
+        <filter targetName="meta-contactlist-slick" isVisible="false" />
+        <filter targetName="bundle-plugin-icqaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-aimaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-jabberaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-googletalkaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-msnaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-yahooaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-sipaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-iptelaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-sip2sipaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-ippiaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-gibberishaccregwizz" isVisible="false" />
+        <filter targetName="bundle-plugin-facebookaccregwizz" isVisible="false" />
+        <filter targetName="bundle-version-impl" isVisible="false" />
+        <filter targetName="bundle-version-slick" isVisible="false" />
+        <filter targetName="bundle-shutdown-timeout" isVisible="false" />
+        <filter targetName="bundle-windows-clean-shutdown" isVisible="false" />
+        <filter targetName="bundle-growlnotification" isVisible="false" />
+        <filter targetName="bundle-swingnotification" isVisible="false" />
+        <filter targetName="bundle-galagonotification" isVisible="false" />
+        <filter targetName="bundle-popupmessagehandler-slick" isVisible="false" />
+        <filter targetName="bundle-sparkle" isVisible="false" />
+        <filter targetName="bundle-plugin-exampleplugin" isVisible="false" />
+        <filter targetName="bundle-plugin-branding" isVisible="false" />
+        <filter targetName="bundle-osdependent" isVisible="false" />
+        <filter targetName="bundle-systray-service" isVisible="false" />
+        <filter targetName="bundle-browserlauncher" isVisible="false" />
+        <filter targetName="bundle-pluginmanager" isVisible="false" />
+        <filter targetName="bundle-skinmanager" isVisible="false" />
+        <filter targetName="bundle-zeroconf" isVisible="false" />
+        <filter targetName="bundle-plugin-zeroconfaccregwizz" isVisible="false" />
+        <filter targetName="bundle-irc" isVisible="false" />
+        <filter targetName="bundle-irc-commands" isVisible="false" />
+        <filter targetName="bundle-irc-api" isVisible="false" />
+        <filter targetName="bundle-slf4j" isVisible="false" />
+        <filter targetName="bundle-plugin-ircaccregwizz" isVisible="false" />
+        <filter targetName="bundle-commons-codec" isVisible="false" />
+        <filter targetName="bundle-commons-lang" isVisible="false" />
+        <filter targetName="bundle-httputil" isVisible="false" />
+        <filter targetName="bundle-notification-service" isVisible="false" />
+        <filter targetName="bundle-notification-handlers" isVisible="false" />
+        <filter targetName="bundle-notification-wiring" isVisible="false" />
+        <filter targetName="bundle-plugin-whiteboard" isVisible="false" />
+        <filter targetName="bundle-contacteventhandler" isVisible="false" />
+        <filter targetName="bundle-plugin-contactinfo" isVisible="false" />
+        <filter targetName="bundle-plugin-chatalerter" isVisible="false" />
+        <filter targetName="bundle-plugin-accountinfo" isVisible="false" />
+        <filter targetName="bundle-plugin-connectioninfo" isVisible="false" />
+        <filter targetName="bundle-dict" isVisible="false" />
+        <filter targetName="bundle-plugin-dictaccregwizz" isVisible="false" />
+        <filter targetName="bundle-update" isVisible="false" />
+        <filter targetName="bundle-plugin-update" isVisible="false" />
+        <filter targetName="bundle-plugin-profiler4j" isVisible="false" />
+        <filter targetName="bundle-plugin-simpleaccreg" isVisible="false" />
+        <filter targetName="bundle-plugin-generalconfig" isVisible="false" />
+        <filter targetName="bundle-keybindings" isVisible="false" />
+        <filter targetName="bundle-plugin-keybindingChooser" isVisible="false" />
+        <filter targetName="bundle-resources-skinpack" isVisible="false" />
+        <filter targetName="bundle-resources-defaultpack" isVisible="false" />
+        <filter targetName="bundle-resource-manager" isVisible="false" />
+        <filter targetName="bundle-notification-config" isVisible="false" />
+        <filter targetName="bundle-jfontchooserlib" isVisible="false" />
+        <filter targetName="bundle-argdelegation-service" isVisible="false" />
+        <filter targetName="bundle-argdelegation" isVisible="false" />
+        <filter targetName="bundle-zrtp4j" isVisible="false" />
+        <filter targetName="bundle-sdes4j" isVisible="false" />
+        <filter targetName="bundle-json" isVisible="false" />
+        <filter targetName="bundle-filehistory" isVisible="false" />
+        <filter targetName="bundle-metahistory" isVisible="false" />
+        <filter targetName="bundle-bouncycastle" isVisible="false" />
+        <filter targetName="bundle-plugin-otr" isVisible="false" />
+        <filter targetName="bundle-metahistory-slick" isVisible="false" />
+        <filter targetName="bundle-plugin-globalproxyconfig" isVisible="false" />
+        <filter targetName="bundle-contactsource" isVisible="false" />
+        <filter targetName="bundle-plugin-reconnect" isVisible="false" />
+        <filter targetName="bundle-plugin-securityconfig" isVisible="false" />
+        <filter targetName="bundle-plugin-advancedconfig" isVisible="false" />
+        <filter targetName="bundle-plugin-nimbuzzavatar" isVisible="false" />
+        <filter targetName="bundle-custom-avatar" isVisible="false" />
+        <filter targetName="bundle-replacement" isVisible="false" />
+        <filter targetName="bundle-youtube" isVisible="false" />
+        <filter targetName="bundle-dailymotion" isVisible="false" />
+        <filter targetName="bundle-smiley" isVisible="false" />
+        <filter targetName="bundle-vimeo" isVisible="false" />
+        <filter targetName="bundle-vbox7" isVisible="false" />
+        <filter targetName="bundle-metacafe" isVisible="false" />
+        <filter targetName="bundle-flickr" isVisible="false" />
+        <filter targetName="bundle-hulu" isVisible="false" />
+        <filter targetName="bundle-twitpic" isVisible="false" />
+        <filter targetName="bundle-directimage" isVisible="false" />
+        <filter targetName="bundle-bliptv" isVisible="false" />
+        <filter targetName="bundle-viddler" isVisible="false" />
+        <filter targetName="bundle-plugin-chatconfig" isVisible="false" />
+        <filter targetName="bundle-plugin-spellcheck" isVisible="false" />
+        <filter targetName="bundle-provdisc" isVisible="false" />
+        <filter targetName="bundle-provdisc-dhcp" isVisible="false" />
+        <filter targetName="bundle-provdisc-mdns" isVisible="false" />
+        <filter targetName="bundle-provisioning" isVisible="false" />
+        <filter targetName="bundle-addrbook" isVisible="false" />
+        <filter targetName="bundle-thunderbird" isVisible="false" />
+        <filter targetName="bundle-certificate" isVisible="false" />
+        <filter targetName="bundle-packetlogging" isVisible="false" />
+        <filter targetName="bundle-plugin-loggingutils" isVisible="false" />
+        <filter targetName="bundle-plugin-ldap" isVisible="false" />
+        <filter targetName="bundle-systemactivitynotifications" isVisible="false" />
+        <filter targetName="bundle-plugin-contactsourceconfig" isVisible="false" />
+        <filter targetName="bundle-plugin-certconfig" isVisible="false" />
+        <filter targetName="bundle-globalshortcut" isVisible="false" />
+        <filter targetName="bundle-plugin-msofficecomm" isVisible="false" />
+        <filter targetName="bundle-customcontactactions" isVisible="false" />
+        <filter targetName="bundle-phonenumbercontactsource" isVisible="false" />
+        <filter targetName="bundle-usersearch" isVisible="false" />
+        <filter targetName="bundle-demuxcontactsource" isVisible="false" />
+        <filter targetName="bundle-muc" isVisible="false" />
+        <filter targetName="bundle-desktoputil" isVisible="false" />
+        <filter targetName="bundle-globaldisplaydetails" isVisible="false" />
+        <filter targetName="bundle-plugin-propertieseditor" isVisible="false" />
+        <filter targetName="load-properties" isVisible="false" />
+        <filter targetName="define-izpack-task" isVisible="false" />
+        <filter targetName="define-ant-contrib-task" isVisible="false" />
+        <filter targetName="clean-install-generic" isVisible="false" />
+        <filter targetName="build-installation-generic" isVisible="false" />
+        <filter targetName="clean-install-linux" isVisible="false" />
+        <filter targetName="build-installation-linux" isVisible="false" />
+        <filter targetName="clean-install-windows" isVisible="false" />
+        <filter targetName="build-installation-wix" isVisible="false" />
+        <filter targetName="build-installation-wix-64" isVisible="false" />
+        <filter targetName="unzip-windows-jre" isVisible="false" />
+        <filter targetName="build-installation-wix-base" isVisible="false" />
+        <filter targetName="build-installation-wix-msi" isVisible="false" />
+        <filter targetName="build-installation-wix-locale" isVisible="false" />
+        <filter targetName="build-wix-delta-updates" isVisible="false" />
+        <filter targetName="-make-wix-delta" isVisible="false" />
+        <filter targetName="-make-wix-delta-msi" isVisible="false" />
+        <filter targetName="wix-sign-file" isVisible="false" />
+        <filter targetName="wix-sign-dlls" isVisible="false" />
+        <filter targetName="build-wix-updates-files" isVisible="false" />
+        <filter targetName="clean-macosx" isVisible="false" />
+        <filter targetName="macosx" isVisible="true" />
+        <filter targetName="-macosx-include-jre" isVisible="false" />
+        <filter targetName="-macosx-no-jre" isVisible="false" />
+        <filter targetName="macosx-sparkle" isVisible="true" />
+        <filter targetName="dmg-create-language-folders" isVisible="false" />
+        <filter targetName="dmg-language-folder" isVisible="false" />
+        <filter targetName="dmg" isVisible="true" />
+        <filter targetName="-codesign-path" isVisible="false" />
+        <filter targetName="macosx-sign-app" isVisible="false" />
+        <filter targetName="macosx-sparkle-params" isVisible="false" />
+        <filter targetName="version-params" isVisible="false" />
+        <filter targetName="load-props-params" isVisible="false" />
+        <filter targetName="macosx-sparkle-files" isVisible="false" />
+        <filter targetName="macosx-sparkle-files-finish" isVisible="false" />
+        <filter targetName="macosx-sparkle-delta-updates" isVisible="false" />
+        <filter targetName="-make-sparkle-pre-delta" isVisible="false" />
+        <filter targetName="-make-sparkle-delta" isVisible="false" />
+        <filter targetName="enable-splash" isVisible="false" />
+        <filter targetName="-delete-oldest-delta-data" isVisible="false" />
+        <filter targetName="-delete-oldest-delta-data-folder" isVisible="false" />
+        <filter targetName="dpkg-build-warning" isVisible="false" />
+        <filter targetName="-make-deb-package" isVisible="true" />
+        <filter targetName="deb-32" isVisible="false" />
+        <filter targetName="deb-64" isVisible="false" />
+        <filter targetName="deb" isVisible="false" />
+        <filter targetName="dpkg-scan-warning" isVisible="false" />
+        <filter targetName="dpkg-debianize" isVisible="false" />
+        <filter targetName="-deb-felix.client.run-for-src" isVisible="false" />
+        <filter targetName="-deb-manage-jitsi-default-overrides" isVisible="false" />
+        <filter targetName="-deb-build-target-replace" isVisible="false" />
+        <filter targetName="-deb-build-replace-custom" isVisible="false" />
+        <filter targetName="-deb-build-replace" isVisible="false" />
+        <filter targetName="copy-ready-scbundles" isVisible="false" />
+        <filter targetName="-deb-sh-update-homedir" isVisible="false" />
+        <filter targetName="-deb-control-file" isVisible="false" />
+        <filter targetName="-deb-control-for-src" isVisible="false" />
+        <filter targetName="-deb-control-for-deb" isVisible="false" />
+        <filter targetName="-deb-rules-file-update" isVisible="false" />
+        <filter targetName="-deb-links-file" isVisible="false" />
+        <filter targetName="-deb-package.install-file-update" isVisible="false" />
+        <filter targetName="-deb-package.install-file-update-non-src" isVisible="false" />
+        <filter targetName="-deb-package.install-file-update-splash" isVisible="false" />
+        <filter targetName="-deb-package.install-file-update-src" isVisible="false" />
+        <filter targetName="-deb-sh-file-update" isVisible="false" />
+        <filter targetName="-deb-post-files-update" isVisible="false" />
+        <filter targetName="deb-rel" isVisible="true" />
+        <filter targetName="clean-deb-src" isVisible="false" />
+        <filter targetName="deb-copy-jitsi" isVisible="false" />
+        <filter targetName="deb-copy-jitsi-libs" isVisible="false" />
+        <filter targetName="deb-src" isVisible="true" />
+        <filter targetName="clean-debuild" isVisible="false" />
+        <filter targetName="-pre-deb-src-rebuild" isVisible="false" />
+        <filter targetName="deb-src-rebuild" isVisible="false" />
+        <filter targetName="deb-bundle-jna" isVisible="false" />
+        <filter targetName="deb-bundle-json" isVisible="false" />
+        <filter targetName="deb-bundle-util" isVisible="false" />
+        <filter targetName="deb-bundle-desktoputil" isVisible="false" />
+        <filter targetName="deb-bundle-sysactivitynotifications" isVisible="false" />
+        <filter targetName="deb-bundle-swing-ui" isVisible="false" />
+        <filter targetName="deb-bundle-smacklib" isVisible="false" />
+        <filter targetName="deb-bundle-jmdnslib" isVisible="false" />
+        <filter targetName="deb-bundle-bouncycastle" isVisible="false" />
+        <filter targetName="deb-bundle-plugin-accountinfo" isVisible="false" />
+        <filter targetName="deb-bundle-commons-lang" isVisible="false" />
+        <filter targetName="deb-bundle-hsqldb" isVisible="false" />
+        <filter targetName="deb-libjitsi-deps" isVisible="false" />
+        <filter targetName="deb-bundle-httpmime" isVisible="false" />
+        <filter targetName="deb-bundle-common" isVisible="false" />
+        <filter targetName="deb-bundle-slf4j" isVisible="false" />
+        <filter targetName="init-native" isVisible="true" />
+        <filter targetName="screencapture" isVisible="true" />
+        <filter targetName="hid" isVisible="true" />
+        <filter targetName="hwaddressretriever" isVisible="true" />
+        <filter targetName="hwaddressretriever-windows" isVisible="true" />
+        <filter targetName="galagonotification" isVisible="true" />
+        <filter targetName="localhostretriever" isVisible="true" />
+        <filter targetName="aegeturleventhandler" isVisible="true" />
+        <filter targetName="sparkle" isVisible="true" />
+        <filter targetName="sysactivity" isVisible="true" />
+        <filter targetName="sysactivity-windows" isVisible="true" />
+        <filter targetName="globalshortcut" isVisible="true" />
+        <filter targetName="globalshortcut-windows" isVisible="true" />
+        <filter targetName="unbound" isVisible="true" />
+        <filter targetName="clean-native" isVisible="true" />
+        <filter targetName="help-native" isVisible="false" />
+        <filter targetName="msoutlookaddrbook" isVisible="true" />
+        <filter targetName="msoutlookaddrbookcomserver" isVisible="true" />
+        <filter targetName="macosx-launcher" isVisible="true" />
+      </targetFilters>
+      <expanded value="true" />
+    </buildFile>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconDND.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconExtendedAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsOffline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconDND.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconExtendedAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsOffline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_32x32.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_20x20.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo_bkp/sc_logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46116504">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_128x128.icns">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo16x16.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBarBackground.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowResizeIcon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/menuBackground.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconDND.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconExtendedAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconFFC.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/statusIcon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconOffline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsAway.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsOffline.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="203" column="16" selection-start-line="203" selection-start-column="16" selection-end-line="203" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/defaultStyle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/accountinfo/AccountDetailsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/launcher/ChangeJVMFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbproject/project.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nbproject/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/defaultStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/service/desktop/DesktopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9514563">
+          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4368932">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 2.7.10 (/usr/bin/python2.7) interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>altel</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
