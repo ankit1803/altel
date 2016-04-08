@@ -93,7 +93,7 @@ public class SIPCommScrollPane
          */
         public SCViewport()
         {
-            this.setBackground(Color.WHITE);
+            this.setBackground(new Color(251, 251, 251));
 
             loadSkin();
         }

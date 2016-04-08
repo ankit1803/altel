@@ -37,7 +37,7 @@ public class MainMenu
 
         addMenu(new FileMenu(mainFrame), "service.gui.FILE");
         addMenu(new ToolsMenu(), "service.gui.TOOLS");
-        addMenu(new HelpMenu(mainFrame), "service.gui.HELP");
+//        addMenu(new HelpMenu(mainFrame), "service.gui.HELP");
     }
 
     private void addMenu(JMenu menu, String key)

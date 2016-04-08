@@ -26,7 +26,7 @@ public class DialPadButton
     /**
      * The dial pad dialog that this button opens.
      */
-    GeneralDialPadDialog dialPad;
+    GeneralDialer dialPad;
 
     /**
      * Creates an instance of <tt>DialPadButton</tt>.
@@ -46,7 +46,7 @@ public class DialPadButton
             public void actionPerformed(ActionEvent e)
             {
                 if (dialPad == null)
-                    dialPad = new GeneralDialPadDialog();
+                    dialPad = new GeneralDialer();
 
                 dialPad.clear();
                 dialPad.setVisible(true);

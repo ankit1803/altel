@@ -1,7 +1,221 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="c971dd5d-2007-4a22-8f37-df9c1837db51" name="Default" comment="" />
+    <list default="true" readonly="true" id="c971dd5d-2007-4a22-8f37-df9c1837db51" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/dialButton.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/images/impl/gui/buttons/dialButton.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/DialPadButton$1.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/DialPadButton$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/DialPadButton.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/DialPadButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$1.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$2.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$3.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$CallField.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$CallField.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$MainKeyDispatcher.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog$MainKeyDispatcher.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$1.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$2.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$3.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$4.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$5.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$6.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$GUIProviderPresenceStatusListener.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame$GUIProviderPresenceStatusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/MainFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/menus/MainMenu.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/impl/gui/main/menus/MainMenu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane$SCViewport.class" afterPath="$PROJECT_DIR$/classes/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane$SCViewport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/accountinfo.jar" afterPath="$PROJECT_DIR$/sc-bundles/accountinfo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/addrbook.jar" afterPath="$PROJECT_DIR$/sc-bundles/addrbook.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/advancedconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/advancedconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/aimaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/aimaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/argdelegation-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/argdelegation-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/argdelegation.jar" afterPath="$PROJECT_DIR$/sc-bundles/argdelegation.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/branding.jar" afterPath="$PROJECT_DIR$/sc-bundles/branding.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/browserlauncher.jar" afterPath="$PROJECT_DIR$/sc-bundles/browserlauncher.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/callhistory-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/callhistory-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/callhistory.jar" afterPath="$PROJECT_DIR$/sc-bundles/callhistory.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/certificate.jar" afterPath="$PROJECT_DIR$/sc-bundles/certificate.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/chatalerter.jar" afterPath="$PROJECT_DIR$/sc-bundles/chatalerter.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/chatconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/chatconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/configuration-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/configuration-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/configuration.jar" afterPath="$PROJECT_DIR$/sc-bundles/configuration.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/connectioninfo.jar" afterPath="$PROJECT_DIR$/sc-bundles/connectioninfo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/contactListDialButton.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/contactListDialButton.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/buttons/contactListDialButton.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/buttons/contactListDialButton.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/contacteventhandler.jar" afterPath="$PROJECT_DIR$/sc-bundles/contacteventhandler.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/contactinfo.jar" afterPath="$PROJECT_DIR$/sc-bundles/contactinfo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/contactlist.jar" afterPath="$PROJECT_DIR$/sc-bundles/contactlist.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/contactsource.jar" afterPath="$PROJECT_DIR$/sc-bundles/contactsource.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/credentialsstorage-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/credentialsstorage-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/credentialsstorage.jar" afterPath="$PROJECT_DIR$/sc-bundles/credentialsstorage.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/customavatar-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/customavatar-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/customcontactactions.jar" afterPath="$PROJECT_DIR$/sc-bundles/customcontactactions.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/defaultresources.jar" afterPath="$PROJECT_DIR$/sc-bundles/defaultresources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/os-specific/android/defaultresources.jar" afterPath="$PROJECT_DIR$/sc-bundles/os-specific/android/defaultresources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/demuxcontactsource.jar" afterPath="$PROJECT_DIR$/sc-bundles/demuxcontactsource.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/desktoputil.jar" afterPath="$PROJECT_DIR$/sc-bundles/desktoputil.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/dialButtonBg.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/dialButtonBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/buttons/dialButtonBg.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/buttons/dialButtonBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/dialPadCallButtonBg.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/dialPadCallButtonBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/buttons/dialPadCallButtonBg.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/buttons/dialPadCallButtonBg.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/dns.jar" afterPath="$PROJECT_DIR$/sc-bundles/dns.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/dnsconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/dnsconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/dnsservice.jar" afterPath="$PROJECT_DIR$/sc-bundles/dnsservice.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/facebookaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/facebookaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/fileaccess-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/fileaccess-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/fileaccess.jar" afterPath="$PROJECT_DIR$/sc-bundles/fileaccess.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/filehistory.jar" afterPath="$PROJECT_DIR$/sc-bundles/filehistory.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/galagonotification.jar" afterPath="$PROJECT_DIR$/sc-bundles/galagonotification.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/os-specific/linux/galagonotification.jar" afterPath="$PROJECT_DIR$/sc-bundles/os-specific/linux/galagonotification.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/generalconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/generalconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/globaldisplaydetails.jar" afterPath="$PROJECT_DIR$/sc-bundles/globaldisplaydetails.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/globalproxyconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/globalproxyconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/globalshortcut.jar" afterPath="$PROJECT_DIR$/sc-bundles/globalshortcut.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/googlecontacts-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/googlecontacts-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/googlecontacts.jar" afterPath="$PROJECT_DIR$/sc-bundles/googlecontacts.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/googletalkaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/googletalkaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/hid-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/hid-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/hid.jar" afterPath="$PROJECT_DIR$/sc-bundles/hid.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/history-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/history-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/history.jar" afterPath="$PROJECT_DIR$/sc-bundles/history.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/httputil.jar" afterPath="$PROJECT_DIR$/sc-bundles/httputil.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/icqaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/icqaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/ippiaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/ippiaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/iptelaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/iptelaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/irc-commands.jar" afterPath="$PROJECT_DIR$/sc-bundles/irc-commands.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/ircaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/ircaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/jabberaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/jabberaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/jfontchooserlib.jar" afterPath="$PROJECT_DIR$/sc-bundles/jfontchooserlib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/jmdnslib.jar" afterPath="$PROJECT_DIR$/sc-bundles/jmdnslib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/jnalib.jar" afterPath="$PROJECT_DIR$/sc-bundles/jnalib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/json.jar" afterPath="$PROJECT_DIR$/sc-bundles/json.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/keybindingChooser.jar" afterPath="$PROJECT_DIR$/sc-bundles/keybindingChooser.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/keybindings.jar" afterPath="$PROJECT_DIR$/sc-bundles/keybindings.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/ldap.jar" afterPath="$PROJECT_DIR$/sc-bundles/ldap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/libjitsi.jar" afterPath="$PROJECT_DIR$/sc-bundles/libjitsi.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/meta-cl-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/meta-cl-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/meta-cl.jar" afterPath="$PROJECT_DIR$/sc-bundles/meta-cl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/metahistory-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/metahistory-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/metahistory.jar" afterPath="$PROJECT_DIR$/sc-bundles/metahistory.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/msghistory-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/msghistory-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/msghistory.jar" afterPath="$PROJECT_DIR$/sc-bundles/msghistory.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/muc.jar" afterPath="$PROJECT_DIR$/sc-bundles/muc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/neomedia.jar" afterPath="$PROJECT_DIR$/sc-bundles/neomedia.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/netaddr-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/netaddr-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/netaddr.jar" afterPath="$PROJECT_DIR$/sc-bundles/netaddr.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/notification-handlers.jar" afterPath="$PROJECT_DIR$/sc-bundles/notification-handlers.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/notification-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/notification-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/notification-wiring.jar" afterPath="$PROJECT_DIR$/sc-bundles/notification-wiring.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/notificationconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/notificationconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/osdependent.jar" afterPath="$PROJECT_DIR$/sc-bundles/osdependent.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/otr.jar" afterPath="$PROJECT_DIR$/sc-bundles/otr.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/packetlogging.jar" afterPath="$PROJECT_DIR$/sc-bundles/packetlogging.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/common/personPhoto.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/common/personPhoto.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/common/personPhoto.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/common/personPhoto.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/phonenumbercontactsource.jar" afterPath="$PROJECT_DIR$/sc-bundles/phonenumbercontactsource.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/phonenumbers.jar" afterPath="$PROJECT_DIR$/sc-bundles/phonenumbers.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-certconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-certconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-contactsourceconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-contactsourceconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-ldap.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-ldap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-loggingutils.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-loggingutils.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-msofficecomm.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-msofficecomm.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/plugin-nimbuzzavatars.jar" afterPath="$PROJECT_DIR$/sc-bundles/plugin-nimbuzzavatars.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/pluginmanager.jar" afterPath="$PROJECT_DIR$/sc-bundles/pluginmanager.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/popupmessagehandler-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/popupmessagehandler-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/propertieseditor.jar" afterPath="$PROJECT_DIR$/sc-bundles/propertieseditor.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-icq-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-icq-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-icq.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-icq.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-irc.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-irc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-jabber-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-jabber-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-jabber.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-jabber.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-media.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-media.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-mock.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-mock.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-sip-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-sip-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-sip.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-sip.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-yahoo-slick.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-yahoo-slick.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol-yahoo.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol-yahoo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/protocol.jar" afterPath="$PROJECT_DIR$/sc-bundles/protocol.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/provdisc-dhcp.jar" afterPath="$PROJECT_DIR$/sc-bundles/provdisc-dhcp.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/provdisc-mdns.jar" afterPath="$PROJECT_DIR$/sc-bundles/provdisc-mdns.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/provdisc.jar" afterPath="$PROJECT_DIR$/sc-bundles/provdisc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/provisioning.jar" afterPath="$PROJECT_DIR$/sc-bundles/provisioning.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/reconnectplugin.jar" afterPath="$PROJECT_DIR$/sc-bundles/reconnectplugin.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-bliptv.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-bliptv.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-dailymotion.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-dailymotion.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-directimage.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-directimage.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-flickr.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-flickr.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-hulu.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-hulu.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-metacafe.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-metacafe.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-smiley.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-smiley.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-twitpic.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-twitpic.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-vbox7.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-vbox7.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-viddler.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-viddler.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-vimeo.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-vimeo.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement-youtube.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement-youtube.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/replacement.jar" afterPath="$PROJECT_DIR$/sc-bundles/replacement.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/resourcemanager.jar" afterPath="$PROJECT_DIR$/sc-bundles/resourcemanager.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/sc-launcher.jar" afterPath="$PROJECT_DIR$/sc-bundles/sc-launcher.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/sdes4j.jar" afterPath="$PROJECT_DIR$/sc-bundles/sdes4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/securityconfig.jar" afterPath="$PROJECT_DIR$/sc-bundles/securityconfig.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/showHidePeers.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/buttons/showHidePeers.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/buttons/showHidePeers.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/buttons/showHidePeers.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/shutdown-timeout.jar" afterPath="$PROJECT_DIR$/sc-bundles/shutdown-timeout.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/simpleaccreg.jar" afterPath="$PROJECT_DIR$/sc-bundles/simpleaccreg.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/sipaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/sipaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/skinmanager.jar" afterPath="$PROJECT_DIR$/sc-bundles/skinmanager.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/slick-runner.jar" afterPath="$PROJECT_DIR$/sc-bundles/slick-runner.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/slickless.jar" afterPath="$PROJECT_DIR$/sc-bundles/slickless.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/smacklib.jar" afterPath="$PROJECT_DIR$/sc-bundles/smacklib.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/os-specific/macosx/sparkle.jar" afterPath="$PROJECT_DIR$/sc-bundles/os-specific/macosx/sparkle.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/spellChecker.jar" afterPath="$PROJECT_DIR$/sc-bundles/spellChecker.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/splash-screen.jar" afterPath="$PROJECT_DIR$/sc-bundles/splash-screen.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/swing-ui.jar" afterPath="$PROJECT_DIR$/sc-bundles/swing-ui.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/swingnotification.jar" afterPath="$PROJECT_DIR$/sc-bundles/swingnotification.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/sysactivitynotifications.jar" afterPath="$PROJECT_DIR$/sc-bundles/sysactivitynotifications.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/systray-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/systray-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/thunderbook.jar" afterPath="$PROJECT_DIR$/sc-bundles/thunderbook.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/ui-service.jar" afterPath="$PROJECT_DIR$/sc-bundles/ui-service.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/update.jar" afterPath="$PROJECT_DIR$/sc-bundles/update.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/updateservice.jar" afterPath="$PROJECT_DIR$/sc-bundles/updateservice.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/usersearch.jar" afterPath="$PROJECT_DIR$/sc-bundles/usersearch.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/util.jar" afterPath="$PROJECT_DIR$/sc-bundles/util.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/version-impl.jar" afterPath="$PROJECT_DIR$/sc-bundles/version-impl.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/impl/gui/common/windowTitleBarBackground.png" afterPath="$PROJECT_DIR$/classes/resources/images/impl/gui/common/windowTitleBarBackground.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBarBackground.png" afterPath="$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBarBackground.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/os-specific/windows/windows-clean-shutdown.jar" afterPath="$PROJECT_DIR$/sc-bundles/os-specific/windows/windows-clean-shutdown.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/yahooaccregwizz.jar" afterPath="$PROJECT_DIR$/sc-bundles/yahooaccregwizz.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sc-bundles/zrtp4j.jar" afterPath="$PROJECT_DIR$/sc-bundles/zrtp4j.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/DefaultOverridesProps.wxi.template" afterPath="$PROJECT_DIR$/classes/resources/install/windows/DefaultOverridesProps.wxi.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/DialPadButton.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/DialPadButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/MainFrame.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/MainFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/menus/MainMenu.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/menus/MainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/SCRegistrySpec.wxi" afterPath="$PROJECT_DIR$/classes/resources/install/windows/SCRegistrySpec.wxi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane.java" afterPath="$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/WiSubStg.vbs" afterPath="$PROJECT_DIR$/classes/resources/install/windows/WiSubStg.vbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/WiSumInf.vbs" afterPath="$PROJECT_DIR$/classes/resources/install/windows/WiSumInf.vbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/altel.iml" afterPath="$PROJECT_DIR$/altel.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/asInvoker.exe.manifest" afterPath="$PROJECT_DIR$/classes/resources/install/windows/asInvoker.exe.manifest" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/colors/colors.properties" afterPath="$PROJECT_DIR$/classes/resources/colors/colors.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/colors/colors.properties" afterPath="$PROJECT_DIR$/resources/colors/colors.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/config/defaults.properties" afterPath="$PROJECT_DIR$/classes/resources/config/defaults.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/config/defaults.properties" afterPath="$PROJECT_DIR$/resources/config/defaults.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/en-us.wxl" afterPath="$PROJECT_DIR$/classes/resources/install/windows/en-us.wxl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/fr-fr.wxl" afterPath="$PROJECT_DIR$/classes/resources/install/windows/fr-fr.wxl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-defines.xsl" afterPath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-defines.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-libsearch.xsl" afterPath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-libsearch.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-refs.xsl" afterPath="$PROJECT_DIR$/classes/resources/install/windows/heat-component-refs.xsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/installer-windows.wxs" afterPath="$PROJECT_DIR$/classes/resources/install/windows/installer-windows.wxs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jitsi.ipr" afterPath="$PROJECT_DIR$/jitsi.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jitsi.iws" afterPath="$PROJECT_DIR$/jitsi.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/images/plugin/spellcheck/flags/readme.txt" afterPath="$PROJECT_DIR$/classes/resources/images/plugin/spellcheck/flags/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/languages/resources.properties" afterPath="$PROJECT_DIR$/classes/resources/languages/resources.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/languages/resources.properties" afterPath="$PROJECT_DIR$/resources/languages/resources.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/languages/resources_en.properties" afterPath="$PROJECT_DIR$/classes/resources/languages/resources_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/resources/install/windows/windows_shortcut_specification.wxi" afterPath="$PROJECT_DIR$/classes/resources/install/windows/windows_shortcut_specification.wxi" />
+    </list>
     <ignored path="jitsi.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -23,21 +237,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="defaults.properties" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
+      <file leaf-file-name="MainFrame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/MainFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4368932">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="354" column="34" selection-start-line="354" selection-start-column="34" selection-end-line="354" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defaultStyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/styles/defaultStyle.css">
+      <file leaf-file-name="GeneralDialer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
+              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralDialPanel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70873785">
+              <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DTMFHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/call/DTMFHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,11 +279,23 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/net/java/sip/communicator/launcher/ChangeJVMFrame.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/DialPadButton.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/menus/MainMenu.java" />
+        <option value="$PROJECT_DIR$/resources/languages/resources.properties" />
         <option value="$PROJECT_DIR$/resources/config/defaults.properties" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialer.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane.java" />
+        <option value="$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/MainFrame.java" />
+        <option value="$PROJECT_DIR$/resources/colors/colors.properties" />
       </list>
     </option>
   </component>
@@ -64,14 +310,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="55" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1311" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -96,7 +345,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,69 +394,23 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communicator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jitsi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="altel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="communicator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jitsi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="altel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace/ubona/VoonikRestServer" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -217,6 +419,9 @@
       <recent name="$PROJECT_DIR$/resources/images/impl" />
       <recent name="$PROJECT_DIR$/resources/images/logo" />
       <recent name="$PROJECT_DIR$/resources/images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.java.sip.communicator.impl.gui.main" />
     </key>
   </component>
   <component name="RunManager" selected="Application.run">
@@ -620,14 +825,19 @@
       <workItem from="1459199748976" duration="280000" />
       <workItem from="1459225572838" duration="651000" />
       <workItem from="1459554236433" duration="1115000" />
+      <workItem from="1459621868773" duration="15977000" />
+      <workItem from="1459654690990" duration="5613000" />
+      <workItem from="1459753297330" duration="1811000" />
+      <workItem from="1459852796719" duration="62000" />
+      <workItem from="1460094472920" duration="228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6340000" />
+    <option name="totallyTimeSpent" value="30031000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="24" width="1311" height="744" extended-state="6" />
+    <frame x="55" y="-4" width="1311" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,13 +845,12 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964426" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -652,6 +861,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -988,171 +1198,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconDND.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconExtendedAway.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsOffline.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconDND.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconExtendedAway.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconWindowsOffline.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_32x32.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_20x20.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo_bkp/sc_logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46116504">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo_128x128.icns">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/logo/sc_logo16x16.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBarBackground.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowTitleBar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/windowResizeIcon.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1161,14 +1206,6 @@
     <entry file="file://$PROJECT_DIR$/resources/images/impl/gui/common/menuBackground.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="414" column="0" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconAway.png">
@@ -1199,14 +1236,6 @@
     <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIcon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/images/impl/systray/systrayIconOffline.png">
@@ -1241,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1281,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="27" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1289,14 +1312,240 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9514563">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-oracle/src.zip!/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/DialPadFieldUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPadDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="85" column="46" selection-start-line="85" selection-start-column="46" selection-end-line="85" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-oracle/src.zip!/javax/swing/JTabbedPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="775" column="16" selection-start-line="775" selection-start-column="16" selection-end-line="775" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SoundLevelIndicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="172" column="33" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/plaf/SearchFieldUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="7.8640776">
+          <caret line="343" column="16" selection-start-line="343" selection-start-column="16" selection-end-line="343" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/contactlist/ContactSearchFieldUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3656958">
+          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/contactlist/SearchField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40614888">
+          <caret line="211" column="26" selection-start-line="211" selection-start-column="26" selection-end-line="211" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/languages/resources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321976">
+          <caret line="555" column="27" selection-start-line="555" selection-start-column="27" selection-end-line="555" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/menus/MainMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-6-oracle/src.zip!/javax/swing/text/JTextComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="313" column="18" selection-start-line="313" selection-start-column="18" selection-end-line="313" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/plaf/SIPCommTextFieldUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="436" column="16" selection-start-line="436" selection-start-column="16" selection-end-line="436" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/menus/FileMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/chat/ChatConversationComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12345679">
+          <caret line="194" column="22" selection-start-line="194" selection-start-column="22" selection-end-line="194" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.18932">
+          <caret line="701" column="50" selection-start-line="701" selection-start-column="50" selection-end-line="701" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/UIServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36407766">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/lookandfeel/SIPCommDefaultTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29126215">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/DialPadButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="68" selection-start-line="61" selection-start-column="68" selection-end-line="61" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/call/CallToolBarButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5388349">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/config/defaults.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4368932">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/call/CallPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75242716">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/plugin/desktoputil/SIPCommScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/contactlist/ContactListPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/presence/AccountStatusPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="154" column="62" selection-start-line="154" selection-start-column="62" selection-end-line="154" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/utils/ImageLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1046" column="53" selection-start-line="1046" selection-start-column="23" selection-end-line="1046" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/images/images.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/colors/colors.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="18" selection-start-line="191" selection-start-column="18" selection-end-line="191" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="354" column="34" selection-start-line="354" selection-start-column="34" selection-end-line="354" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/call/DTMFHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/java/sip/communicator/impl/gui/main/GeneralDialPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70873785">
+          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1367,7 +1616,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>accountinfo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

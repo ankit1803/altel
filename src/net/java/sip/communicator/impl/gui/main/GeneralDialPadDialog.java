@@ -37,7 +37,8 @@ public class GeneralDialPadDialog
     /**
      * The actual dial pad dialog.
      */
-    private final JDialog dialPadDialog;
+//    private final JDialog dialPadDialog;
+    private final JComponent dialPadDialog = new TransparentPanel(new BorderLayout(0, 0));
 
     /**
      * The call button.
@@ -59,13 +60,13 @@ public class GeneralDialPadDialog
      */
     public GeneralDialPadDialog()
     {
-        dialPadDialog
-            = OSUtils.IS_MAC
-                ? new HudWindow().getJDialog()
-                : new SIPCommDialog(false);
-        dialPadDialog.setTitle(
-                GuiActivator.getResources().getI18NString(
-                        "service.gui.DIALPAD"));
+//        dialPadDialog
+//            = OSUtils.IS_MAC
+//                ? new HudWindow().getJDialog()
+//                : new SIPCommDialog(false);
+//        dialPadDialog.setTitle(
+//                GuiActivator.getResources().getI18NString(
+//                        "service.gui.DIALPAD"));
 
         callField
             = new CallField(
@@ -81,47 +82,47 @@ public class GeneralDialPadDialog
 
         final DTMFHandler dtmfHandler = new DTMFHandler();
 
-        mainPanel.add(new GeneralDialPanel(this, dtmfHandler));
+//        mainPanel.add(new GeneralDialPanel(this, dtmfHandler));
         mainPanel.add(createCallPanel(), BorderLayout.SOUTH);
 
         dialPadDialog.add(mainPanel);
-        dialPadDialog.pack();
-
-        dialPadDialog.addWindowListener(new WindowAdapter()
-        {
-            @Override
-            public void windowOpened(WindowEvent e)
-            {
-                if (keyManager == null)
-                {
-                    keyManager
-                        = KeyboardFocusManager.getCurrentKeyboardFocusManager();
-                }
-                if (keyDispatcher == null)
-                    keyDispatcher = new MainKeyDispatcher(keyManager);
-                keyManager.addKeyEventDispatcher(keyDispatcher);
-
-                dtmfHandler.addParent(dialPadDialog);
-            }
-
-            @Override
-            public void windowClosed(WindowEvent e)
-            {
-                try
-                {
-                    if (keyManager != null)
-                    {
-                        keyManager.removeKeyEventDispatcher(keyDispatcher);
-                        keyManager = null;
-                    }
-                    keyDispatcher = null;
-                }
-                finally
-                {
-                    dtmfHandler.removeParent(dialPadDialog);
-                }
-            }
-        });
+//        dialPadDialog.pack();
+//        dialPadDialog.add
+//        dialPadDialog.addWindowListener(new WindowAdapter()
+//        {
+//            @Override
+//            public void windowOpened(WindowEvent e)
+//            {
+//                if (keyManager == null)
+//                {
+//                    keyManager
+//                        = KeyboardFocusManager.getCurrentKeyboardFocusManager();
+//                }
+//                if (keyDispatcher == null)
+//                    keyDispatcher = new MainKeyDispatcher(keyManager);
+//                keyManager.addKeyEventDispatcher(keyDispatcher);
+//
+//                dtmfHandler.addParent(dialPadDialog);
+//            }
+//
+//            @Override
+//            public void windowClosed(WindowEvent e)
+//            {
+//                try
+//                {
+//                    if (keyManager != null)
+//                    {
+//                        keyManager.removeKeyEventDispatcher(keyDispatcher);
+//                        keyManager = null;
+//                    }
+//                    keyDispatcher = null;
+//                }
+//                finally
+//                {
+//                    dtmfHandler.removeParent(dialPadDialog);
+//                }
+//            }
+//        });
     }
 
     /**
@@ -129,12 +130,13 @@ public class GeneralDialPadDialog
      */
     private void initInputMap()
     {
-        InputMap imap = dialPadDialog.getRootPane().getInputMap(
+//        InputMap imap = dialPadDialog.getRootPane().getInputMap(
+        InputMap imap = dialPadDialog.getInputMap(
                 JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
 
         imap.put(KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), "escape");
 
-        ActionMap amap = dialPadDialog.getRootPane().getActionMap();
+        ActionMap amap = dialPadDialog.getActionMap();
 
         amap.put("escape", new AbstractAction()
         {
@@ -213,7 +215,7 @@ public class GeneralDialPadDialog
 
         buttonsPanel.add(callButton);
 
-        dialPadDialog.getRootPane().setDefaultButton(callButton);
+//        dialPadDialog.getRootPane().setDefaultButton(callButton);
 
         return buttonsPanel;
     }
@@ -239,8 +241,8 @@ public class GeneralDialPadDialog
      */
     public void setVisible(boolean visible)
     {
-        dialPadDialog.setLocationRelativeTo(
-            GuiActivator.getUIService().getMainFrame());
+//        dialPadDialog.setLocationRelativeTo(
+//            GuiActivator.getUIService().getMainFrame());
         dialPadDialog.setVisible(visible);
         callField.requestFocus();
     }
@@ -282,7 +284,8 @@ public class GeneralDialPadDialog
         {
             // If this window is not the focus window  or if the event is not
             // of type PRESSED we have nothing more to do here.
-            if (!dialPadDialog.isFocused() || (e.getID() != KeyEvent.KEY_TYPED))
+//            if (!dialPadDialog.isFocused() || (e.getID() != KeyEvent.KEY_TYPED))
+            if (!dialPadDialog.isVisible() || (e.getID() != KeyEvent.KEY_TYPED))
                 return false;
 
             switch (e.getKeyChar())

@@ -38,7 +38,7 @@ public class GeneralDialPanel
     /**
      * The parent dial pad dialog.
      */
-    private final GeneralDialPadDialog dialPadDialog;
+    private final GeneralDialer dialPadDialog;
 
     /**
      * The dial panel.
@@ -62,7 +62,7 @@ public class GeneralDialPanel
      *
      * @param dtmfHandler handles DTMFs.
      */
-    public GeneralDialPanel(GeneralDialPadDialog dialPadDialog,
+    public GeneralDialPanel(GeneralDialer dialPadDialog,
                             DTMFHandler dtmfHandler)
     {
         this.dialPadDialog = dialPadDialog;

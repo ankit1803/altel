@@ -21,6 +21,7 @@ import net.java.sip.communicator.impl.gui.main.chat.conference.*;
 import net.java.sip.communicator.impl.gui.main.contactlist.*;
 import net.java.sip.communicator.impl.gui.main.menus.*;
 import net.java.sip.communicator.impl.gui.main.presence.*;
+import net.java.sip.communicator.impl.gui.utils.ImageLoader;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.plugin.desktoputil.event.*;
 import net.java.sip.communicator.service.contacteventhandler.*;
@@ -96,6 +97,8 @@ public class MainFrame
      * The search field shown above the contact list.
      */
     private SearchField searchField;
+
+    JTabbedPane tabbedPane = new JTabbedPane();
 
     /**
      * A mapping of <tt>ProtocolProviderService</tt>s and their indexes.
@@ -331,33 +334,41 @@ public class MainFrame
         registerKeyActions();
 
         JComponent northPanel = createTopComponent();
+        JComponent southPanel = new TransparentPanel(new BorderLayout(0, 100));
 
         this.setJMenuBar(menu);
 
         TransparentPanel searchPanel
-            = new TransparentPanel(new BorderLayout(5, 0));
+            = new TransparentPanel(new BorderLayout(0, 10));
+        TransparentPanel searchTabFrame
+                = new TransparentPanel(new BorderLayout(0, 10));
 
-        searchPanel.add(searchField);
-        searchPanel.add(new DialPadButton(), BorderLayout.WEST);
+//        searchTabFrame.add(searchField, BorderLayout.NORTH);
+        searchTabFrame.add(contactListPanel, BorderLayout.CENTER);
+        searchPanel.add(searchTabFrame, BorderLayout.CENTER);
 
-        if(!GuiActivator.getConfigurationService().getBoolean(
-            "net.java.sip.communicator.impl.gui.CALL_HISTORY_BUTTON_DISABLED",
-            false))
-        {
-            searchPanel.add(createButtonPanel(), BorderLayout.EAST);
-        }
+        Image contactImg = ImageLoader.getImage(ImageLoader.SHOW_HIDE_PEERS_BUTTON);
+        ImageIcon contactIcon = new ImageIcon(contactImg);
 
+        TransparentPanel dialerPanel
+                = new TransparentPanel(new BorderLayout(0, 10));
+        dialerPanel.add(new GeneralDialer(), BorderLayout.CENTER);
+
+        Image dialimg = ImageLoader.getImage(ImageLoader.CONTACT_LIST_DIAL_BUTTON);
+        ImageIcon dialIcon = new ImageIcon(dialimg);
+
+        tabbedPane.setTabPlacement(JTabbedPane.BOTTOM);
+        tabbedPane.addTab("", dialIcon, dialerPanel);
+        tabbedPane.addTab("", contactIcon, searchPanel);
+
+        southPanel.add(tabbedPane);
         northPanel.add(accountStatusPanel, BorderLayout.CENTER);
-        northPanel.add(searchPanel, BorderLayout.SOUTH);
-
-        centerPanel.add(contactListPanel, BorderLayout.CENTER);
 
         this.mainPanel.add(northPanel, BorderLayout.NORTH);
+        this.mainPanel.add(southPanel, BorderLayout.CENTER);
 
         SingleWindowContainer singleWContainer
             = GuiActivator.getUIService().getSingleWindowContainer();
-
-        this.mainPanel.add(centerPanel, BorderLayout.CENTER);
 
         if (singleWContainer != null)
         {
