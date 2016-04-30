@@ -61,10 +61,10 @@ public class IptelAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 IptelAccountRegistrationWizard.PROTOCOL);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            wizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            wizard,
+//            containerFilter);
     }
 
     /**

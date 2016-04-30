@@ -16,9 +16,11 @@ import javax.swing.Timer;
 import javax.swing.event.*;
 
 import net.java.sip.communicator.impl.gui.*;
+import net.java.sip.communicator.impl.gui.main.account.NewAccountPanel;
 import net.java.sip.communicator.impl.gui.main.call.*;
 import net.java.sip.communicator.impl.gui.main.chat.*;
 import net.java.sip.communicator.impl.gui.main.chat.toolBars.*;
+import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanel;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.util.*;
 
@@ -69,6 +71,8 @@ public class SingleWindowContainer
     /**
      * Creates an instance of the <tt>SingleWindowContainer</tt>.
      */
+
+    private final TransparentPanel contentPanel = new TransparentPanel();
     public SingleWindowContainer()
     {
         super(new BorderLayout());
@@ -79,8 +83,63 @@ public class SingleWindowContainer
 
         add(createToolbar(), BorderLayout.NORTH);
         tabbedPane.addChangeListener(this);
+//        add(contentPanel);
+//        add(tabbedPane);
 
-        add(tabbedPane);
+    }
+
+    /**
+     * Adds the given <tt>CallPanel</tt> to this call window.
+     *
+     */
+    public void addTestPanel()
+    {
+        NewAccountPanel transparentPanel = new NewAccountPanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+    public void addDialPanel()
+    {
+        GeneralDialPadPanel transparentPanel = new GeneralDialPadPanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+    public void addContactPanel()
+    {
+        AddContactPanel transparentPanel = new AddContactPanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    private void togglePane(Boolean isTabPaneVisible){
+        if(isTabPaneVisible){
+            int zorder = getComponentZOrder(tabbedPane);
+            System.out.println("removing contentPanel zorder" + zorder);
+            contentPanel.removeAll();
+            remove(contentPanel);
+            System.out.println("removing from content pane");
+            if(zorder == -1){
+                add(tabbedPane);
+                System.out.println("adding tabbed pane");
+            }
+        }else{
+            int zorder = getComponentZOrder(contentPanel);
+            System.out.println("removing tabbedPane zorder" + zorder);
+            remove(tabbedPane);
+            System.out.println("removing tabbedPane pane");
+            contentPanel.removeAll();
+            if(zorder == -1){
+                add(contentPanel);
+                System.out.println("adding content pane");
+            }
+
+        }
+        pack();
+
+    }
+
+    public void removeContentPanel(){
+        togglePane(true);
     }
 
     /**
@@ -90,6 +149,8 @@ public class SingleWindowContainer
      */
     public void addCallPanel(CallPanel callPanel)
     {
+        togglePane(true);
+
         conversationCount ++;
 
         callPanel.setBorder(

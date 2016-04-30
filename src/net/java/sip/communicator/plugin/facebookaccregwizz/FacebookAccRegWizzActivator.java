@@ -81,10 +81,10 @@ public class FacebookAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.FACEBOOK);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            facebookWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            facebookWizard,
+//            containerFilter);
 
         if (logger.isInfoEnabled())
             logger.info("Facebook account registration wizard [STARTED].");

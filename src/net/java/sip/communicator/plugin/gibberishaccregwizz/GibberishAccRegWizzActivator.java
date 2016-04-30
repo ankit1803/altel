@@ -64,10 +64,10 @@ public class GibberishAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.GIBBERISH);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            gibberishWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            gibberishWizard,
+//            containerFilter);
 
         if (logger.isInfoEnabled())
             logger.info("Gibberish account registration wizard [STARTED].");

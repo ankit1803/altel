@@ -21,6 +21,7 @@ import net.java.sip.communicator.impl.gui.main.chat.conference.*;
 import net.java.sip.communicator.impl.gui.main.contactlist.*;
 import net.java.sip.communicator.impl.gui.main.menus.*;
 import net.java.sip.communicator.impl.gui.main.presence.*;
+import net.java.sip.communicator.impl.gui.utils.ImageLoader;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.plugin.desktoputil.event.*;
 import net.java.sip.communicator.service.contacteventhandler.*;
@@ -202,8 +203,6 @@ public class MainFrame
 
         this.setTitle(applicationName);
 
-        // sets the title to application name
-        // fix for some windows managers(gnome3)
         try
         {
             Toolkit xToolkit = Toolkit.getDefaultToolkit();
@@ -318,6 +317,80 @@ public class MainFrame
         GuiActivator.getContactList().requestFocus();
     }
 
+    private TransparentPanel getButtonBox(){
+        TransparentPanel buttonBox
+                = new TransparentPanel();
+        final SingleWindowContainer contentPaneContainer
+                = GuiActivator.getUIService().getSingleWindowContainer();
+
+
+        buttonBox.add(new DialPadButton());
+
+        JButton addAccount = new JButton();
+        Image callButtonImage
+                = ImageLoader.getImage(ImageLoader.ADD_ACCOUNT_MENU_ICON);
+        addAccount.setIcon(new ImageIcon(callButtonImage));
+
+        addAccount.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.addTestPanel();
+            }
+        });
+        buttonBox.add(addAccount);//add new account
+
+        JButton addContact = new JButton();
+        Image addContactImage
+                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
+        addContact.setIcon(new ImageIcon(addContactImage));
+        buttonBox.add(addContact);//add new account
+
+//        JButton addGroup = new JButton();
+//        Image addGroupImage
+//                = ImageLoader.getImage(ImageLoader.ADD_TO_CHAT_ICON);
+//        addGroup.setIcon(new ImageIcon(addGroupImage));
+//        buttonBox.add(addGroup);//add contact
+
+        JButton addConference = new JButton();
+        Image addConferenceImage
+                = ImageLoader.getImage(ImageLoader.CONFERENCE_ICON);
+        addConference.setIcon(new ImageIcon(addConferenceImage));
+        buttonBox.add(addConference);//create conference call
+
+        JButton addAutoAnswer = new JButton();
+        Image addAutoAnswerImage
+                = ImageLoader.getImage(ImageLoader.AUTO_ANSWER_CHECK);
+        addAutoAnswer.setIcon(new ImageIcon(addAutoAnswerImage));
+        buttonBox.add(addAutoAnswer);//auto answer
+
+//        JButton addCallFwd = new JButton();
+//        Image addCallFwdImage
+//                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
+//        addCallFwd.setIcon(new ImageIcon(addCallFwdImage));
+//        buttonBox.add(addCallFwd);//call forwarding
+
+        JButton addAccountInfo = new JButton();
+        Image addAccountInfoImage
+                = ImageLoader.getImage(ImageLoader.ACCOUNT_EDIT_ICON);
+        addAccountInfo.setIcon(new ImageIcon(addAccountInfoImage));
+        buttonBox.add(addAccountInfo);//account info
+
+//        JButton addConnectionInfo = new JButton();
+//        Image addConnectionInfoImage
+//                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
+//        addConnectionInfo.setIcon(new ImageIcon(addConnectionInfoImage));
+//        buttonBox.add(addConnectionInfo);//connection info
+
+//        JButton addSound = new JButton();
+//        Image addSoundImage
+//                = ImageLoader.getImage(ImageLoader.MICROPHONE);
+//        addSound.setIcon(new ImageIcon(addSoundImage));
+//        buttonBox.add(addSound);//sound off
+
+        return buttonBox;
+    }
+
     /**
      * Initiates the content of this frame.
      */
@@ -334,21 +407,33 @@ public class MainFrame
 
         this.setJMenuBar(menu);
 
-        TransparentPanel searchPanel
+        TransparentPanel buttonPanel
             = new TransparentPanel(new BorderLayout(5, 0));
 
-        searchPanel.add(searchField);
-        searchPanel.add(new DialPadButton(), BorderLayout.WEST);
+        TransparentPanel buttonBox = getButtonBox();
 
         if(!GuiActivator.getConfigurationService().getBoolean(
             "net.java.sip.communicator.impl.gui.CALL_HISTORY_BUTTON_DISABLED",
             false))
         {
-            searchPanel.add(createButtonPanel(), BorderLayout.EAST);
+            buttonBox.add(createButtonPanel());
         }
+        buttonPanel.add(buttonBox, BorderLayout.WEST);
 
-        northPanel.add(accountStatusPanel, BorderLayout.CENTER);
-        northPanel.add(searchPanel, BorderLayout.SOUTH);
+        TransparentPanel topStatusPanel = new TransparentPanel(new BorderLayout(10, 0));
+        topStatusPanel.add(searchField, BorderLayout.CENTER);
+        topStatusPanel.add(accountStatusPanel, BorderLayout.WEST);
+        Image addAccountInfoImage
+                = ImageLoader.getImage(ImageLoader.APPLICATION_LOGO);
+        ImageIcon atelLogoIcn = new ImageIcon( addAccountInfoImage);
+        FramedImage atelLogo = new FramedImage(atelLogoIcn, 64, 64);
+//        setIconImage(new ImageIcon(addAccountInfoImage).getImage());
+        topStatusPanel.add(atelLogo, BorderLayout.EAST);
+
+
+//        northPanel.add(accountStatusPanel, BorderLayout.CENTER);
+        northPanel.add(topStatusPanel, BorderLayout.CENTER);
+        northPanel.add(buttonPanel, BorderLayout.SOUTH);
 
         centerPanel.add(contactListPanel, BorderLayout.CENTER);
 
@@ -357,7 +442,7 @@ public class MainFrame
         SingleWindowContainer singleWContainer
             = GuiActivator.getUIService().getSingleWindowContainer();
 
-        this.mainPanel.add(centerPanel, BorderLayout.CENTER);
+//        this.mainPanel.add(centerPanel, BorderLayout.CENTER);
 
         if (singleWContainer != null)
         {
@@ -369,11 +454,14 @@ public class MainFrame
             topSplitPane.setOpaque(false);
             topSplitPane.setDividerLocation(200);
 
-            topSplitPane.add(mainPanel);
+            topSplitPane.add(centerPanel);
             topSplitPane.add(singleWContainer);
 
-            getContentPane().add(topSplitPane, BorderLayout.CENTER);
+            this.mainPanel.add(topSplitPane, BorderLayout.CENTER);
+
+            getContentPane().add(mainPanel, BorderLayout.CENTER);
             getContentPane().add(statusBarPanel, BorderLayout.SOUTH);
+
         }
         else
         {

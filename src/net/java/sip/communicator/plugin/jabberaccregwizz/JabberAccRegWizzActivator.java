@@ -70,10 +70,10 @@ public class JabberAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.JABBER);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            jabberWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            jabberWizard,
+//            containerFilter);
     }
 
     /**

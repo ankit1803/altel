@@ -58,10 +58,10 @@ public class MsnAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.MSN);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            msnWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            msnWizard,
+//            containerFilter);
     }
 
     /**

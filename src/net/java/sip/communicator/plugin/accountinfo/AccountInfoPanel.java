@@ -36,7 +36,7 @@ public class AccountInfoPanel
     private static final long serialVersionUID = 0L;
 
     /**
-     * The panel that contains the currently active <tt>AccountDetailsPanel</tt>
+     * The panel that contains the currently active <tt>AccountDetailsPanel</fAtt>
      */
     private final JPanel centerPanel =
         new TransparentPanel(new BorderLayout(10, 10));

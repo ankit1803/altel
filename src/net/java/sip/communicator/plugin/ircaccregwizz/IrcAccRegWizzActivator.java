@@ -60,9 +60,9 @@ public class IrcAccRegWizzActivator
         containerFilter
             .put(ProtocolProviderFactory.PROTOCOL, ProtocolNames.IRC);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(), ircWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(), ircWizard,
+//            containerFilter);
 
         if (logger.isInfoEnabled())
         {

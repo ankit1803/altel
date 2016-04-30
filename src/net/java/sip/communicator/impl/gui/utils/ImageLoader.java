@@ -166,6 +166,10 @@ public class ImageLoader
     public static final ImageID ACCOUNT_EDIT_ICON
         = new ImageID("service.gui.buttons.ACCOUNT_EDIT_ICON");
 
+    //Side logo
+    public static final ImageID APPLICATION_LOGO
+        = new ImageID("service.gui.SIP_COMMUNICATOR_LOGO_64x64");
+
     /**
      * The call button image.
      */
