@@ -335,7 +335,7 @@ public class MainFrame
         {
             public void actionPerformed(ActionEvent e)
             {
-                contentPaneContainer.addTestPanel();
+                contentPaneContainer.addNewAccountPanel();
             }
         });
         buttonBox.add(addAccount);//add new account
@@ -344,18 +344,27 @@ public class MainFrame
         Image addContactImage
                 = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
         addContact.setIcon(new ImageIcon(addContactImage));
+        addContact.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.addContactPanel();
+            }
+        });
         buttonBox.add(addContact);//add new account
 
-//        JButton addGroup = new JButton();
-//        Image addGroupImage
-//                = ImageLoader.getImage(ImageLoader.ADD_TO_CHAT_ICON);
-//        addGroup.setIcon(new ImageIcon(addGroupImage));
-//        buttonBox.add(addGroup);//add contact
 
         JButton addConference = new JButton();
         Image addConferenceImage
                 = ImageLoader.getImage(ImageLoader.CONFERENCE_ICON);
         addConference.setIcon(new ImageIcon(addConferenceImage));
+        addConference.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.addConferencePanel();
+            }
+        });
         buttonBox.add(addConference);//create conference call
 
         JButton addAutoAnswer = new JButton();
@@ -364,29 +373,18 @@ public class MainFrame
         addAutoAnswer.setIcon(new ImageIcon(addAutoAnswerImage));
         buttonBox.add(addAutoAnswer);//auto answer
 
-//        JButton addCallFwd = new JButton();
-//        Image addCallFwdImage
-//                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
-//        addCallFwd.setIcon(new ImageIcon(addCallFwdImage));
-//        buttonBox.add(addCallFwd);//call forwarding
-
-        JButton addAccountInfo = new JButton();
+        JButton addOptionButton = new JButton();
         Image addAccountInfoImage
                 = ImageLoader.getImage(ImageLoader.ACCOUNT_EDIT_ICON);
-        addAccountInfo.setIcon(new ImageIcon(addAccountInfoImage));
-        buttonBox.add(addAccountInfo);//account info
-
-//        JButton addConnectionInfo = new JButton();
-//        Image addConnectionInfoImage
-//                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
-//        addConnectionInfo.setIcon(new ImageIcon(addConnectionInfoImage));
-//        buttonBox.add(addConnectionInfo);//connection info
-
-//        JButton addSound = new JButton();
-//        Image addSoundImage
-//                = ImageLoader.getImage(ImageLoader.MICROPHONE);
-//        addSound.setIcon(new ImageIcon(addSoundImage));
-//        buttonBox.add(addSound);//sound off
+        addOptionButton.setIcon(new ImageIcon(addAccountInfoImage));
+        addOptionButton.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.addOptionPanel();
+            }
+        });
+        buttonBox.add(addOptionButton);//account info
 
         return buttonBox;
     }
@@ -426,7 +424,7 @@ public class MainFrame
         Image addAccountInfoImage
                 = ImageLoader.getImage(ImageLoader.APPLICATION_LOGO);
         ImageIcon atelLogoIcn = new ImageIcon( addAccountInfoImage);
-        FramedImage atelLogo = new FramedImage(atelLogoIcn, 64, 64);
+        FramedImage atelLogo = new FramedImage(atelLogoIcn, 94, 50);
 //        setIconImage(new ImageIcon(addAccountInfoImage).getImage());
         topStatusPanel.add(atelLogo, BorderLayout.EAST);
 

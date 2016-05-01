@@ -38,7 +38,7 @@ import java.util.List;
  * @author Adam Netocny
  */
 public class InvitePanel
-    extends SIPCommDialog
+    extends TransparentPanel
     implements  Skinnable,
                 ContactListContainer
 {
@@ -103,9 +103,6 @@ public class InvitePanel
      */
     public InvitePanel(String title, boolean enableReason)
     {
-        this.setModal(false);
-
-        this.setTitle(title);
 
         TransparentPanel mainPanel
             = new TransparentPanel(new BorderLayout(5, 5));
@@ -240,7 +237,7 @@ public class InvitePanel
         mainPanel.add(centerPanel, BorderLayout.CENTER);
         mainPanel.add(southPanel, BorderLayout.SOUTH);
 
-        this.getContentPane().add(mainPanel);
+        this.add(mainPanel);
 
         initTransferHandler();
 
@@ -293,11 +290,11 @@ public class InvitePanel
      * @param isEscaped indicates if this <tt>close</tt> is provoked by an
      * escape
      */
-    @Override
-    protected void close(boolean isEscaped)
-    {
-        this.cancelButton.doClick();
-    }
+//    @Override
+//    protected void close(boolean isEscaped)
+//    {
+//        this.cancelButton.doClick();
+//    }
 
     /**
      * Sets the current provider selected for this invite dialog.
@@ -529,11 +526,14 @@ public class InvitePanel
         // This dialog has no menu bar so it will never be selected
         return false;
     }
-    
-    @Override
-    public void dispose()
-    {
-        searchField.dispose();
-        super.dispose();
+
+    public boolean isFocused() {
+        return false;
     }
+    //    @Override
+//    public void dispose()
+//    {
+//        searchField.dispose();
+////        super.dispose();
+//    }
 }

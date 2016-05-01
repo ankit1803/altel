@@ -18,9 +18,13 @@ import javax.swing.event.*;
 import net.java.sip.communicator.impl.gui.*;
 import net.java.sip.communicator.impl.gui.main.account.NewAccountPanel;
 import net.java.sip.communicator.impl.gui.main.call.*;
+import net.java.sip.communicator.impl.gui.main.call.conference.ConferenceInvitePanel;
 import net.java.sip.communicator.impl.gui.main.chat.*;
 import net.java.sip.communicator.impl.gui.main.chat.toolBars.*;
+import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanel;
+import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanelCustom;
 import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanel;
+import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanelCustom;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.util.*;
 
@@ -92,12 +96,14 @@ public class SingleWindowContainer
      * Adds the given <tt>CallPanel</tt> to this call window.
      *
      */
-    public void addTestPanel()
+    public void addNewAccountPanel()
     {
         NewAccountPanel transparentPanel = new NewAccountPanel();
         togglePane(false);
         contentPanel.add(transparentPanel);
     }
+
+
     public void addDialPanel()
     {
         GeneralDialPadPanel transparentPanel = new GeneralDialPadPanel();
@@ -106,7 +112,21 @@ public class SingleWindowContainer
     }
     public void addContactPanel()
     {
-        AddContactPanel transparentPanel = new AddContactPanel();
+        AddContactPanelCustom transparentPanel = new AddContactPanelCustom();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    public void addConferencePanel()
+    {
+        ConferenceInvitePanel transparentPanel = new ConferenceInvitePanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    public void addOptionPanel()
+    {
+        ConfigurationPanelCustom transparentPanel = new ConfigurationPanelCustom();
         togglePane(false);
         contentPanel.add(transparentPanel);
     }

@@ -102,8 +102,8 @@ public class ConfigFormListPanel
             ConfigFormDescriptor configFormDescriptor
                 = (ConfigFormDescriptor) this.getSelectedValue();
 
-//            if(configFormDescriptor != null)
-//                configFrame.showFormContent(configFormDescriptor);
+            if(configFormDescriptor != null)
+                configFrame.showFormContent(configFormDescriptor);
         }
     }
 

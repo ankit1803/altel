@@ -12,6 +12,7 @@ import net.java.sip.communicator.impl.gui.main.contactlist.contactsource.Protoco
 import net.java.sip.communicator.impl.gui.main.contactlist.contactsource.StringContactSourceServiceImpl;
 import net.java.sip.communicator.impl.gui.utils.ImageLoader;
 import net.java.sip.communicator.impl.gui.utils.InviteDialog;
+import net.java.sip.communicator.impl.gui.utils.InvitePanel;
 import net.java.sip.communicator.plugin.desktoputil.TransparentPanel;
 import net.java.sip.communicator.service.contactsource.ContactSourceService;
 import net.java.sip.communicator.service.contactsource.DemuxContactSourceService;
@@ -37,7 +38,7 @@ import java.util.List;
  * @author Lyubomir Marinov
  */
 public class ConferenceInvitePanel
-    extends InviteDialog
+    extends InvitePanel
 {
     /**
      * Serial version UID.
@@ -129,49 +130,49 @@ public class ConferenceInvitePanel
             }
         });
 
-        this.addInviteButtonListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                Collection<UIContact> selectedContacts
-                    = destContactList.getContacts(null);
-
-                if (selectedContacts != null && selectedContacts.size() > 0)
-                {
-                    if (preselectedProtocolProvider == null)
-                        preselectedProtocolProvider
-                            = (ProtocolProviderService) accountSelectorBox
-                                .getSelectedItem();
-
-                    if (isJitsiVideobridge)
-                        inviteJitsiVideobridgeContacts(  preselectedProtocolProvider,
-                                                    selectedContacts);
-                    else
-                        inviteContacts(selectedContacts);
-
-                    // Store the last used account in order to pre-select it
-                    // next time.
-                    ConfigurationUtils.setLastCallConferenceProvider(
-                        preselectedProtocolProvider);
-
-                    dispose();
-                }
-                else
-                {
-                    // TODO: The underlying invite dialog should show a message
-                    // to the user that she should select at least two contacts
-                    // in order to create a conference.
-                }
-            }
-        });
-
-        this.addCancelButtonListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                dispose();
-            }
-        });
+//        this.addInviteButtonListener(new ActionListener()
+//        {
+//            public void actionPerformed(ActionEvent e)
+//            {
+//                Collection<UIContact> selectedContacts
+//                    = destContactList.getContacts(null);
+//
+//                if (selectedContacts != null && selectedContacts.size() > 0)
+//                {
+//                    if (preselectedProtocolProvider == null)
+//                        preselectedProtocolProvider
+//                            = (ProtocolProviderService) accountSelectorBox
+//                                .getSelectedItem();
+//
+//                    if (isJitsiVideobridge)
+//                        inviteJitsiVideobridgeContacts(  preselectedProtocolProvider,
+//                                                    selectedContacts);
+//                    else
+//                        inviteContacts(selectedContacts);
+//
+//                    // Store the last used account in order to pre-select it
+//                    // next time.
+//                    ConfigurationUtils.setLastCallConferenceProvider(
+//                        preselectedProtocolProvider);
+//
+//                    dispose();
+//                }
+//                else
+//                {
+//                    // TODO: The underlying invite dialog should show a message
+//                    // to the user that she should select at least two contacts
+//                    // in order to create a conference.
+//                }
+//            }
+//        });
+//
+//        this.addCancelButtonListener(new ActionListener()
+//        {
+//            public void actionPerformed(ActionEvent e)
+//            {
+//                dispose();
+//            }
+//        });
     }
 
     /**
@@ -314,7 +315,7 @@ public class ConferenceInvitePanel
             }
         });
 
-        this.getContentPane().add(accountSelectorPanel, BorderLayout.NORTH);
+        this.add(accountSelectorPanel, BorderLayout.NORTH);
     }
 
     /**

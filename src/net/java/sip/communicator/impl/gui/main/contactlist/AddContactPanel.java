@@ -43,7 +43,6 @@ import java.util.Iterator;
 public class AddContactPanel
     extends TransparentPanel
     implements ActionListener,
-                WindowFocusListener,
                 Skinnable
 {
     private JLabel accountLabel;
@@ -86,6 +85,10 @@ public class AddContactPanel
      */
     public AddContactPanel()
     {
+//        super(parentWindow);
+//
+//        this.setTitle(GuiActivator.getResources()
+//            .getI18NString("service.gui.ADD_CONTACT"));
     }
 
     /**
@@ -94,8 +97,8 @@ public class AddContactPanel
      * @param parentWindow the parent window
      * @param metaContact the meta contact, to which to add the new contact
      */
-//    public AddContactPanel(Frame parentWindow, MetaContact metaContact)
-//    {
+    public AddContactPanel(Frame parentWindow, MetaContact metaContact)
+    {
 //        this(parentWindow);
 //
 //        this.metaContact = metaContact;
@@ -103,7 +106,7 @@ public class AddContactPanel
 //        this.setTitle(GuiActivator.getResources()
 //                        .getI18NString("service.gui.ADD_CONTACT_TO")
 //                         + " " + metaContact.getDisplayName());
-//    }
+    }
 
     /**
      * Selects the given protocol provider in the account combo box.
@@ -190,12 +193,12 @@ public class AddContactPanel
 
 //        this.groupCombo = createGroupCombo(this);
 
-//        if(metaContact != null)
-//        {
-//            groupCombo.setEnabled(false);
-//
-//            groupCombo.setSelectedItem(metaContact.getParentMetaContactGroup());
-//        }
+        if(metaContact != null)
+        {
+            groupCombo.setEnabled(false);
+
+            groupCombo.setSelectedItem(metaContact.getParentMetaContactGroup());
+        }
 
         TransparentPanel labelsPanel
             = new TransparentPanel(new GridLayout(0, 1, 5, 5));
@@ -255,7 +258,7 @@ public class AddContactPanel
         mainPanel.add(dataPanel, BorderLayout.CENTER);
         mainPanel.add(createButtonsPanel(), BorderLayout.SOUTH);
 
-        this.add(mainPanel, BorderLayout.CENTER);
+        this.add(mainPanel);
 
         if(ConfigurationUtils.isHideAccountSelectionWhenPossibleEnabled())
             this.setPreferredSize(new Dimension(450, 205));
@@ -280,7 +283,7 @@ public class AddContactPanel
         TransparentPanel buttonsPanel
             = new TransparentPanel(new FlowLayout(FlowLayout.RIGHT));
 
-        this.getRootPane().setDefaultButton(addButton);
+//        this.getRootPane().setDefaultButton(addButton);
         this.addButton.setMnemonic(
             GuiActivator.getResources().getI18nMnemonic("service.gui.ADD"));
         this.cancelButton.setMnemonic(
@@ -604,15 +607,15 @@ public class AddContactPanel
      * the text field.
      * @param e the <tt>WindowEvent</tt> that notified us
      */
-    public void windowGainedFocus(WindowEvent e)
-    {
-        if(!initialized)
-            init();
+//    public void windowGainedFocus(WindowEvent e)
+//    {
+//        if(!initialized)
+//            init();
+//
+//        this.contactAddressField.requestFocus();
+//    }
 
-        this.contactAddressField.requestFocus();
-    }
-
-    public void windowLostFocus(WindowEvent e) {}
+//    public void windowLostFocus(WindowEvent e) {}
 
     /**
      * A custom renderer displaying accounts in a combo box.
@@ -750,7 +753,7 @@ public class AddContactPanel
     /**
      * This window can't be minimized.
      */
-    public void minimize() {}
+//    public void minimize() {}
 
     /**
      * This method can be called to pass any params to the exported window. This
@@ -786,13 +789,13 @@ public class AddContactPanel
      */
     public void loadSkin()
     {
-        if(initialized)
-        {
-            imageLabel.setIcon(GuiActivator.getResources().getImage(
-                    "service.gui.icons.ADD_CONTACT_DIALOG_ICON"));
-
-            imageLabel.setVerticalAlignment(JLabel.TOP);
-        }
+//        if(initialized)
+//        {
+//            imageLabel.setIcon(GuiActivator.getResources().getImage(
+//                    "service.gui.icons.ADD_CONTACT_DIALOG_ICON"));
+//
+//            imageLabel.setVerticalAlignment(JLabel.TOP);
+//        }
     }
 
     /**
