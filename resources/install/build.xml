@@ -57,7 +57,7 @@
     <!-- define the izpack task in a separate target so that we don't get an
          error when izpack properties are not set-->
     <target name="define-izpack-task">
-        <taskdef name="izpack" classpath="${izpack.dir}/lib/compiler.jar"
+        <taskdef name="izpack" classpath="lib/izpack/izpack-standalone-compiler-4.3.5.jar"
                                classname="com.izforge.izpack.ant.IzPackTask"/>
     </target>
 
@@ -1111,7 +1111,7 @@
             description="Create an .app package for MACOSX">
 
       <taskdef name="jarbundler"
-               classname="net.sourceforge.jarbundler.JarBundler"/>
+               classname="net.sourceforge.jarbundler.JarBundler" classpath="lib/os-specific/mac/jarbundler-2.2.0.jar"/>
 
       <mkdir dir="${macosx.app.dir}"/>
 
