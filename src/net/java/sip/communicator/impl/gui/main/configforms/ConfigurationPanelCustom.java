@@ -84,6 +84,7 @@ public class ConfigurationPanelCustom
 
         this.configList = new ConfigFormListPanelCustom(this);
 
+
         JScrollPane configScrollList = new JScrollPane();
 
         configScrollList.setHorizontalScrollBarPolicy(
@@ -203,7 +204,7 @@ public class ConfigurationPanelCustom
                     getClass().getClassLoader(),
                     "service.gui.icons.ACCOUNT_ICON",
                     "service.gui.ACCOUNTS",
-                    0));
+                    30));
     }
 
     /**

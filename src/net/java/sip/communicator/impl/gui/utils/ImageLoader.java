@@ -142,6 +142,9 @@ public class ImageLoader
     public static final ImageID MAIN_WINDOW_BACKGROUND
         = new ImageID("service.gui.MAIN_WINDOW_BACKGROUND");
 
+    public static final ImageID ADD_ACCOUNT_MENU_MAIN
+            = new ImageID("service.gui.buttons.ADD_ACCOUNT_MENU_MAIN");
+
     /**
      * The add account icon used in the file menu.
      */
@@ -163,6 +166,13 @@ public class ImageLoader
     /**
      * The edit icon that is shown when account is right clicked on.
      */
+
+    public static final ImageID ADD_CREDIT_ICON
+            = new ImageID("service.gui.buttons.ADD_CREDIT_ICON");
+
+    public static final ImageID ACCOUNT_EDIT_ICON_MAIN
+            = new ImageID("service.gui.buttons.ACCOUNT_EDIT_ICON_MAIN");
+
     public static final ImageID ACCOUNT_EDIT_ICON
         = new ImageID("service.gui.buttons.ACCOUNT_EDIT_ICON");
 
@@ -328,6 +338,9 @@ public class ImageLoader
      * The add contact button small image, shown when an external source contact
      * is selected.
      */
+    public static final ImageID ADD_CONTACT_BUTTON_MAIN
+            = new ImageID("service.gui.buttons.ADD_CONTACT_BUTTON_MAIN");
+
     public static final ImageID ADD_CONTACT_BUTTON_SMALL
         = new ImageID("service.gui.buttons.ADD_CONTACT_BUTTON_SMALL");
 
@@ -1382,6 +1395,9 @@ public class ImageLoader
      */
     public static final ImageID FONT_ICON
         = new ImageID("service.gui.icons.FONT_ICON");
+
+    public static final ImageID CONFERENCE_ICON_MAIN
+            = new ImageID("service.gui.buttons.CONFERENCE_ICON_MAIN");
 
     /**
      * Invite to conference icon

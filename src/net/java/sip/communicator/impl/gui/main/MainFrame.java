@@ -328,9 +328,9 @@ public class MainFrame
 
         JButton addAccount = new JButton();
         Image callButtonImage
-                = ImageLoader.getImage(ImageLoader.ADD_ACCOUNT_MENU_ICON);
+                = ImageLoader.getImage(ImageLoader.ADD_ACCOUNT_MENU_MAIN);
         addAccount.setIcon(new ImageIcon(callButtonImage));
-
+        addAccount.setToolTipText("Add New Account");
         addAccount.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
@@ -342,8 +342,9 @@ public class MainFrame
 
         JButton addContact = new JButton();
         Image addContactImage
-                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_SMALL);
+                = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_MAIN);
         addContact.setIcon(new ImageIcon(addContactImage));
+        addContact.setToolTipText("Add Contact");
         addContact.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
@@ -356,7 +357,7 @@ public class MainFrame
 
         JButton addConference = new JButton();
         Image addConferenceImage
-                = ImageLoader.getImage(ImageLoader.CONFERENCE_ICON);
+                = ImageLoader.getImage(ImageLoader.CONFERENCE_ICON_MAIN);
         addConference.setIcon(new ImageIcon(addConferenceImage));
         addConference.addActionListener(new ActionListener()
         {
@@ -365,18 +366,15 @@ public class MainFrame
                 contentPaneContainer.addConferencePanel();
             }
         });
+        addConference.setToolTipText("Add Conference");
         buttonBox.add(addConference);//create conference call
-
-        JButton addAutoAnswer = new JButton();
-        Image addAutoAnswerImage
-                = ImageLoader.getImage(ImageLoader.AUTO_ANSWER_CHECK);
-        addAutoAnswer.setIcon(new ImageIcon(addAutoAnswerImage));
-        buttonBox.add(addAutoAnswer);//auto answer
+        
 
         JButton addOptionButton = new JButton();
         Image addAccountInfoImage
-                = ImageLoader.getImage(ImageLoader.ACCOUNT_EDIT_ICON);
+                = ImageLoader.getImage(ImageLoader.ACCOUNT_EDIT_ICON_MAIN);
         addOptionButton.setIcon(new ImageIcon(addAccountInfoImage));
+        addOptionButton.setToolTipText("Open option panel");
         addOptionButton.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
@@ -416,6 +414,26 @@ public class MainFrame
         {
             buttonBox.add(createButtonPanel());
         }
+
+        JButton addCredit = new JButton();
+        Image addCreditImage
+                = ImageLoader.getImage(ImageLoader.ADD_CREDIT_ICON);
+        addCredit.setIcon(new ImageIcon(addCreditImage));
+        addCredit.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+//                contentPaneContainer.addOptionPanel();
+            }
+        });
+        addCredit.setToolTipText("Add Credit");
+        buttonBox.add(addCredit);//credit button
+
+        JLabel availCreditLbl  = new JLabel("", JLabel.CENTER);
+        availCreditLbl.setText("Available credits: $300");
+        availCreditLbl.setOpaque(false);
+//        availCreditLbl.setBackground(Color.GRAY);
+        availCreditLbl.setForeground(Color.WHITE);
+        buttonBox.add(availCreditLbl);//credit label
+
         buttonPanel.add(buttonBox, BorderLayout.WEST);
 
         TransparentPanel topStatusPanel = new TransparentPanel(new BorderLayout(10, 0));

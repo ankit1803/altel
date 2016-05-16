@@ -123,7 +123,7 @@ public class GeneralConfigPluginActivator
                         getClass().getClassLoader(),
                         "plugin.generalconfig.PLUGIN_ICON",
                         "service.gui.GENERAL",
-                        0),
+                        35),
                     properties);
         }
 

@@ -409,7 +409,7 @@ public class NeomediaActivator
                         getClass().getClassLoader(),
                         "plugin.mediaconfig.AUDIO_ICON",
                         "impl.neomedia.configform.AUDIO",
-                        3);
+                        34);
 
             bundleContext.registerService(
                     ConfigurationForm.class.getName(),
@@ -441,7 +441,7 @@ public class NeomediaActivator
                         getClass().getClassLoader(),
                         "plugin.mediaconfig.VIDEO_ICON",
                         "impl.neomedia.configform.VIDEO",
-                        4);
+                        33);
 
             bundleContext.registerService(
                     ConfigurationForm.class.getName(),
@@ -503,7 +503,7 @@ public class NeomediaActivator
                     getClass().getClassLoader(),
                     "impl.media.security.zrtp.CONF_ICON",
                     "impl.media.security.zrtp.TITLE",
-                    0),
+                    32),
                 securityProps);
         }
 

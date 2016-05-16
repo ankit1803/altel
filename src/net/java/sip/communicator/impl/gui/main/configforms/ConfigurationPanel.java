@@ -203,7 +203,7 @@ public class ConfigurationPanel
                     getClass().getClassLoader(),
                     "service.gui.icons.ACCOUNT_ICON",
                     "service.gui.ACCOUNTS",
-                    0));
+                    30));
     }
 
     /**
