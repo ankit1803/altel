@@ -84,7 +84,7 @@ public class ChatConfigActivator
             new LazyConfigurationForm(
                 "net.java.sip.communicator.plugin.chatconfig.ChatConfigPanel",
                 getClass().getClassLoader(), "plugin.chatconfig.PLUGIN_ICON",
-                "plugin.chatconfig.TITLE", 40), properties);
+                "plugin.chatconfig.TITLE", 70), properties);
 
         if (logger.isTraceEnabled())
             logger.trace("Chat Configuration: [ STARTED ]");

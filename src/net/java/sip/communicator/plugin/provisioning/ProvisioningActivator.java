@@ -110,7 +110,7 @@ public class ProvisioningActivator
                     getClass().getClassLoader(),
                     "plugin.provisioning.PLUGIN_ICON",
                     "plugin.provisioning.PROVISIONING",
-                    2000, true),
+                    15, true),
                 properties);
         }
 

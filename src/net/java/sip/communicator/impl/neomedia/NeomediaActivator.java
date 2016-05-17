@@ -409,7 +409,7 @@ public class NeomediaActivator
                         getClass().getClassLoader(),
                         "plugin.mediaconfig.AUDIO_ICON",
                         "impl.neomedia.configform.AUDIO",
-                        34);
+                        30);
 
             bundleContext.registerService(
                     ConfigurationForm.class.getName(),
@@ -441,7 +441,7 @@ public class NeomediaActivator
                         getClass().getClassLoader(),
                         "plugin.mediaconfig.VIDEO_ICON",
                         "impl.neomedia.configform.VIDEO",
-                        33);
+                        20);
 
             bundleContext.registerService(
                     ConfigurationForm.class.getName(),
@@ -482,7 +482,7 @@ public class NeomediaActivator
                             getClass().getClassLoader(),
                             "plugin.mediaconfig.VIDEO_ICON",
                             "impl.neomedia.configform.H264",
-                            -1,
+                            1500,
                             true),
                     h264Props);
         }

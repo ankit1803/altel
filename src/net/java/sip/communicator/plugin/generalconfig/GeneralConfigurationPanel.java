@@ -812,7 +812,7 @@ public class GeneralConfigurationPanel
                         "plugin.generalconfig.DEFAULT_LANGUAGE_RESTART_WARN");
         JLabel warnLabel = new JLabel(label);
         warnLabel.setToolTipText(label);
-        warnLabel.setForeground(Color.GRAY);
+        warnLabel.setForeground(Color.RED);
         warnLabel.setFont(warnLabel.getFont().deriveFont(8));
         warnLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 8, 0));
         warnLabel.setHorizontalAlignment(JLabel.RIGHT);
@@ -925,7 +925,7 @@ public class GeneralConfigurationPanel
             "plugin.generalconfig.ACCEPT_PHONE_NUMBER_WITH_ALPHA_CHARS_EXAMPLE");
         JLabel exampleLabel = new JLabel(label);
         exampleLabel.setToolTipText(label);
-        exampleLabel.setForeground(Color.GRAY);
+        exampleLabel.setForeground(Color.RED);
         exampleLabel.setFont(exampleLabel.getFont().deriveFont(8));
         exampleLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 8, 0));
         exampleLabel.setHorizontalAlignment(JLabel.LEFT);

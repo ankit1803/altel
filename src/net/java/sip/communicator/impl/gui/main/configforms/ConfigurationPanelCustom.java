@@ -204,7 +204,7 @@ public class ConfigurationPanelCustom
                     getClass().getClassLoader(),
                     "service.gui.icons.ACCOUNT_ICON",
                     "service.gui.ACCOUNTS",
-                    30));
+                    80));
     }
 
     /**

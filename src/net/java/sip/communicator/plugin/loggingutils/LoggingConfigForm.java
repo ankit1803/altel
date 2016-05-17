@@ -181,7 +181,7 @@ public class LoggingConfigForm
         JLabel descriptionLabel = new JLabel(label);
         descriptionLabel.setToolTipText(label);
         enableCheckBox.setToolTipText(label);
-        descriptionLabel.setForeground(Color.GRAY);
+        descriptionLabel.setForeground(Color.BLACK);
         descriptionLabel.setFont(descriptionLabel.getFont().deriveFont(8));
         c.gridy = 1;
         c.insets = new Insets(0, 25, 10, 0);

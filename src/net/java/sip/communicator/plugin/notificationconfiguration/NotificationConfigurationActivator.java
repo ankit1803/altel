@@ -73,7 +73,7 @@ public class NotificationConfigurationActivator
                     getClass().getClassLoader(),
                     "plugin.notificationconfig.PLUGIN_ICON",
                     "service.gui.EVENTS",
-                    31),
+                    40),
                 properties);
 
         if (logger.isTraceEnabled())
