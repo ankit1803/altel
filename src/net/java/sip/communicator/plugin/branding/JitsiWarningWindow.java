@@ -180,11 +180,11 @@ public class JitsiWarningWindow
     private String getDownloadLink()
     {
         if (OSUtils.IS_WINDOWS)
-            return "http://download.jitsi.org/jitsi/windows/";
+            return "http://download.altel.org/jitsi/windows/";
         else if (OSUtils.IS_MAC)
-            return "http://download.jitsi.org/jitsi/macosx/";
+            return "http://download.altel.org/jitsi/macosx/";
 
-        return "http://download.jitsi.org";
+        return "http://download.altel.org";
     }
 
     @Override

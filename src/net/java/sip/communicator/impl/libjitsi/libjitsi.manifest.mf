@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.libjitsi.LibJitsiActivator
 Bundle-Description: The core of Jitsi as a stand-alone library 
 Bundle-Name: libjitsi
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.libjitsi
 Export-Package: javax.media,

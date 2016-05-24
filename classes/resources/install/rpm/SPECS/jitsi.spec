@@ -2,12 +2,12 @@ Name:     jitsi
 Version:  2.5
 Release:  5267
 Summary:  Jitsi - Open Source Video Calls and Chat
-Packager: Damian Minkov <damencho@jitsi.org>
+Packager: Damian Minkov <damencho@altel.org>
 
 Group:     Applications/Internet
 License:   GNU Lesser General Public License
-URL:       https://www.jitsi.org
-Source0:   http://download.jitsi.org/jitsi/nightly/src/%{name}-src-%{version}-%{release}.zip
+URL:       https://www.altel.org
+Source0:   http://download.altel.org/jitsi/nightly/src/%{name}-src-%{version}-%{release}.zip
 BuildRoot: %{_topdir}/buildroot
 
 AutoReqProv:   no
@@ -142,7 +142,7 @@ sed -i -e "s/\/launchutils.jar//" $RPM_BUILD_ROOT/usr/bin/jitsi
 * Mon Mar 11 2013 Pavel Tankov <ptankov@bluejimp.com>
 - Now depends on java >= 0:1.5.0.
 
-* Thu Jan 31 2013 Damian Minkov <damencho@jitsi.org>
+* Thu Jan 31 2013 Damian Minkov <damencho@altel.org>
 - Fixed startup script. 
 - Add felix.framework and felix.main dependencies.
 - Fix warning about conflicting folders with filesystem package.

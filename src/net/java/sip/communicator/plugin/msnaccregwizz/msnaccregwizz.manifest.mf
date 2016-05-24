@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.msnaccregwizz.MsnAccRegWizzActivator
 Bundle-Name: Msn account registration wizard
 Bundle-Description: Msn account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.msnaccregwizz
 Import-Package: org.osgi.framework,

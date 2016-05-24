@@ -3,23 +3,23 @@ We would love to have your help. Before you start working however, please read
 and follow this short guide.
 
 # Translation
-Please go to our [translation website](http://translate.jitsi.org), which is a
+Please go to our [translation website](http://translate.altel.org), which is a
 [Pootle](http://pootle.translatehouse.org/) instance that allows for easy
 online translation. Many languages are already there and wait for completion.
 
 If your preferred language is not yet created, please drop us an
-[e-mail](mailto:dev@jitsi.org). Be aware though that completing a new language
+[e-mail](mailto:dev@altel.org). Be aware though that completing a new language
 will be quite some effort, so be sure you actually want to take up on that
 work and translate more than a few words.
 
 Please do not create any pull requests for the resources_XX.properties files,
 they will be overwritten with what comes from
-[Pootle](http://translate.jitsi.org). The only exception is if you find
+[Pootle](http://translate.altel.org). The only exception is if you find
 mistakes in the language file for
 [English](https://github.com/jitsi/jitsi/blob/master/resources/languages/resources.properties).
 
 For some more information, e.g. how to translate offline visit the
-[How To Translate Jitsi](https://jitsi.org/Documentation/HowToTranslateSIPCommunicator)
+[How To Translate Jitsi](https://altel.org/Documentation/HowToTranslateSIPCommunicator)
 on our website.
 
 # Code contributions
@@ -36,7 +36,7 @@ cannot accept the terms laid out in the agreement, unfortunately, we cannot
 accept your contribution.
 
 ## Coding Rules
-- Please read and follow the [code conventions](https://jitsi.org/Documentation/CodeConvention),
+- Please read and follow the [code conventions](https://altel.org/Documentation/CodeConvention),
   especially the limit on 80 characters per line.
 - Do not reformat existing code.
 

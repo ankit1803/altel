@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.dnsconfig.DnsConfigActivator
 Bundle-Name: Jitsi DNS config
 Bundle-Description: A bundle that export config panels for DNS utility classes.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.dnsconfig
 Import-Package: org.jitsi.util, 

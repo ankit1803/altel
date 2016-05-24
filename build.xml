@@ -427,7 +427,7 @@
             <bottom>
                 <![CDATA[
                 <font size="-1">
-                    <a href="http://jitsi.org"> Jitsi, the OpenSource Java VoIP and Instant Messaging client. </a>
+                    <a href="http://altel.org"> Jitsi, the OpenSource Java VoIP and Instant Messaging client. </a>
                     <br>
                     <a href="http://gnu.org"> Distributable under LGPL license. </a>
                     <br>
@@ -435,8 +435,8 @@
                  ]]>
              </bottom>
           <!-- link to libjitsi and ice4j -->
-          <link href="http://dev.jitsi.org/libjitsi/javadoc/"/>
-          <link href="http://dev.jitsi.org/ice4j/javadoc/"/>
+          <link href="http://dev.altel.org/libjitsi/javadoc/"/>
+          <link href="http://dev.altel.org/ice4j/javadoc/"/>
         </javadoc>
     </target>
 

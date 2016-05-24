@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Jitsi
-Upstream-Contact: Emil Ivov <emcho@jitsi.org>
-Source: http://www.jitsi.org
+Upstream-Contact: Emil Ivov <emcho@altel.org>
+Source: http://www.altel.org
 
 Files: *
 Copyright:

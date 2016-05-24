@@ -89,7 +89,7 @@
     <locale label="English (South Africa)" isoCode="en,za" dictionaryUrl="http://dictionaries.jitsi.net/en_ZA.zip" flagIcon="za"/>
     <locale label="Esperanto" isoCode="eo,xx" dictionaryUrl="http://dictionaries.jitsi.net/eo.zip" flagIcon="xx"/>
     <locale label="Faroese (Faroe Islands)" isoCode="fo,fo" dictionaryUrl="http://dictionaries.jitsi.net/fo_FO.zip" flagIcon="fo"/>
-    <locale label="French (France)" isoCode="fr,fr" dictionaryUrl="http://dictionaries.jitsi.org/fr_FR.zip" flagIcon="fr"/>
+    <locale label="French (France)" isoCode="fr,fr" dictionaryUrl="http://dictionaries.altel.org/fr_FR.zip" flagIcon="fr"/>
     <locale label="Frisian (Netherlands)" isoCode="fy,nl" dictionaryUrl="http://dictionaries.jitsi.net/fy_NL.zip" flagIcon="nl"/>
     <locale label="Galician (Spain)" isoCode="gl,es" dictionaryUrl="http://dictionaries.jitsi.net/gl_ES.zip" flagIcon="xx"/>
     <locale label="German (Germany)" isoCode="de,de" dictionaryUrl="http://dictionaries.jitsi.net/de_DE_frami.zip" flagIcon="de"/>

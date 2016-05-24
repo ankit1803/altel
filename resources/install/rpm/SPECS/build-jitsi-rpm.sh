@@ -46,7 +46,7 @@ zip -rq $zipFileName jitsi -x 'jitsi/.git/* jitsi/.gitignore'
 sed -i \
 -e "s@Version:\( *\).*@Version:\1$version@" \
 -e "s@Release:\( *\).*@Release:\1$buildNumber@" \
--e "s@Source0:\( *\).*@Source0:\1http://download.jitsi.org/jitsi/nightly/src/$zipFileName@" \
+-e "s@Source0:\( *\).*@Source0:\1http://download.altel.org/jitsi/nightly/src/$zipFileName@" \
 -e "s@ant -Dlabel=.* rebuild@ant -Dlabel=$buildNumber rebuild@" \
 $SCRIPT_DIR/SPECS/jitsi.spec
 

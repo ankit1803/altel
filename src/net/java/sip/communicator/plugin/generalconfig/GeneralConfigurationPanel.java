@@ -235,14 +235,15 @@ public class GeneralConfigurationPanel
             = GeneralConfigPluginActivator.createConfigSectionComponent(
                 Resources.getString("service.gui.MESSAGE"));
 
+        configPanel.add(createRecentMessagesCheckbox());
+        configPanel.add(createBringToFrontCheckBox());
+        configPanel.add(createChatAlertsOnMessageCheckbox());
+        configPanel.add(createTypingNitificationsCheckBox());
         configPanel.add(createGroupMessagesCheckbox());
         configPanel.add(createHistoryPanel());
         configPanel.add(createSendMessagePanel());
-        configPanel.add(createTypingNitificationsCheckBox());
-        configPanel.add(createBringToFrontCheckBox());
-        configPanel.add(createChatAlertsOnMessageCheckbox());
         configPanel.add(createMultichatCheckbox());
-        configPanel.add(createRecentMessagesCheckbox());
+
 
         return configPanel;
     }
@@ -832,8 +833,8 @@ public class GeneralConfigurationPanel
             createConfigSectionComponent(
                 Resources.getString("service.gui.CALL"));
 
-        callConfigPanel.add(createNormalizeNumberCheckBox());
         callConfigPanel.add(createAcceptPhoneNumberWithAlphaCharCheckBox());
+        callConfigPanel.add(createNormalizeNumberCheckBox());
 
         return callConfigPanel;
     }

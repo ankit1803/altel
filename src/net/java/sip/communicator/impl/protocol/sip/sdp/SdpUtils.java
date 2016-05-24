@@ -586,9 +586,9 @@ public class SdpUtils
 
             //o
             if (StringUtils.isNullOrEmpty(userName) )
-                userName = "jitsi.org";
+                userName = "altel.org";
             else
-                userName += "-jitsi.org";
+                userName += "-altel.org";
 
             Origin o = sdpFactory.createOrigin(
                 userName, 0, 0, "IN", addrType, localAddress.getHostAddress());

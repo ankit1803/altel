@@ -1,6 +1,6 @@
 Bundle-Name: Apache Http Client
 Bundle-Description: Apache Http Client
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 4.2.3
 Bundle-SymbolicName: org.apache.http
 Import-Package: org.apache.commons.logging,

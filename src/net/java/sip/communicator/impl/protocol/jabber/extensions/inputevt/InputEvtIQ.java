@@ -20,7 +20,7 @@ public class InputEvtIQ extends IQ
     /**
      * The namespace that input event belongs to.
      */
-    public static final String NAMESPACE = "http://jitsi.org/protocol/inputevt";
+    public static final String NAMESPACE = "http://altel.org/protocol/inputevt";
 
     /**
      * The namespace for peer that supports input event as a sharing server

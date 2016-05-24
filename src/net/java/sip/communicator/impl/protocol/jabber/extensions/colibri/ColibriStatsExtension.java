@@ -32,7 +32,7 @@ public class ColibriStatsExtension
      * Videobridge <tt>stats</tt> extension.
      */
     public static final String NAMESPACE
-        = "http://jitsi.org/protocol/colibri";
+        = "http://altel.org/protocol/colibri";
 
     /**
      * Constructs new <tt>ColibriStatsExtension</tt>

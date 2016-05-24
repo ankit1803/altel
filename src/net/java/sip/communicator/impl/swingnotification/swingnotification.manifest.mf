@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.swingnotification.SwingNotificationActivator
 Bundle-Name: Swing Notification Service Provider
 Bundle-Description: A bundle which implements Swing notifications.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.swingnotification
 Import-Package: org.osgi.framework,

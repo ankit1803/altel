@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.msofficecomm.MsOfficeCommActivator
 Bundle-Description: Microsoft Office Communicator
 Bundle-Name: Microsoft Office Communicator
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.msofficecomm
 Import-Package: javax.swing,

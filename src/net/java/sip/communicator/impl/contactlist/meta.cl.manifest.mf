@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.contactlist.ContactlistActivator
 Bundle-Name: MetaContactList
 Bundle-Description: An implementation of the MetaContactList service.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.contactlist
 Import-Package: org.osgi.framework,

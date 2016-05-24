@@ -22,7 +22,7 @@ public class JireconIqProvider
     /**
      * Name space of Jirecon packet extension.
      */
-    public static final String NAMESPACE = "http://jitsi.org/protocol/jirecon";
+    public static final String NAMESPACE = "http://altel.org/protocol/jirecon";
 
     /**
      * Registers this IQ provider into given <tt>ProviderManager</tt>.

@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.dictaccregwizz.DictAccRegWizzActivator
 Bundle-Name: Dict account registration wizard
 Bundle-Description: Dict account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.dictaccregwizz
 Import-Package: org.osgi.framework,

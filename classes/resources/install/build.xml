@@ -47,7 +47,7 @@
         -->
         <property environment="env" />
 
-        <condition property="application.company.name" value="jitsi.org">
+        <condition property="application.company.name" value="altel.org">
             <not>
                 <isset property="application.company.name" />
             </not>

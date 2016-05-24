@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.desktoputil.DesktopUtilActivator
 Bundle-Name: Jitsi Swing Utility Packages
 Bundle-Description: A bundle that export packages with swing related utility classes.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.desktoputil
 Import-Package: com.sun.awt,

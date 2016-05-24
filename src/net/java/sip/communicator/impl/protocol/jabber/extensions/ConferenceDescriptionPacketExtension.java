@@ -26,7 +26,7 @@ public class ConferenceDescriptionPacketExtension
     /**
      * The namespace for the XML element.
      */
-    public static final String NAMESPACE = "http://jitsi.org/protocol/condesc";
+    public static final String NAMESPACE = "http://altel.org/protocol/condesc";
 
     /**
      * The name of the "conference" XML element.

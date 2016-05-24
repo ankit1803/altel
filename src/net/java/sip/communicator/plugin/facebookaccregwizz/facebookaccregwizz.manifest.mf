@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.facebookaccregwizz.FacebookAccRegWizzActivator
 Bundle-Name: Facebook account registration wizard
 Bundle-Description: Facebook account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.facebookaccregwizz
 Import-Package: org.osgi.framework,

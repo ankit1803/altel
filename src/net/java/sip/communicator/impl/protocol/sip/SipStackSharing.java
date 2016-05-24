@@ -558,7 +558,7 @@ public class SipStackSharing
             if(recipient == null)
             {
                 logger.error("Dialog wasn't marked, please report this to "
-                                + "dev@jitsi.org");
+                                + "dev@altel.org");
             }
             else
             {
@@ -650,7 +650,7 @@ public class SipStackSharing
                 {
                     logger.error(
                         "couldn't create transaction, please report "
-                            + "this to dev@jitsi.org",
+                            + "this to dev@altel.org",
                         ex);
                 }
             }
@@ -754,7 +754,7 @@ public class SipStackSharing
             {
                 logger.error("We received a response which "
                                 + "wasn't marked, please report this to "
-                                + "dev@jitsi.org");
+                                + "dev@altel.org");
             }
         }
         catch(Throwable exc)
@@ -792,7 +792,7 @@ public class SipStackSharing
             {
                 logger.error("We received a timeout which wasn't "
                                 + "marked, please report this to "
-                                + "dev@jitsi.org");
+                                + "dev@altel.org");
             }
             else
             {
@@ -832,7 +832,7 @@ public class SipStackSharing
             {
                 logger.error("We received a transaction terminated which wasn't"
                                 + " marked, please report this to"
-                                + " dev@jitsi.org");
+                                + " dev@altel.org");
             }
             else
             {

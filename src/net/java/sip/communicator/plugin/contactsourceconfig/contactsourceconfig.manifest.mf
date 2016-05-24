@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.contactsourceconfig.ContactSourceConfigActivator
 Bundle-Description: Contact sources configuration
 Bundle-Name: Contact sources configuration
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.contactsourceconfig
 Import-Package: net.java.sip.communicator.service.contactsource,

@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.securityconfig.SecurityConfigActivator
 Bundle-Name: Security Configuration Form
 Bundle-Description: The configuration form for security
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.securityconfig
 Import-Package: org.osgi.framework,

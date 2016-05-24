@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.neomedia.NeomediaActivator
 Bundle-Name: Neomedia Service Implementation
 Bundle-Description: A bundle that offers Media capture and presentation capabilities.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.neomedia
 Import-Package: apple.awt,

@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.jabberaccregwizz.JabberAccRegWizzActivator
 Bundle-Name: Jabber account registration wizard
 Bundle-Description: Jabber account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.jabberaccregwizz
 Export-package: net.java.sip.communicator.plugin.jabberaccregwizz

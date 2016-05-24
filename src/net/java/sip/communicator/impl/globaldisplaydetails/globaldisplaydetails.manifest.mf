@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.globaldisplaydetails.GlobalDisplayDetailsActivator
 Bundle-Description: A bundle that implements the global display details package.
 Bundle-Name: Global Display Details Service Provider
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.globaldisplaydetails
 Import-Package: org.jitsi.service.resources,

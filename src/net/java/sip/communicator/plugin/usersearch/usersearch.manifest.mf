@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.usersearch.UserSearchActivator
 Bundle-Name: User search contact source
 Bundle-Description: User search contact source
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.usersearch
 Import-Package: org.osgi.framework,

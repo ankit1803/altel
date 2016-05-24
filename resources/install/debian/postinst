@@ -7,7 +7,7 @@
 #
 
 # sources.list setting for Jitsi updates.
-REPOCONFIG="deb http://download.jitsi.org/deb unstable/"
+REPOCONFIG="deb http://download.altel.org/deb unstable/"
 
 SOURCES_PREAMBLE="### THIS FILE IS AUTOMATICALLY CONFIGURED ###
 # You may comment out this entry, but any other modifications may be lost.\n"

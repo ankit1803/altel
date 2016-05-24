@@ -45,7 +45,7 @@ public class ColibriConferenceIQ
      * Videobridge <tt>conference</tt> IQ.
      */
     public static final String NAMESPACE
-        = "http://jitsi.org/protocol/colibri";
+        = "http://altel.org/protocol/colibri";
 
     /**
      * The logger instance used by this class.

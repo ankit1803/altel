@@ -162,14 +162,18 @@ public class Messenger
 
         try
         {
-            System.loadLibrary(lib);
+            System.loadLibrary("jmsofficecomm");
         }
         catch (Throwable t)
         {
             logger.error(
                     "Failed to load native library " + lib + ": "
                         + t.getMessage());
-            RegistryHandler.checkRegistryKeys();
+//            RegistryHandler.checkRegistryKeys();
+            logger.error("Couldn't load jmsofficecomm. If you are debugging,"
+                    + " make sure that HKLM\\SOFTWARE[\\Wow6432Node]\\Microsoft\\"
+                    + "Office\\Outlook\\Call Integration\\IMApplication is set to"
+                    + " javaw.exe; " + t.getMessage());
             throw new RuntimeException(t);
         }
     }

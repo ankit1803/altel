@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.addrbook.AddrBookActivator
 Bundle-Description: OS-specific Address Book support
 Bundle-Name: OS-specific Address Book support
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.addrbook
 Import-Package: javax.swing,

@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.ldap.LdapActivator
 Bundle-Name: LDAP service provider
 Bundle-Description: A bundle that implements LDAP service.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.ldap
 Import-Package: org.osgi.framework,

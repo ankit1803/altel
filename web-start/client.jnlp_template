@@ -3,7 +3,7 @@
 <jnlp spec="1.0+" codebase="@URL@" href="client@RELEASE@.jnlp">
 	<information>
 		<title>Jitsi</title>
-		<vendor>jitsi.org</vendor>
+		<vendor>altel.org</vendor>
 		<description>Jitsi - Open Source Video Calls and Chat</description>
 		<homepage href="@URL@"/>
 		<icon href="sc_logo_64x64.png"/>

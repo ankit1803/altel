@@ -75,7 +75,7 @@ public class EntityCapsManager
      * The node value to advertise.
      */
     private static String entityNode
-        = OSUtils.IS_ANDROID ? "http://android.jitsi.org" : "http://jitsi.org";
+        = OSUtils.IS_ANDROID ? "http://android.altel.org" : "http://altel.org";
 
     /**
      * The <tt>Map</tt> of <tt>Caps</tt> to <tt>DiscoverInfo</tt> which

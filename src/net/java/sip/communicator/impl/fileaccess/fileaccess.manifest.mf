@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.fileaccess.FileAccessActivator
 Bundle-Description: A bundle that implements the file access package.
 Bundle-Name: File Access Service Provider
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Import-Package: org.jitsi.service.fileaccess,
  org.jitsi.service.libjitsi,

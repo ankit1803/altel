@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.thunderbird.ThunderbirdActivator
 Bundle-Description: Thunderbird address source
 Bundle-Name: thunderbird
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.thunderbird
 Import-Package: javax.swing,
