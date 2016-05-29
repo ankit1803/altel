@@ -13,6 +13,7 @@ import java.util.List;
 
 import javax.swing.*;
 import javax.swing.Timer;
+import javax.swing.border.EmptyBorder;
 import javax.swing.event.*;
 
 import net.java.sip.communicator.impl.gui.*;
@@ -77,19 +78,32 @@ public class SingleWindowContainer
      */
 
     private final TransparentPanel contentPanel = new TransparentPanel();
+    private  TransparentPanel mainPanel = new TransparentPanel();
+
+//    private final JFrame mainFrame = new JFrame();
+
     public SingleWindowContainer()
     {
         super(new BorderLayout());
         setPreferredSize(new Dimension(620, 580));
 
+        mainPanel = new TransparentPanel();
+        BoxLayout boxLayout = new BoxLayout(mainPanel, BoxLayout.Y_AXIS);
+        mainPanel.setLayout(boxLayout);
+        mainPanel.setBorder(new EmptyBorder(0, 0, 0, 10));
+
+        final JScrollPane scroller = new JScrollPane(mainPanel);
+        scroller.setOpaque(false);
+        scroller.getViewport().setOpaque(false);
+        scroller.setPreferredSize(new Dimension(620, 580));
+        scroller.setBorder(new EmptyBorder(0, 0, 0, 0));
+        this.add(scroller, BorderLayout.CENTER);
+
         tabbedPane = new ConversationTabbedPane();
         contactPhotoPanel = new ContactPhotoPanel();
 
-        add(createToolbar(), BorderLayout.NORTH);
+        mainPanel.add(createToolbar(), BorderLayout.NORTH);
         tabbedPane.addChangeListener(this);
-//        add(contentPanel);
-//        add(tabbedPane);
-
     }
 
     /**
@@ -131,25 +145,32 @@ public class SingleWindowContainer
         contentPanel.add(transparentPanel);
     }
 
+    public void getbackToCall()
+    {
+        if(conversationCount > 0){
+            togglePane(true);
+        }
+    }
+
     private void togglePane(Boolean isTabPaneVisible){
         if(isTabPaneVisible){
             int zorder = getComponentZOrder(tabbedPane);
             System.out.println("removing contentPanel zorder" + zorder);
             contentPanel.removeAll();
-            remove(contentPanel);
+            mainPanel.remove(contentPanel);
             System.out.println("removing from content pane");
             if(zorder == -1){
-                add(tabbedPane);
+                mainPanel.add(tabbedPane);
                 System.out.println("adding tabbed pane");
             }
         }else{
             int zorder = getComponentZOrder(contentPanel);
             System.out.println("removing tabbedPane zorder" + zorder);
-            remove(tabbedPane);
+            mainPanel.remove(tabbedPane);
             System.out.println("removing tabbedPane pane");
             contentPanel.removeAll();
             if(zorder == -1){
-                add(contentPanel);
+                mainPanel.add(contentPanel);
                 System.out.println("adding content pane");
             }
 

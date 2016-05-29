@@ -130,49 +130,49 @@ public class ConferenceInvitePanel
             }
         });
 
-//        this.addInviteButtonListener(new ActionListener()
-//        {
-//            public void actionPerformed(ActionEvent e)
-//            {
-//                Collection<UIContact> selectedContacts
-//                    = destContactList.getContacts(null);
-//
-//                if (selectedContacts != null && selectedContacts.size() > 0)
-//                {
-//                    if (preselectedProtocolProvider == null)
-//                        preselectedProtocolProvider
-//                            = (ProtocolProviderService) accountSelectorBox
-//                                .getSelectedItem();
-//
-//                    if (isJitsiVideobridge)
-//                        inviteJitsiVideobridgeContacts(  preselectedProtocolProvider,
-//                                                    selectedContacts);
-//                    else
-//                        inviteContacts(selectedContacts);
-//
-//                    // Store the last used account in order to pre-select it
-//                    // next time.
-//                    ConfigurationUtils.setLastCallConferenceProvider(
-//                        preselectedProtocolProvider);
-//
+        this.addInviteButtonListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                Collection<UIContact> selectedContacts
+                    = destContactList.getContacts(null);
+
+                if (selectedContacts != null && selectedContacts.size() > 0)
+                {
+                    if (preselectedProtocolProvider == null)
+                        preselectedProtocolProvider
+                            = (ProtocolProviderService) accountSelectorBox
+                                .getSelectedItem();
+
+                    if (isJitsiVideobridge)
+                        inviteJitsiVideobridgeContacts(  preselectedProtocolProvider,
+                                                    selectedContacts);
+                    else
+                        inviteContacts(selectedContacts);
+
+                    // Store the last used account in order to pre-select it
+                    // next time.
+                    ConfigurationUtils.setLastCallConferenceProvider(
+                        preselectedProtocolProvider);
+
 //                    dispose();
-//                }
-//                else
-//                {
-//                    // TODO: The underlying invite dialog should show a message
-//                    // to the user that she should select at least two contacts
-//                    // in order to create a conference.
-//                }
-//            }
-//        });
+                }
+                else
+                {
+                    // TODO: The underlying invite dialog should show a message
+                    // to the user that she should select at least two contacts
+                    // in order to create a conference.
+                }
+            }
+        });
 //
-//        this.addCancelButtonListener(new ActionListener()
-//        {
-//            public void actionPerformed(ActionEvent e)
-//            {
+        this.addCancelButtonListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
 //                dispose();
-//            }
-//        });
+            }
+        });
     }
 
     /**
@@ -259,7 +259,7 @@ public class ConferenceInvitePanel
 
         accountSelectorPanel.setBorder(
             BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        accountSelectorPanel.add(accountSelectorLabel, BorderLayout.WEST);
+        accountSelectorPanel.add(accountSelectorLabel, BorderLayout.NORTH);
         accountSelectorPanel.add(accountSelectorBox, BorderLayout.CENTER);
 
         // Initialize the account selector box.
@@ -315,7 +315,8 @@ public class ConferenceInvitePanel
             }
         });
 
-        this.add(accountSelectorPanel, BorderLayout.NORTH);
+//        this.add(accountSelectorPanel, BorderLayout.NORTH);\
+        this.northPanel.add(accountSelectorPanel, BorderLayout.SOUTH);
     }
 
     /**

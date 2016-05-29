@@ -2,3 +2,6 @@ sc-bundles/
 test/
 web-start/
 www/
+.git/
+lib/
+sc-bundles

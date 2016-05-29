@@ -8,7 +8,7 @@
 BZ2_HOME ?= .
 LZMA_HOME ?= .
 MINGW_HOME ?= C:/mingw
-PRODUCTNAME ?= Jitsi
+PRODUCTNAME ?= Altel Communicator
 PRODUCTBUILDVERSION ?= 1.0.0.0
 TARGET_BASENAME ?= setup
 TARGET_DIR ?= ../../../../release/windows/tmp

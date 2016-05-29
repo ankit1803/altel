@@ -96,6 +96,8 @@ public class InvitePanel
      */
     protected final JTextArea infoTextArea;
 
+    public TransparentPanel northPanel;
+
     /**
      * Constructs an <tt>InviteDialog</tt>.
      *
@@ -107,7 +109,7 @@ public class InvitePanel
         TransparentPanel mainPanel
             = new TransparentPanel(new BorderLayout(5, 5));
 
-        TransparentPanel northPanel
+        northPanel
             = new TransparentPanel(new BorderLayout(10, 10));
 
         mainPanel.setPreferredSize(new Dimension(450, 350));

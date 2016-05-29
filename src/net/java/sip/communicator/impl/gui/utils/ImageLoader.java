@@ -173,6 +173,9 @@ public class ImageLoader
     public static final ImageID ACCOUNT_EDIT_ICON_MAIN
             = new ImageID("service.gui.buttons.ACCOUNT_EDIT_ICON_MAIN");
 
+    public static final ImageID BACK_TO_CALL
+            = new ImageID("service.gui.buttons.BACK_TO_CALL");
+
     public static final ImageID ACCOUNT_EDIT_ICON
         = new ImageID("service.gui.buttons.ACCOUNT_EDIT_ICON");
 

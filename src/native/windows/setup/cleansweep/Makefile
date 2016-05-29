@@ -6,7 +6,7 @@
 #
 
 MINGW_HOME ?= C:/mingw
-PRODUCTNAME ?= Jitsi
+PRODUCTNAME ?= Altel Communicator
 TARGET_BASENAME ?= cleansweep
 TARGET_DIR ?= ../../../../../release/windows/tmp
 

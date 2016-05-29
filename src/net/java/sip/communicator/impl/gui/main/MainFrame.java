@@ -384,6 +384,21 @@ public class MainFrame
         });
         buttonBox.add(addOptionButton);//account info
 
+
+        JButton backToCall = new JButton();
+        Image backToCallImage
+                = ImageLoader.getImage(ImageLoader.BACK_TO_CALL);
+        backToCall.setIcon(new ImageIcon(backToCallImage));
+        backToCall.setToolTipText("Go back to active call");
+        backToCall.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.getbackToCall();
+            }
+        });
+        buttonBox.add(backToCall);//account info
+
         return buttonBox;
     }
 
