@@ -1,8 +1,9 @@
-set JAVA_HOME=C:\Program Files\Java\jdk1.6.0_17\
-set PATH==%JAVA_HOME%\bin;c:\Users\AnkitSingh\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7\bin;c:\mingw\bin;c:\MinGW\msys\1.0\bin;c:\Program Files (x86)\WiX Toolset v3.10
+set JAVA_HOME=C:\Program Files (x86)\Java\jdk1.7.0_40\
+set ANT_HOME=C:\Users\Ubona\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7
 
-set ANT_HOME=c:\Users\AnkitSingh\Downloads\apache-ant-1.9.7-bin\apache-ant-1.9.7
-set BZ2_HOME=E:\Movies\altel\src\native\windows\setup
-set LZMA_HOME=c:\mingw\xz
-set MINGW_HOME=c:\mingw
+set PATH==%JAVA_HOME%\bin;%ANT_HOME%\bin;c:\mingw\bin;c:\MinGW\msys\1.0\bin;c:\Program Files (x86)\WiX Toolset v3.10
+
+set BZ2_HOME=D:\altel\src\native\windows\setup
+set LZMA_HOME=C:\MinGW\xz
+set MINGW_HOME=C:\MinGW
 start /B /LOW /WAIT ant build-installation-wix

@@ -79,30 +79,22 @@ public class SingleWindowContainer
 
     private final TransparentPanel contentPanel = new TransparentPanel();
     private  TransparentPanel mainPanel = new TransparentPanel();
+    private  JPanel mainNorthPanel = new TransparentPanel();
 
-//    private final JFrame mainFrame = new JFrame();
 
     public SingleWindowContainer()
     {
         super(new BorderLayout());
-        setPreferredSize(new Dimension(620, 580));
+        setPreferredSize(new Dimension(620, 520));
 
         mainPanel = new TransparentPanel();
-        BoxLayout boxLayout = new BoxLayout(mainPanel, BoxLayout.Y_AXIS);
-        mainPanel.setLayout(boxLayout);
-        mainPanel.setBorder(new EmptyBorder(0, 0, 0, 10));
-
-        final JScrollPane scroller = new JScrollPane(mainPanel);
-        scroller.setOpaque(false);
-        scroller.getViewport().setOpaque(false);
-        scroller.setPreferredSize(new Dimension(620, 580));
-        scroller.setBorder(new EmptyBorder(0, 0, 0, 0));
-        this.add(scroller, BorderLayout.CENTER);
+//        this.add(mainPanel, BorderLayout.NORTH);
+        this.add(mainPanel);
 
         tabbedPane = new ConversationTabbedPane();
         contactPhotoPanel = new ContactPhotoPanel();
+        mainNorthPanel = createToolbar();
 
-        mainPanel.add(createToolbar(), BorderLayout.NORTH);
         tabbedPane.addChangeListener(this);
     }
 
@@ -161,12 +153,14 @@ public class SingleWindowContainer
             System.out.println("removing from content pane");
             if(zorder == -1){
                 mainPanel.add(tabbedPane);
+                mainPanel.add(mainNorthPanel, BorderLayout.CENTER);
                 System.out.println("adding tabbed pane");
             }
         }else{
             int zorder = getComponentZOrder(contentPanel);
             System.out.println("removing tabbedPane zorder" + zorder);
             mainPanel.remove(tabbedPane);
+            mainPanel.remove(mainNorthPanel);
             System.out.println("removing tabbedPane pane");
             contentPanel.removeAll();
             if(zorder == -1){
@@ -213,6 +207,7 @@ public class SingleWindowContainer
     public void addChat(ChatPanel chatPanel)
     {
         ChatSession chatSession = chatPanel.getChatSession();
+        togglePane(true);
 
         addConversationTab(chatSession.getChatName(),
             chatSession.getChatStatusIcon(), chatPanel, false);
@@ -313,7 +308,7 @@ public class SingleWindowContainer
                 && chat.getChatWritePanel().getEditorPane().isFocusOwner();
     }
 
-    private Component createToolbar()
+    private JPanel createToolbar()
     {
         mainToolBar = new MainToolBar(this);
 
@@ -323,7 +318,7 @@ public class SingleWindowContainer
         JPanel northPanel = new TransparentPanel(new BorderLayout());
 
         northPanel.setBorder(BorderFactory.createEmptyBorder(3, 0, 3, 0));
-        northPanel.setPreferredSize(new Dimension(500, 35));
+        northPanel.setPreferredSize(new Dimension(620, 35));
         northPanel.setVisible(ConfigurationUtils.isChatToolbarVisible());
         northPanel.add(mainToolBar, BorderLayout.EAST);
         northPanel.add(contactPhotoPanel, BorderLayout.WEST);
@@ -660,7 +655,6 @@ public class SingleWindowContainer
         if (index > -1)
         {
             Component c = tabbedPane.getComponentAt(index);
-
             setToolbarVisible(c instanceof ChatPanel);
         }
     }

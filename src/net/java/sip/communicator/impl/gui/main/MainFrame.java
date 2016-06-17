@@ -13,6 +13,7 @@ import java.util.*;
 import java.util.List;
 
 import javax.swing.*;
+import javax.swing.border.EmptyBorder;
 
 import net.java.sip.communicator.impl.gui.*;
 import net.java.sip.communicator.impl.gui.event.*;
@@ -486,7 +487,17 @@ public class MainFrame
             topSplitPane.setDividerLocation(200);
 
             topSplitPane.add(centerPanel);
-            topSplitPane.add(singleWContainer);
+
+            BoxLayout boxLayout = new BoxLayout(singleWContainer, BoxLayout.Y_AXIS);
+            singleWContainer.setLayout(boxLayout);
+            singleWContainer.setBorder(new EmptyBorder(0, 0, 0, 0));
+
+            final JScrollPane scroller = new JScrollPane(singleWContainer);
+            scroller.setOpaque(false);
+            scroller.getViewport().setOpaque(false);
+            scroller.setBorder(new EmptyBorder(0, 0, 0, 0));
+
+            topSplitPane.add(scroller);
 
             this.mainPanel.add(topSplitPane, BorderLayout.CENTER);
 
@@ -500,6 +511,8 @@ public class MainFrame
             contentPane.add(mainPanel, BorderLayout.CENTER);
             contentPane.add(statusBarPanel, BorderLayout.SOUTH);
         }
+
+        singleWContainer.addDialPanel();
     }
 
     private Component createButtonPanel()
