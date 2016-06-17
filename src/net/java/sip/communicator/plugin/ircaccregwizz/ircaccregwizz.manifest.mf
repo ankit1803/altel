@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.ircaccregwizz.IrcAccRegWizzActivator
 Bundle-Name: IRC account registration wizard
 Bundle-Description: IRC account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.ircaccregwizz
 Import-Package: org.osgi.framework,

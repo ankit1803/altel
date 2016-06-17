@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.zeroconfaccregwizz.ZeroconfAccRegWizzActivator
 Bundle-Name: Zeroconf account registration wizard
 Bundle-Description: Zeroconf account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.zeroconfaccregwizz
 Import-Package: org.osgi.framework,

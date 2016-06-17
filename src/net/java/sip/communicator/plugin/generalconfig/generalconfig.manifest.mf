@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.generalconfig.GeneralConfigPluginActivator
 Bundle-Name: General config plugin
 Bundle-Description: The plugin offering general configuration page.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.generalconfig
 Import-Package: org.osgi.framework,

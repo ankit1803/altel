@@ -252,7 +252,7 @@ public class ConferenceInviteDialog
 
         accountSelectorPanel.setBorder(
             BorderFactory.createEmptyBorder(5, 5, 5, 5));
-        accountSelectorPanel.add(accountSelectorLabel, BorderLayout.WEST);
+        accountSelectorPanel.add(accountSelectorLabel, BorderLayout.CENTER);
         accountSelectorPanel.add(accountSelectorBox, BorderLayout.CENTER);
 
         // Initialize the account selector box.

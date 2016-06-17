@@ -42,35 +42,35 @@ public class GibberishAccRegWizzActivator
      */
     public void start(BundleContext bc)
     {
-        if (logger.isInfoEnabled())
-            logger.info("Loading gibberish account wizard.");
+//        if (logger.isInfoEnabled())
+//            logger.info("Loading gibberish account wizard.");
+//
+//        bundleContext = bc;
+//
+//        ServiceReference uiServiceRef = bundleContext
+//            .getServiceReference(UIService.class.getName());
+//
+//        uiService = (UIService) bundleContext.getService(uiServiceRef);
+//
+//        wizardContainer = uiService.getAccountRegWizardContainer();
+//
+//        gibberishWizard
+//            = new GibberishAccountRegistrationWizard(wizardContainer);
+//
+//        Hashtable<String, String> containerFilter
+//            = new Hashtable<String, String>();
+//
+//        containerFilter.put(
+//                ProtocolProviderFactory.PROTOCOL,
+//                ProtocolNames.GIBBERISH);
 
-        bundleContext = bc;
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            gibberishWizard,
+//            containerFilter);
 
-        ServiceReference uiServiceRef = bundleContext
-            .getServiceReference(UIService.class.getName());
-
-        uiService = (UIService) bundleContext.getService(uiServiceRef);
-
-        wizardContainer = uiService.getAccountRegWizardContainer();
-
-        gibberishWizard
-            = new GibberishAccountRegistrationWizard(wizardContainer);
-
-        Hashtable<String, String> containerFilter
-            = new Hashtable<String, String>();
-
-        containerFilter.put(
-                ProtocolProviderFactory.PROTOCOL,
-                ProtocolNames.GIBBERISH);
-
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            gibberishWizard,
-            containerFilter);
-
-        if (logger.isInfoEnabled())
-            logger.info("Gibberish account registration wizard [STARTED].");
+//        if (logger.isInfoEnabled())
+//            logger.info("Gibberish account registration wizard [STARTED].");
     }
 
     /**

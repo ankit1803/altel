@@ -11,6 +11,7 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
+import net.java.sip.communicator.impl.gui.GuiActivator;
 import net.java.sip.communicator.impl.gui.main.call.*;
 import net.java.sip.communicator.impl.gui.utils.*;
 import net.java.sip.communicator.plugin.desktoputil.*;
@@ -26,7 +27,7 @@ public class DialPadButton
     /**
      * The dial pad dialog that this button opens.
      */
-    GeneralDialPadDialog dialPad;
+    GeneralDialPadPanel dialPad;
 
     /**
      * Creates an instance of <tt>DialPadButton</tt>.
@@ -41,15 +42,30 @@ public class DialPadButton
         // Load the defaults (registers with notification service)
         DTMFHandler.loadDefaults();
 
+//        addActionListener(new ActionListener()
+//        {
+//            public void actionPerformed(ActionEvent e)
+//            {
+//                if (dialPad == null)
+//                    dialPad = new GeneralDialPadDialog();
+//
+//                dialPad.clear();
+//                dialPad.setVisible(true);
+//            }
+//        });
         addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
             {
-                if (dialPad == null)
-                    dialPad = new GeneralDialPadDialog();
+                SingleWindowContainer contentPaneContainer
+                        = GuiActivator.getUIService().getSingleWindowContainer();
+//                if (dialPad == null)
+//                    dialPad = new GeneralDialPadPanel();
 
-                dialPad.clear();
-                dialPad.setVisible(true);
+                contentPaneContainer.addDialPanel();
+
+//                dialPad.clear();
+//                dialPad.setVisible(true);
             }
         });
     }

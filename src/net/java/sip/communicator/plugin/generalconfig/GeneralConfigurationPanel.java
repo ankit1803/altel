@@ -235,14 +235,15 @@ public class GeneralConfigurationPanel
             = GeneralConfigPluginActivator.createConfigSectionComponent(
                 Resources.getString("service.gui.MESSAGE"));
 
+        configPanel.add(createRecentMessagesCheckbox());
+        configPanel.add(createBringToFrontCheckBox());
+        configPanel.add(createChatAlertsOnMessageCheckbox());
+        configPanel.add(createTypingNitificationsCheckBox());
         configPanel.add(createGroupMessagesCheckbox());
         configPanel.add(createHistoryPanel());
         configPanel.add(createSendMessagePanel());
-        configPanel.add(createTypingNitificationsCheckBox());
-        configPanel.add(createBringToFrontCheckBox());
-        configPanel.add(createChatAlertsOnMessageCheckbox());
         configPanel.add(createMultichatCheckbox());
-        configPanel.add(createRecentMessagesCheckbox());
+
 
         return configPanel;
     }
@@ -812,7 +813,7 @@ public class GeneralConfigurationPanel
                         "plugin.generalconfig.DEFAULT_LANGUAGE_RESTART_WARN");
         JLabel warnLabel = new JLabel(label);
         warnLabel.setToolTipText(label);
-        warnLabel.setForeground(Color.GRAY);
+        warnLabel.setForeground(Color.RED);
         warnLabel.setFont(warnLabel.getFont().deriveFont(8));
         warnLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 8, 0));
         warnLabel.setHorizontalAlignment(JLabel.RIGHT);
@@ -832,8 +833,8 @@ public class GeneralConfigurationPanel
             createConfigSectionComponent(
                 Resources.getString("service.gui.CALL"));
 
-        callConfigPanel.add(createNormalizeNumberCheckBox());
         callConfigPanel.add(createAcceptPhoneNumberWithAlphaCharCheckBox());
+        callConfigPanel.add(createNormalizeNumberCheckBox());
 
         return callConfigPanel;
     }
@@ -925,7 +926,7 @@ public class GeneralConfigurationPanel
             "plugin.generalconfig.ACCEPT_PHONE_NUMBER_WITH_ALPHA_CHARS_EXAMPLE");
         JLabel exampleLabel = new JLabel(label);
         exampleLabel.setToolTipText(label);
-        exampleLabel.setForeground(Color.GRAY);
+        exampleLabel.setForeground(Color.RED);
         exampleLabel.setFont(exampleLabel.getFont().deriveFont(8));
         exampleLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 8, 0));
         exampleLabel.setHorizontalAlignment(JLabel.LEFT);

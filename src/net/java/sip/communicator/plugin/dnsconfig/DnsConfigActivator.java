@@ -64,7 +64,7 @@ public class DnsConfigActivator
                     getClass().getClassLoader(),
                     "plugin.dnsconfig.ICON",
                     "plugin.dnsconfig.TITLE",
-                    2000, true),
+                    5, true),
                 properties);
         }
     }

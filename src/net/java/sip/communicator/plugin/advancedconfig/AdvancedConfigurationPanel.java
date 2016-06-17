@@ -406,7 +406,7 @@ public class AdvancedConfigurationPanel
      */
     public int getIndex()
     {
-        return 300;
+        return 60;
     }
 
     /**

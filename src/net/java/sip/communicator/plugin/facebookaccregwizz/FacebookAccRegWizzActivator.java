@@ -64,30 +64,30 @@ public class FacebookAccRegWizzActivator
     @Override
     public void start(Object dependentService)
     {
-        if (logger.isInfoEnabled())
-            logger.info("Loading facebook account wizard.");
-
-        uiService = (UIService)dependentService;
-
-        wizardContainer = uiService.getAccountRegWizardContainer();
-
-        facebookWizard
-            = new FacebookAccountRegistrationWizard(wizardContainer);
-
-        Hashtable<String, String> containerFilter
-            = new Hashtable<String, String>();
-
-        containerFilter.put(
-                ProtocolProviderFactory.PROTOCOL,
-                ProtocolNames.FACEBOOK);
-
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            facebookWizard,
-            containerFilter);
-
-        if (logger.isInfoEnabled())
-            logger.info("Facebook account registration wizard [STARTED].");
+//        if (logger.isInfoEnabled())
+//            logger.info("Loading facebook account wizard.");
+//
+//        uiService = (UIService)dependentService;
+//
+//        wizardContainer = uiService.getAccountRegWizardContainer();
+//
+//        facebookWizard
+//            = new FacebookAccountRegistrationWizard(wizardContainer);
+//
+//        Hashtable<String, String> containerFilter
+//            = new Hashtable<String, String>();
+//
+//        containerFilter.put(
+//                ProtocolProviderFactory.PROTOCOL,
+//                ProtocolNames.FACEBOOK);
+//
+////        bundleContext.registerService(
+////            AccountRegistrationWizard.class.getName(),
+////            facebookWizard,
+////            containerFilter);
+//
+//        if (logger.isInfoEnabled())
+//            logger.info("Facebook account registration wizard [STARTED].");
     }
 
     /**

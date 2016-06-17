@@ -13,12 +13,19 @@ import java.util.List;
 
 import javax.swing.*;
 import javax.swing.Timer;
+import javax.swing.border.EmptyBorder;
 import javax.swing.event.*;
 
 import net.java.sip.communicator.impl.gui.*;
+import net.java.sip.communicator.impl.gui.main.account.NewAccountPanel;
 import net.java.sip.communicator.impl.gui.main.call.*;
+import net.java.sip.communicator.impl.gui.main.call.conference.ConferenceInvitePanel;
 import net.java.sip.communicator.impl.gui.main.chat.*;
 import net.java.sip.communicator.impl.gui.main.chat.toolBars.*;
+import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanel;
+import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanelCustom;
+import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanel;
+import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanelCustom;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.util.*;
 
@@ -69,18 +76,105 @@ public class SingleWindowContainer
     /**
      * Creates an instance of the <tt>SingleWindowContainer</tt>.
      */
+
+    private final TransparentPanel contentPanel = new TransparentPanel();
+    private  TransparentPanel mainPanel = new TransparentPanel();
+    private  JPanel mainNorthPanel = new TransparentPanel();
+
+
     public SingleWindowContainer()
     {
         super(new BorderLayout());
-        setPreferredSize(new Dimension(620, 580));
+        setPreferredSize(new Dimension(620, 520));
+
+        mainPanel = new TransparentPanel();
+//        this.add(mainPanel, BorderLayout.NORTH);
+        this.add(mainPanel);
 
         tabbedPane = new ConversationTabbedPane();
         contactPhotoPanel = new ContactPhotoPanel();
+        mainNorthPanel = createToolbar();
 
-        add(createToolbar(), BorderLayout.NORTH);
         tabbedPane.addChangeListener(this);
+    }
 
-        add(tabbedPane);
+    /**
+     * Adds the given <tt>CallPanel</tt> to this call window.
+     *
+     */
+    public void addNewAccountPanel()
+    {
+        NewAccountPanel transparentPanel = new NewAccountPanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+
+    public void addDialPanel()
+    {
+        GeneralDialPadPanel transparentPanel = new GeneralDialPadPanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+    public void addContactPanel()
+    {
+        AddContactPanelCustom transparentPanel = new AddContactPanelCustom();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    public void addConferencePanel()
+    {
+        ConferenceInvitePanel transparentPanel = new ConferenceInvitePanel();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    public void addOptionPanel()
+    {
+        ConfigurationPanelCustom transparentPanel = new ConfigurationPanelCustom();
+        togglePane(false);
+        contentPanel.add(transparentPanel);
+    }
+
+    public void getbackToCall()
+    {
+        if(conversationCount > 0){
+            togglePane(true);
+        }
+    }
+
+    private void togglePane(Boolean isTabPaneVisible){
+        if(isTabPaneVisible){
+            int zorder = getComponentZOrder(tabbedPane);
+            System.out.println("removing contentPanel zorder" + zorder);
+            contentPanel.removeAll();
+            mainPanel.remove(contentPanel);
+            System.out.println("removing from content pane");
+            if(zorder == -1){
+                mainPanel.add(tabbedPane);
+                mainPanel.add(mainNorthPanel, BorderLayout.CENTER);
+                System.out.println("adding tabbed pane");
+            }
+        }else{
+            int zorder = getComponentZOrder(contentPanel);
+            System.out.println("removing tabbedPane zorder" + zorder);
+            mainPanel.remove(tabbedPane);
+            mainPanel.remove(mainNorthPanel);
+            System.out.println("removing tabbedPane pane");
+            contentPanel.removeAll();
+            if(zorder == -1){
+                mainPanel.add(contentPanel);
+                System.out.println("adding content pane");
+            }
+
+        }
+        pack();
+
+    }
+
+    public void removeContentPanel(){
+        togglePane(true);
     }
 
     /**
@@ -90,6 +184,8 @@ public class SingleWindowContainer
      */
     public void addCallPanel(CallPanel callPanel)
     {
+        togglePane(true);
+
         conversationCount ++;
 
         callPanel.setBorder(
@@ -111,6 +207,7 @@ public class SingleWindowContainer
     public void addChat(ChatPanel chatPanel)
     {
         ChatSession chatSession = chatPanel.getChatSession();
+        togglePane(true);
 
         addConversationTab(chatSession.getChatName(),
             chatSession.getChatStatusIcon(), chatPanel, false);
@@ -211,7 +308,7 @@ public class SingleWindowContainer
                 && chat.getChatWritePanel().getEditorPane().isFocusOwner();
     }
 
-    private Component createToolbar()
+    private JPanel createToolbar()
     {
         mainToolBar = new MainToolBar(this);
 
@@ -221,7 +318,7 @@ public class SingleWindowContainer
         JPanel northPanel = new TransparentPanel(new BorderLayout());
 
         northPanel.setBorder(BorderFactory.createEmptyBorder(3, 0, 3, 0));
-        northPanel.setPreferredSize(new Dimension(500, 35));
+        northPanel.setPreferredSize(new Dimension(620, 35));
         northPanel.setVisible(ConfigurationUtils.isChatToolbarVisible());
         northPanel.add(mainToolBar, BorderLayout.EAST);
         northPanel.add(contactPhotoPanel, BorderLayout.WEST);
@@ -558,7 +655,6 @@ public class SingleWindowContainer
         if (index > -1)
         {
             Component c = tabbedPane.getComponentAt(index);
-
             setToolbarVisible(c instanceof ChatPanel);
         }
     }

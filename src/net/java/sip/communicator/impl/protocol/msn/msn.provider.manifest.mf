@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.protocol.msn.MsnActivator
 Bundle-Name: Msn Protocol Provider Implementation
 Bundle-Description: An Msn implementation of the Protocol Provider Service.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.protocol.msn
 Import-Package: org.apache.commons.logging,

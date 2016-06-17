@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.impl.phonenumbers.PhoneNumberServiceActivator
 Bundle-Name: PhoneNumbers service
 Bundle-Description: A bundle that provides arsing, formatting and validating of international phone numbers.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.phonenumbers
 Export-Package: com.google.i18n.phonenumbers

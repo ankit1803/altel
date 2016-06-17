@@ -1679,7 +1679,7 @@ public class CallPanel
             settingsPanel.add(showHidePeersButton);
 
         // The bottom bar will contain the settingsPanel.
-        add(createBottomBar(), BorderLayout.SOUTH);
+        add(createBottomBar(), BorderLayout.NORTH);
     }
 
     /**

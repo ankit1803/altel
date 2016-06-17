@@ -61,10 +61,10 @@ public class GoogleTalkAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 GoogleTalkAccountRegistrationWizard.PROTOCOL);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            wizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            wizard,
+//            containerFilter);
     }
 
     /**

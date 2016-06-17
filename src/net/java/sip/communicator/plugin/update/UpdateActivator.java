@@ -171,76 +171,76 @@ public class UpdateActivator
     @Override
     public void start(Object dependentService)
     {
-        if (logger.isDebugEnabled())
-            logger.debug("Update checker [STARTED]");
-
-        ConfigurationService cfg = getConfiguration();
-
-        if (OSUtils.IS_WINDOWS)
-        {
-            updateService = new UpdateServiceImpl();
-
-            bundleContext.registerService(
-                UpdateService.class.getName(),
-                updateService,
-                null);
-
-            // Register the "Check for Updates" menu item if
-            // the "Check for Updates" property isn't disabled.
-            if(!cfg.getBoolean(CHECK_FOR_UPDATES_MENU_DISABLED_PROP, false))
-            {
-                // Register the "Check for Updates" menu item.
-
-                Hashtable<String, String> toolsMenuFilter
-                    = new Hashtable<String, String>();
-                toolsMenuFilter.put(
-                        Container.CONTAINER_ID,
-                        Container.CONTAINER_HELP_MENU.getID());
-
-                bundleContext.registerService(
-                    PluginComponentFactory.class.getName(),
-                    new PluginComponentFactory(Container.CONTAINER_HELP_MENU)
-                    {
-                        @Override
-                        protected PluginComponent getPluginInstance()
-                        {
-                            return new CheckForUpdatesMenuItemComponent(
-                                getContainer(), this);
-                        }
-                    },
-                    toolsMenuFilter);
-            }
-
-            // Check for software update upon startup if enabled.
-            if(cfg.getBoolean(UPDATE_ENABLED, true))
-                updateService.checkForUpdates(false);
-        }
-
-        if (cfg.getBoolean(CHECK_FOR_UPDATES_DAILY_ENABLED_PROP,
-                                     false))
-        {
-            logger.info("Scheduled update checking enabled");
-
-            // Schedule a "check for updates" task that will run once a day
-            int hoursToWait = calcHoursToWait();
-            Runnable updateRunnable = new Runnable()
-            {
-                public void run()
-                {
-                    logger.debug("Performing scheduled update check");
-                    getUpdateService().checkForUpdates(false);
-                }
-            };
-
-            mUpdateExecutor = Executors.newSingleThreadScheduledExecutor();
-            mUpdateExecutor.scheduleAtFixedRate(updateRunnable,
-                                                hoursToWait,
-                                                24*60*60,
-                                                TimeUnit.SECONDS);
-        }
-
-        if (logger.isDebugEnabled())
-            logger.debug("Update checker [REGISTERED]");
+//        if (logger.isDebugEnabled())
+//            logger.debug("Update checker [STARTED]");
+//
+//        ConfigurationService cfg = getConfiguration();
+//
+//        if (OSUtils.IS_WINDOWS)
+//        {
+//            updateService = new UpdateServiceImpl();
+//
+//            bundleContext.registerService(
+//                UpdateService.class.getName(),
+//                updateService,
+//                null);
+//
+//            // Register the "Check for Updates" menu item if
+//            // the "Check for Updates" property isn't disabled.
+//            if(!cfg.getBoolean(CHECK_FOR_UPDATES_MENU_DISABLED_PROP, false))
+//            {
+//                // Register the "Check for Updates" menu item.
+//
+//                Hashtable<String, String> toolsMenuFilter
+//                    = new Hashtable<String, String>();
+//                toolsMenuFilter.put(
+//                        Container.CONTAINER_ID,
+//                        Container.CONTAINER_HELP_MENU.getID());
+//
+//                bundleContext.registerService(
+//                    PluginComponentFactory.class.getName(),
+//                    new PluginComponentFactory(Container.CONTAINER_HELP_MENU)
+//                    {
+//                        @Override
+//                        protected PluginComponent getPluginInstance()
+//                        {
+//                            return new CheckForUpdatesMenuItemComponent(
+//                                getContainer(), this);
+//                        }
+//                    },
+//                    toolsMenuFilter);
+//            }
+//
+//            // Check for software update upon startup if enabled.
+//            if(cfg.getBoolean(UPDATE_ENABLED, true))
+//                updateService.checkForUpdates(false);
+//        }
+//
+//        if (cfg.getBoolean(CHECK_FOR_UPDATES_DAILY_ENABLED_PROP,
+//                                     false))
+//        {
+//            logger.info("Scheduled update checking enabled");
+//
+//            // Schedule a "check for updates" task that will run once a day
+//            int hoursToWait = calcHoursToWait();
+//            Runnable updateRunnable = new Runnable()
+//            {
+//                public void run()
+//                {
+//                    logger.debug("Performing scheduled update check");
+//                    getUpdateService().checkForUpdates(false);
+//                }
+//            };
+//
+//            mUpdateExecutor = Executors.newSingleThreadScheduledExecutor();
+//            mUpdateExecutor.scheduleAtFixedRate(updateRunnable,
+//                                                hoursToWait,
+//                                                24*60*60,
+//                                                TimeUnit.SECONDS);
+//        }
+//
+//        if (logger.isDebugEnabled())
+//            logger.debug("Update checker [REGISTERED]");
     }
 
     /**

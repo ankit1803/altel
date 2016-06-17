@@ -7,7 +7,7 @@
 #
 
 # sources.list setting for Jitsi updates.
-REPOCONFIG="deb http://download.jitsi.org/deb unstable/"
+REPOCONFIG="deb http://download.altel.org/deb unstable/"
 
 APT_CONFIG="`which apt-config 2> /dev/null`"
 

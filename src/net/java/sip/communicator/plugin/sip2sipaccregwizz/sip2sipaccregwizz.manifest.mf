@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.sip2sipaccregwizz.Sip2SipAccRegWizzActivator
 Bundle-Name: Sip 2 Sip account registration wizard
 Bundle-Description: Sip 2 Sip account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.sip2sipaccregwizz
 Import-Package: org.osgi.framework,

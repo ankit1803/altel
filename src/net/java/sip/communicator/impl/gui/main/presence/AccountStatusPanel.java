@@ -593,7 +593,7 @@ public class AccountStatusPanel
                             bgImage.getWidth(null),
                             bgImage.getHeight(null)));
 
-        GuiActivator.getUIService().addPluginComponentListener(this);
+//        GuiActivator.getUIService().addPluginComponentListener(this);
 
         byte[] avatar = null;
 

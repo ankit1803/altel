@@ -49,22 +49,22 @@ public class IptelAccRegWizzActivator
     @Override
     public void start(Object dependentService)
     {
-        uiService = (UIService)dependentService;
+//        uiService = (UIService)dependentService;
+//
+//        IptelAccountRegistrationWizard wizard
+//            = new IptelAccountRegistrationWizard(uiService
+//                .getAccountRegWizardContainer());
+//
+//        Hashtable<String, String> containerFilter
+//            = new Hashtable<String, String>();
+//        containerFilter.put(
+//                ProtocolProviderFactory.PROTOCOL,
+//                IptelAccountRegistrationWizard.PROTOCOL);
 
-        IptelAccountRegistrationWizard wizard
-            = new IptelAccountRegistrationWizard(uiService
-                .getAccountRegWizardContainer());
-
-        Hashtable<String, String> containerFilter
-            = new Hashtable<String, String>();
-        containerFilter.put(
-                ProtocolProviderFactory.PROTOCOL,
-                IptelAccountRegistrationWizard.PROTOCOL);
-
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            wizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            wizard,
+//            containerFilter);
     }
 
     /**

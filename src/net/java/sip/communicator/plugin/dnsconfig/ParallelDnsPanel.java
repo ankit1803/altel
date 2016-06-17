@@ -174,7 +174,7 @@ public class ParallelDnsPanel
             R.getI18NString("plugin.dnsconfig.lblPatience.description");
         JLabel descriptionLabel = new JLabel(label);
         descriptionLabel.setToolTipText(label);
-        descriptionLabel.setForeground(Color.GRAY);
+        descriptionLabel.setForeground(Color.BLACK);
         descriptionLabel.setFont(descriptionLabel.getFont().deriveFont(11f));
         cr.gridy = 4;
         mainPanel.add(descriptionLabel, cr);
@@ -186,7 +186,7 @@ public class ParallelDnsPanel
         label = R.getI18NString("plugin.dnsconfig.lblRedemption.description");
         descriptionLabel = new JLabel(label);
         descriptionLabel.setToolTipText(label);
-        descriptionLabel.setForeground(Color.GRAY);
+        descriptionLabel.setForeground(Color.BLACK);
         descriptionLabel.setFont(descriptionLabel.getFont().deriveFont(11f));
         cr.gridy = 6;
         cr.insets = new Insets(5, 3, 3, 3);

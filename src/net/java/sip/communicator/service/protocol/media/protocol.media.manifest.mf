@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.service.protocol.media.ProtocolMediaActivator
 Bundle-Name: Media Utilities for the Protocol Provider Service
 Bundle-Description: Media Utilities for the Protocol Provider Service.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.service.protocol.media
 Import-Package: javax.xml.parsers,

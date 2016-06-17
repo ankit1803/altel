@@ -58,10 +58,10 @@ public class IcqAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.ICQ);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            icqWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            icqWizard,
+//            containerFilter);
     }
 
     /**

@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.service.protocol.ProtocolProviderActivator
 Bundle-Name: Protocol Provider Service
 Bundle-Description: Protocol Provider Service.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.service.protocol
 Import-Package: net.java.sip.communicator.service.credentialsstorage,

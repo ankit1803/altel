@@ -123,7 +123,7 @@ public class GeneralConfigPluginActivator
                         getClass().getClassLoader(),
                         "plugin.generalconfig.PLUGIN_ICON",
                         "service.gui.GENERAL",
-                        0),
+                        10),
                     properties);
         }
 
@@ -141,7 +141,7 @@ public class GeneralConfigPluginActivator
                     getClass().getClassLoader(),
                     null,
                     "plugin.generalconfig.SIP_CALL_CONFIG",
-                    52, true),
+                    0, true),
                 properties);
         }
         properties.put( ConfigurationForm.FORM_TYPE,
@@ -153,7 +153,7 @@ public class GeneralConfigPluginActivator
                         getClass().getClassLoader(),
                         null,
                         "plugin.generalconfig.SILK_CONFIG",
-                        0, true),
+                        10, true),
                 properties);
         bundleContext.registerService(
                 ConfigurationForm.class.getName(),
@@ -162,7 +162,7 @@ public class GeneralConfigPluginActivator
                         getClass().getClassLoader(),
                         null,
                         "plugin.generalconfig.OPUS_CONFIG",
-                        0, true),
+                        20, true),
                 properties);
 
         try

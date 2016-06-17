@@ -240,7 +240,7 @@ public class AboutWindow
         buttonPanel.add(okButton);
         buttonPanel.setOpaque(false);
 
-        mainPanel.add(textPanel, BorderLayout.CENTER);
+//        mainPanel.add(textPanel, BorderLayout.CENTER);
         mainPanel.add(buttonPanel, BorderLayout.SOUTH);
 
         this.getContentPane().add(mainPanel);

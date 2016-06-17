@@ -58,10 +58,10 @@ public class YahooAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.YAHOO);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            yahooWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            yahooWizard,
+//            containerFilter);
     }
 
     /**

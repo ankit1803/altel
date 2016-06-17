@@ -53,10 +53,10 @@ public class AimAccRegWizzActivator
                 ProtocolProviderFactory.PROTOCOL,
                 ProtocolNames.AIM);
 
-        bundleContext.registerService(
-            AccountRegistrationWizard.class.getName(),
-            aimWizard,
-            containerFilter);
+//        bundleContext.registerService(
+//            AccountRegistrationWizard.class.getName(),
+//            aimWizard,
+//            containerFilter);
     }
 
     /**

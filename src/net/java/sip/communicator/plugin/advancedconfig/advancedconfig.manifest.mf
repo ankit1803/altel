@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.advancedconfig.AdvancedConfigActivator
 Bundle-Name: Advanced config plugin
 Bundle-Description: The plugin offering advanced configuration page.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.advancedconfig
 Import-Package: org.osgi.framework,

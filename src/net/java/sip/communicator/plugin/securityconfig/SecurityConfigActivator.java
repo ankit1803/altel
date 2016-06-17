@@ -98,7 +98,7 @@ public class SecurityConfigActivator
                 getClass().getClassLoader(),
                 "plugin.securityconfig.ICON",
                 "plugin.securityconfig.TITLE",
-                20),
+                50),
             properties);
 
         // If the master password config form is disabled don't register it.

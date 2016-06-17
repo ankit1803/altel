@@ -13,9 +13,9 @@
 		<variable name="app-version" value="@VERSION@"/>
 		<variable name="released-on" value="@BUILDDATE@"/>
                 
-                <variable name="HelloPanel2.WelcomeText1" value="@WelcomeText1@"/>
-                <variable name="HelloPanel2.WelcomeText2" value="@WelcomeText2@"/>
-                <variable name="HelloPanel2.PoweredByText" value="@WelcomeText3@"/>
+                <variable name="HelloPanel.WelcomeText1" value="@WelcomeText1@"/>
+                <variable name="HelloPanel.WelcomeText2" value="@WelcomeText2@"/>
+                <variable name="HelloPanel.PoweredByText" value="@WelcomeText3@"/>
 
 	</variables>
 
@@ -60,7 +60,7 @@
 	<native type="izpack" name="ShellLink.dll"/>
 
 	<panels>
-		<panel classname="HelloPanel2"/>
+		<panel classname="HelloPanel"/>
 		<panel classname="LicencePanel"/>
 		<panel classname="TargetPanel"/>
 		<panel classname="InstallPanel"/>

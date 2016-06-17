@@ -1,0 +1,2 @@
+VERSION=1.6.2
+DATE=July 16 2004

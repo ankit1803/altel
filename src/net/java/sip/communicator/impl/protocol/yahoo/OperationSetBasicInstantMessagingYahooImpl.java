@@ -539,9 +539,9 @@ public class OperationSetBasicInstantMessagingYahooImpl
     /**
      * Goes through the given text and converts all links to HTML links.
      * <p>
-     * For example all occurrences of http://jitsi.org/ will be
-     * replaced by <a href="http://jitsi.org/">
-     * http://jitsi.org/</a>. The same is true for all strings
+     * For example all occurrences of http://altel.org/ will be
+     * replaced by <a href="http://altel.org/">
+     * http://altel.org/</a>. The same is true for all strings
      * starting with "www".
      *
      * @param text the text on which the regular expression would be performed

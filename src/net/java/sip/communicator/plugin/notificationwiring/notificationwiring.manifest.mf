@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.notificationwiring.NotificationWiringActivator
 Bundle-Name: Notification-Wiring
 Bundle-Description: Wires events from various bundles to the notification service
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.notificationwiring
 Import-Package: javax.imageio,

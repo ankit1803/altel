@@ -69,7 +69,7 @@ public class GlobalProxyPluginActivator implements BundleActivator
                     getClass().getClassLoader(),
                     "plugin.globalproxy.PLUGIN_ICON",
                     "plugin.globalproxy.GLOBAL_PROXY_CONFIG",
-                    51, true),
+                    10, true),
                 properties);
         }
 

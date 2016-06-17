@@ -74,7 +74,7 @@ public class ServerStoredContactListSipImpl
      * The namespace used for contact type.
      */
     private static final String CONTACT_TYPE_NS =
-        "http://jitsi.org/contact-type";
+        "http://altel.org/contact-type";
 
     /**
      * The XCAP client.

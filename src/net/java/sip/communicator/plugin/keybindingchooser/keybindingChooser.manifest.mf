@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.keybindingchooser.KeybindingChooserActivator
 Bundle-Name: Keybinding Chooser
 Bundle-Description: Provides configuring UI for keyboard shortcuts.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.keybindingchooser
 Import-Package: org.osgi.framework,

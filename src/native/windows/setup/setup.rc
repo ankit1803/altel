@@ -44,7 +44,7 @@ BEGIN
         BLOCK "040904E4"
         BEGIN
             VALUE "Comments", ""
-            VALUE "CompanyName", "jitsi.org"
+            VALUE "CompanyName", "altel.org"
             VALUE "FileDescription", PRODUCTNAME " Setup"
             VALUE "FileVersion", PRODUCTBUILDVERSION
             VALUE "InternalName", "setup"

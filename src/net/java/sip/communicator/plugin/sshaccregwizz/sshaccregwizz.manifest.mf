@@ -1,7 +1,7 @@
 Bundle-Activator: net.java.sip.communicator.plugin.sshaccregwizz.SSHAccRegWizzActivator
 Bundle-Name: SSH account registration wizard
 Bundle-Description: SSH account registration wizard.
-Bundle-Vendor: jitsi.org
+Bundle-Vendor: altel.org
 Bundle-Version: 0.0.1
 Bundle-SymbolicName: net.java.sip.communicator.plugin.sshaccregwizz
 Import-Package: org.osgi.framework,
