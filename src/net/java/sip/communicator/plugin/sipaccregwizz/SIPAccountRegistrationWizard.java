@@ -526,7 +526,7 @@ public class SIPAccountRegistrationWizard
     @Override
     public String getUserNameExample()
     {
-        return "Ex: john@voiphone.net or simply \"john\" for no server";
+        return "Ex: sam@myateldialer.com or simply \"sam\" for no server";
     }
 
     /**
@@ -591,7 +591,28 @@ public class SIPAccountRegistrationWizard
     @Override
     public Object getSimpleForm(boolean isCreateAccount)
     {
-        return getSimpleForm(new SIPAccountRegistration(), isCreateAccount);
+        SIPAccountRegistration reg = new SIPAccountRegistration();
+
+        setPredefinedProperties(reg);
+
+        return getSimpleForm(reg, isCreateAccount);
+    }
+
+    /**
+     * Sets all predefined properties specific for this account wizard.
+     *
+     * @param reg the registration object
+     */
+    private void setPredefinedProperties(SIPAccountRegistration reg)
+    {
+        // set properties common for sip2sip
+
+        reg.setKeepAliveMethod("NONE");
+        reg.setDefaultDomain("198.23.212.26");
+        reg.setXCapEnable(true);
+        reg.setClistOptionServerUri(
+                "http://104.236.91.145/xcap-root@198.23.212.26");
+        reg.setClistOptionUseSipCredentials(true);
     }
 
     /**

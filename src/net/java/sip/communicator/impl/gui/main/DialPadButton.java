@@ -77,9 +77,9 @@ public class DialPadButton
     {
         Image image = ImageLoader.getImage(ImageLoader.CONTACT_LIST_DIAL_BUTTON);
 
-        setBgImage(image);
+        setIcon(new ImageIcon(image));
 
-        this.setPreferredSize(new Dimension(image.getWidth(this),
-                                            image.getHeight(this)));
+        this.setPreferredSize(new Dimension(image.getWidth(this)+12,
+                                            image.getHeight(this) +12 ));
     }
 }

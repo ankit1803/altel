@@ -198,6 +198,7 @@ public class MessageDialog
         this.getContentPane().add(iconPanel, BorderLayout.WEST);
         this.getContentPane().add(mainPanel, BorderLayout.CENTER);
         this.getContentPane().add(buttonsPanel, BorderLayout.SOUTH);
+
     }
 
     public void replaceCheckBoxPanel(Component comp)

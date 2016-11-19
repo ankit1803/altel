@@ -329,6 +329,7 @@ public class AddContactPanelCustom
             }
 
             accountCombo.addItem(provider);
+            System.out.println(provider);
 
             if (provider.getAccountID().isPreferredProvider())
                 accountCombo.setSelectedItem(provider);

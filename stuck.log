@@ -1,0 +1,269 @@
+2016-06-01 19:41:37
+Full thread dump OpenJDK 64-Bit Server VM (25.91-b14 mixed mode):
+
+"Attach Listener" #48 daemon prio=9 os_prio=0 tid=0x00007f4c4c004800 nid=0x74db waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Thread-25" #47 daemon prio=6 os_prio=0 tid=0x00007f4c483ba800 nid=0x74c2 waiting on condition [0x00007f4c0f2d5000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000df7bd338> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:403)
+	at sun.awt.X11.InfoWindow$Balloon$Displayer.run(InfoWindow.java:454)
+
+"Laf-Widget fade tracker" #45 daemon prio=6 os_prio=0 tid=0x00007f4c48e33000 nid=0x74c0 waiting on condition [0x00007f4c0f1d4000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at org.jvnet.lafwidget.animation.FadeTracker$FadeTrackerThread.run(FadeTracker.java:205)
+
+"Timer-0" #41 prio=6 os_prio=0 tid=0x00007f4c2800b800 nid=0x74bc in Object.wait() [0x00007f4c0f4d7000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e007b248> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Thread-18" #39 prio=6 os_prio=0 tid=0x00007f4c48cc6800 nid=0x74ba in Object.wait() [0x00007f4c11e52000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList$FilterThread.run(TreeContactList.java:1303)
+	- locked <0x00000000e055edf8> (a net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList$FilterThread)
+
+"pool-2-thread-1" #38 prio=5 os_prio=0 tid=0x00007f4c48c69000 nid=0x74b9 waiting on condition [0x00007f4c12153000]
+   java.lang.Thread.State: TIMED_WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000e0589238> (a java.util.concurrent.SynchronousQueue$TransferStack)
+	at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+	at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+	at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+	at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+"TimerQueue" #37 daemon prio=5 os_prio=0 tid=0x00007f4c48c5a800 nid=0x74b8 waiting on condition [0x00007f4c12254000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000e05a2b30> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.DelayQueue.take(DelayQueue.java:211)
+	at javax.swing.TimerQueue.run(TimerQueue.java:171)
+	at java.lang.Thread.run(Thread.java:745)
+
+"AWT-EventQueue-0" #33 prio=6 os_prio=0 tid=0x00007f4c2c49e000 nid=0x74ae waiting on condition [0x00007f4c187cc000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x0000000089d89708> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.awt.EventQueue.getNextEvent(EventQueue.java:554)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:170)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+"AWT-Shutdown" #34 prio=5 os_prio=0 tid=0x00007f4c2c4a0800 nid=0x74ad in Object.wait() [0x00007f4c186cb000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at sun.awt.AWTAutoShutdown.run(AWTAutoShutdown.java:295)
+	- locked <0x0000000089d62cf0> (a java.lang.Object)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Thread-15" #31 daemon prio=5 os_prio=0 tid=0x00007f4c2c39a000 nid=0x74ab in Object.wait() [0x00007f4c18acd000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at net.java.sip.communicator.impl.contactlist.MclStorageManager$1.run(MclStorageManager.java:472)
+	- locked <0x0000000089f90780> (a java.lang.Object)
+
+"Reconnect timer" #30 daemon prio=5 os_prio=0 tid=0x00007f4c2c368000 nid=0x74aa in Object.wait() [0x00007f4c18bce000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089fa30f8> (a java.util.TaskQueue)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x0000000089fa30f8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Thread-11" #27 daemon prio=5 os_prio=0 tid=0x00007f4c5400c800 nid=0x7492 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"AWT-XAWT" #26 daemon prio=6 os_prio=0 tid=0x00007f4c2c24b800 nid=0x7491 runnable [0x00007f4c26705000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.awt.X11.XToolkit.waitForEvents(Native Method)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:568)
+	at sun.awt.X11.XToolkit.run(XToolkit.java:532)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Java2D Disposer" #24 daemon prio=10 os_prio=0 tid=0x00007f4c2c234000 nid=0x7490 in Object.wait() [0x00007f4c26806000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x0000000089c157a8> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at sun.java2d.Disposer.run(Disposer.java:148)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Thread-10" #23 daemon prio=5 os_prio=0 tid=0x00007f4c2c1d1000 nid=0x748f in Object.wait() [0x00007f4c26b5c000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000008a112f08> (a net.java.sip.communicator.impl.packetlogging.PacketLoggingServiceImpl$SaverThread)
+	at java.lang.Object.wait(Object.java:502)
+	at net.java.sip.communicator.impl.packetlogging.PacketLoggingServiceImpl$SaverThread.run(PacketLoggingServiceImpl.java:779)
+	- locked <0x000000008a112f08> (a net.java.sip.communicator.impl.packetlogging.PacketLoggingServiceImpl$SaverThread)
+
+"Thread-9" #22 daemon prio=5 os_prio=0 tid=0x00007f4c2c1c9000 nid=0x748e in Object.wait() [0x00007f4c26e5d000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089e75ec8> (a java.util.LinkedHashMap)
+	at java.lang.Object.wait(Object.java:502)
+	at net.java.sip.communicator.impl.sysactivity.SystemActivityEventDispatcher.run(SystemActivityEventDispatcher.java:212)
+	- locked <0x0000000089e75ec8> (a java.util.LinkedHashMap)
+	at java.lang.Thread.run(Thread.java:745)
+
+"Sender" #21 daemon prio=5 os_prio=0 tid=0x00007f4c2c1bf800 nid=0x748d in Object.wait() [0x00007f4c26f5e000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089fa04a0> (a org.freedesktop.dbus.EfficientQueue)
+	at java.lang.Object.wait(Object.java:502)
+	at org.freedesktop.dbus.AbstractConnection$_sender.run(Unknown Source)
+	- locked <0x0000000089fa04a0> (a org.freedesktop.dbus.EfficientQueue)
+
+"DBusConnection" #20 daemon prio=5 os_prio=0 tid=0x00007f4c2c1d0000 nid=0x748c runnable [0x00007f4c2705f000]
+   java.lang.Thread.State: RUNNABLE
+	at cx.ath.matthew.unix.USInputStream.native_recv(Native Method)
+	at cx.ath.matthew.unix.USInputStream.read(USInputStream.java:64)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+	- locked <0x0000000089fa0bd8> (a java.io.BufferedInputStream)
+	at org.freedesktop.dbus.MessageReader.readMessage(Unknown Source)
+	at org.freedesktop.dbus.AbstractConnection.readIncoming(Unknown Source)
+	at org.freedesktop.dbus.AbstractConnection.access$000(Unknown Source)
+	at org.freedesktop.dbus.AbstractConnection$_thread.run(Unknown Source)
+
+"Thread-6" #19 daemon prio=5 os_prio=0 tid=0x00007f4c2c1ab800 nid=0x748b in Object.wait() [0x00007f4c27363000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089f9f978> (a java.util.LinkedList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.freedesktop.dbus.AbstractConnection$_workerthread.run(Unknown Source)
+	- locked <0x0000000089f9f978> (a java.util.LinkedList)
+
+"Thread-5" #18 daemon prio=5 os_prio=0 tid=0x00007f4c2c1a9800 nid=0x748a in Object.wait() [0x00007f4c27464000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089f9f978> (a java.util.LinkedList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.freedesktop.dbus.AbstractConnection$_workerthread.run(Unknown Source)
+	- locked <0x0000000089f9f978> (a java.util.LinkedList)
+
+"Thread-4" #17 daemon prio=5 os_prio=0 tid=0x00007f4c2c191800 nid=0x7489 in Object.wait() [0x00007f4c27565000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089f9f978> (a java.util.LinkedList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.freedesktop.dbus.AbstractConnection$_workerthread.run(Unknown Source)
+	- locked <0x0000000089f9f978> (a java.util.LinkedList)
+
+"Thread-3" #16 daemon prio=5 os_prio=0 tid=0x00007f4c2c191000 nid=0x7488 in Object.wait() [0x00007f4c33ce2000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089f9f978> (a java.util.LinkedList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.freedesktop.dbus.AbstractConnection$_workerthread.run(Unknown Source)
+	- locked <0x0000000089f9f978> (a java.util.LinkedList)
+
+"Thread-2" #14 daemon prio=5 os_prio=0 tid=0x00007f4c2c19f000 nid=0x7486 in Object.wait() [0x00007f4c33de3000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089fa37a0> (a java.util.LinkedHashMap)
+	at java.lang.Object.wait(Object.java:502)
+	at net.java.sip.communicator.impl.netaddr.NetworkEventDispatcher.run(NetworkEventDispatcher.java:160)
+	- locked <0x0000000089fa37a0> (a java.util.LinkedHashMap)
+	at java.lang.Thread.run(Thread.java:745)
+
+"FelixStartLevel" #13 daemon prio=5 os_prio=0 tid=0x00007f4c7cbc0000 nid=0x7485 in Object.wait() [0x00007f4c527e6000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x000000008a033400> (a java.util.ArrayList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.felix.framework.FrameworkStartLevelImpl.run(FrameworkStartLevelImpl.java:279)
+	- locked <0x000000008a033400> (a java.util.ArrayList)
+	at java.lang.Thread.run(Thread.java:745)
+
+"FelixDispatchQueue" #12 prio=5 os_prio=0 tid=0x00007f4c7ca72000 nid=0x7484 in Object.wait() [0x00007f4c52b2a000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089c0c0d0> (a java.util.ArrayList)
+	at java.lang.Object.wait(Object.java:502)
+	at org.apache.felix.framework.util.EventDispatcher.run(EventDispatcher.java:1074)
+	- locked <0x0000000089c0c0d0> (a java.util.ArrayList)
+	at org.apache.felix.framework.util.EventDispatcher.access$000(EventDispatcher.java:55)
+	at org.apache.felix.framework.util.EventDispatcher$1.run(EventDispatcher.java:102)
+	at java.lang.Thread.run(Thread.java:745)
+
+"net.java.sip.communicator.util.launchutils.SipCommunicatorLock$LockServer" #10 daemon prio=5 os_prio=0 tid=0x00007f4c7c9bd800 nid=0x7483 runnable [0x00007f4c52c2f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+	at java.net.ServerSocket.implAccept(ServerSocket.java:545)
+	at java.net.ServerSocket.accept(ServerSocket.java:513)
+	at net.java.sip.communicator.util.launchutils.SipCommunicatorLock$LockServer.run(SipCommunicatorLock.java:724)
+
+"Service Thread" #7 daemon prio=9 os_prio=0 tid=0x00007f4c7c0b7800 nid=0x7481 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread1" #6 daemon prio=9 os_prio=0 tid=0x00007f4c7c0b4800 nid=0x7480 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #5 daemon prio=9 os_prio=0 tid=0x00007f4c7c0b1800 nid=0x747f waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007f4c7c0af800 nid=0x747e runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007f4c7c088800 nid=0x747d in Object.wait() [0x00007f4c681b3000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+	- locked <0x0000000089e01980> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007f4c7c084000 nid=0x747c in Object.wait() [0x00007f4c682b4000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x0000000089e00e00> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"main" #1 prio=5 os_prio=0 tid=0x00007f4c7c013000 nid=0x7474 in Object.wait() [0x00007f4c848bb000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x0000000089c12928> (a org.apache.felix.framework.util.ThreadGate)
+	at org.apache.felix.framework.util.ThreadGate.await(ThreadGate.java:79)
+	- locked <0x0000000089c12928> (a org.apache.felix.framework.util.ThreadGate)
+	at org.apache.felix.framework.Felix.waitForStop(Felix.java:1004)
+	at org.apache.felix.main.Main.main(Main.java:299)
+	at net.java.sip.communicator.launcher.SIPCommunicator.main(SIPCommunicator.java:208)
+
+"VM Thread" os_prio=0 tid=0x00007f4c7c07c000 nid=0x747b runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007f4c7c028000 nid=0x7475 runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007f4c7c029800 nid=0x7476 runnable 
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007f4c7c0be000 nid=0x7482 waiting on condition 
+
+JNI global references: 842
+

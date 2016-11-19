@@ -285,7 +285,7 @@
         <property name="windows.package.name.suffix" value="x86.exe"/>
         <property name="windows.msi.package.name.suffix" value="x86.msi"/>
         <property name="windows.arch" value="32"/>
-        <property name="mingw.home" value="C:/mingw/x86" />
+        <property name="mingw.home" value="C:/mingw" />
         <antcall target="build-installation-wix-base" />
     </target>
 

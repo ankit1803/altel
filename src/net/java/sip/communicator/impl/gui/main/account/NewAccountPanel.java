@@ -449,7 +449,7 @@ public class NewAccountPanel
         {
             SingleWindowContainer contentPaneContainer
                     = GuiActivator.getUIService().getSingleWindowContainer();
-            System.out.println("Cancel clicked");
+
             contentPaneContainer.removeContentPanel();
         }
     }

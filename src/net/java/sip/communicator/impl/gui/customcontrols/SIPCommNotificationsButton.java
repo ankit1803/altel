@@ -64,7 +64,7 @@ public class SIPCommNotificationsButton
         this.setForeground(Color.WHITE);
         this.setBorder(BorderFactory.createEmptyBorder());
         this.setFont(getFont().deriveFont(Font.BOLD, 10f));
-        this.setBackground(new Color(255, 255, 255, 160));
+//        this.setBackground(new Color(255, 255, 255, 160));
     }
 
     /**
@@ -76,8 +76,9 @@ public class SIPCommNotificationsButton
             = ImageLoader.getImage(
                 ImageLoader.CALL_HISTORY_BUTTON_NOTIFICATION);
 
-        this.setPreferredSize(new Dimension(defaultImage.getWidth(this),
-            defaultImage.getHeight(this)));
+        this.setPreferredSize(new Dimension(defaultImage.getWidth(this) +12 ,
+            defaultImage.getHeight(this) + 12 ));
+//        this.setOpaque(true);
     }
 
     public void setToggleDisabled(boolean disableToggle)
@@ -114,7 +115,7 @@ public class SIPCommNotificationsButton
     {
         setHasNotifications(true);
 
-        this.setBackground(new Color(200, 0, 0));
+//        this.setBackground(new Color(200, 0, 0));
         this.setVerticalTextPosition(SwingConstants.TOP);
 
         Image iconImage = ImageLoader.getImage(notificationImage,
@@ -122,21 +123,26 @@ public class SIPCommNotificationsButton
 
         if (isDefaultViewVisible())
         {
-            setBgImage(ImageLoader.getImage(
-                pressedImage,
-                iconImage,
-                pressedImage.getWidth(null)/2
-                    - notificationImage.getWidth(null)/2,
-                0));
+
+            Image image = ImageLoader.getImage(
+                    pressedImage,
+                    iconImage,
+                    pressedImage.getWidth(null)/2
+                            - notificationImage.getWidth(null)/2,
+                    0);
+
+            setIcon(new ImageIcon(image));
         }
         else
         {
-            setBgImage(ImageLoader.getImage(
-                defaultImage,
-                iconImage,
-                pressedImage.getWidth(null)/2
-                    - notificationImage.getWidth(null)/2,
-                0));
+            Image image = ImageLoader.getImage(
+                    defaultImage,
+                    iconImage,
+                    pressedImage.getWidth(null)/2
+                            - notificationImage.getWidth(null)/2,
+                    0);
+
+            setIcon(new ImageIcon(image));
         }
     }
 
@@ -149,11 +155,11 @@ public class SIPCommNotificationsButton
 
         if (!isToggleDisabled() && isDefaultViewVisible())
         {
-            setBgImage(pressedImage);
+            setIcon(new ImageIcon(pressedImage));
         }
         else
         {
-            setBgImage(defaultImage);
+            setIcon(new ImageIcon(defaultImage));
         }
         setText("");
     }

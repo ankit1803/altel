@@ -802,7 +802,7 @@ public class SIPCommFrame
                 {
                     g2.setPaint(texture);
 
-                    g2.fillRect(0, 0, this.getWidth(), bgImage.getHeight());
+                    g2.fillRect(0, 0, this.getWidth(), bgImage.getHeight()+500);
                 }
             }
         }

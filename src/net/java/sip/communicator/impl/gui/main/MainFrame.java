@@ -217,9 +217,6 @@ public class MainFrame
             // we do nothing for it
         }
 
-        this.mainPanel.setBackground(new Color(
-                GuiActivator.getResources()
-                    .getColor("service.gui.MAIN_WINDOW_BACKGROUND")));
 
         keyManager = KeyboardFocusManager.getCurrentKeyboardFocusManager();
 
@@ -324,10 +321,27 @@ public class MainFrame
         final SingleWindowContainer contentPaneContainer
                 = GuiActivator.getUIService().getSingleWindowContainer();
 
+        JButton backToCall = new JButton();
+//        backToCall.setOpaque(false);
+//        backToCall.setContentAreaFilled(false);
+        Image backToCallImage
+                = ImageLoader.getImage(ImageLoader.BACK_TO_CALL);
+        backToCall.setIcon(new ImageIcon(backToCallImage));
+        backToCall.setToolTipText("Go back to active call");
+        backToCall.addActionListener(new ActionListener()
+        {
+            public void actionPerformed(ActionEvent e)
+            {
+                contentPaneContainer.getbackToCall();
+            }
+        });
+        buttonBox.add(backToCall);//account info
 
         buttonBox.add(new DialPadButton());
 
         JButton addAccount = new JButton();
+//        addAccount.setOpaque(false);
+//        addAccount.setContentAreaFilled(false);
         Image callButtonImage
                 = ImageLoader.getImage(ImageLoader.ADD_ACCOUNT_MENU_MAIN);
         addAccount.setIcon(new ImageIcon(callButtonImage));
@@ -342,6 +356,8 @@ public class MainFrame
         buttonBox.add(addAccount);//add new account
 
         JButton addContact = new JButton();
+//        addContact.setOpaque(false);
+//        addContact.setContentAreaFilled(false);
         Image addContactImage
                 = ImageLoader.getImage(ImageLoader.ADD_CONTACT_BUTTON_MAIN);
         addContact.setIcon(new ImageIcon(addContactImage));
@@ -357,6 +373,8 @@ public class MainFrame
 
 
         JButton addConference = new JButton();
+//        addConference.setOpaque(false);
+//        addConference.setContentAreaFilled(false);
         Image addConferenceImage
                 = ImageLoader.getImage(ImageLoader.CONFERENCE_ICON_MAIN);
         addConference.setIcon(new ImageIcon(addConferenceImage));
@@ -372,6 +390,8 @@ public class MainFrame
         
 
         JButton addOptionButton = new JButton();
+//        addOptionButton.setOpaque(false);
+//        addOptionButton.setContentAreaFilled(false);
         Image addAccountInfoImage
                 = ImageLoader.getImage(ImageLoader.ACCOUNT_EDIT_ICON_MAIN);
         addOptionButton.setIcon(new ImageIcon(addAccountInfoImage));
@@ -384,21 +404,6 @@ public class MainFrame
             }
         });
         buttonBox.add(addOptionButton);//account info
-
-
-        JButton backToCall = new JButton();
-        Image backToCallImage
-                = ImageLoader.getImage(ImageLoader.BACK_TO_CALL);
-        backToCall.setIcon(new ImageIcon(backToCallImage));
-        backToCall.setToolTipText("Go back to active call");
-        backToCall.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent e)
-            {
-                contentPaneContainer.getbackToCall();
-            }
-        });
-        buttonBox.add(backToCall);//account info
 
         return buttonBox;
     }
@@ -432,6 +437,8 @@ public class MainFrame
         }
 
         JButton addCredit = new JButton();
+//        addCredit.setOpaque(false);
+//        addCredit.setContentAreaFilled(false);
         Image addCreditImage
                 = ImageLoader.getImage(ImageLoader.ADD_CREDIT_ICON);
         addCredit.setIcon(new ImageIcon(addCreditImage));
@@ -445,9 +452,7 @@ public class MainFrame
 
         JLabel availCreditLbl  = new JLabel("", JLabel.CENTER);
         availCreditLbl.setText("Available credits: $300");
-        availCreditLbl.setOpaque(false);
-//        availCreditLbl.setBackground(Color.GRAY);
-        availCreditLbl.setForeground(Color.WHITE);
+//        availCreditLbl.setOpaque(false);
         buttonBox.add(availCreditLbl);//credit label
 
         buttonPanel.add(buttonBox, BorderLayout.WEST);
@@ -504,6 +509,8 @@ public class MainFrame
             getContentPane().add(mainPanel, BorderLayout.CENTER);
             getContentPane().add(statusBarPanel, BorderLayout.SOUTH);
 
+            singleWContainer.addDialPanel();
+
         }
         else
         {
@@ -512,7 +519,7 @@ public class MainFrame
             contentPane.add(statusBarPanel, BorderLayout.SOUTH);
         }
 
-        singleWContainer.addDialPanel();
+
     }
 
     private Component createButtonPanel()
@@ -2026,6 +2033,19 @@ public class MainFrame
         }
     }
 
+    private static void exitApp(){
+        try
+        {
+            GuiActivator.getUIService().beginShutdown();
+        }
+        catch (Exception ex)
+        {
+//            logger.error("Failed to gently shutdown Felix", ex);
+            System.exit(0);
+        }
+
+    }
+
     /**
      * Overrides SIPCommFrame#windowClosing(WindowEvent). Reflects the closed
      * state of this MainFrame in the configuration in order to make it
@@ -2038,6 +2058,7 @@ public class MainFrame
     {
         super.windowClosing(event);
 
+
         // On Mac systems the application is not quited on window close, so we
         // don't need to warn the user.
         if (!GuiActivator.getUIService().getExitOnMainWindowClose()
@@ -2049,15 +2070,18 @@ public class MainFrame
                 {
                     if (ConfigurationUtils.isQuitWarningShown())
                     {
-                        MessageDialog dialog =
-                            new MessageDialog(null,
-                                GuiActivator.getResources().getI18NString(
-                                "service.gui.CLOSE"),
-                                GuiActivator.getResources().getI18NString(
-                                "service.gui.HIDE_MAIN_WINDOW"), false);
+                        QuitDialog dialog = new QuitDialog(null, GuiActivator.getResources().getI18NString(
+                                "service.gui.CLOSE"), GuiActivator.getResources().getI18NString(
+                                "service.gui.HIDE_MAIN_WINDOW"), GuiActivator.getResources().getI18NString(
+                                "service.gui.BACKGROUND_OK") );
 
-                        if (dialog.showDialog() == MessageDialog.OK_DONT_ASK_CODE)
+                        int returnCode = dialog.showDialog();
+
+                        if (returnCode == MessageDialog.OK_DONT_ASK_CODE){
                             ConfigurationUtils.setQuitWarningShown(false);
+                        }else if(returnCode == MessageDialog.CANCEL_RETURN_CODE){
+                            exitApp();
+                        }
                     }
                 }
             });

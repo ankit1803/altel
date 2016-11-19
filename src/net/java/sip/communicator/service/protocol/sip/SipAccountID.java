@@ -109,7 +109,16 @@ public class SipAccountID
      */
     public String getId()
     {
-        return getAccountPropertyString(ProtocolProviderFactory.USER_ID);
+
+        String userName = getAccountPropertyString(ProtocolProviderFactory.USER_ID);
+
+        int delimIndex = userName.indexOf("@");
+        if (delimIndex == -1)
+        {
+            userName = userName + "@198.23.212.26";
+        }
+
+        return userName;
     }
 
     /**

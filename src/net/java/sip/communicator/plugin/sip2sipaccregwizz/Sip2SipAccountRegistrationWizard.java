@@ -94,6 +94,7 @@ public class Sip2SipAccountRegistrationWizard
     private void setPredefinedProperties(SIPAccountRegistration reg)
     {
         // set properties common for sip2sip
+
         reg.setKeepAliveMethod("NONE");
         reg.setDefaultDomain("sip2sip.info");
         reg.setXCapEnable(true);

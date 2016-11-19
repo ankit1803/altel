@@ -412,6 +412,7 @@ public class ChatWindow
      */
     public void setCurrentChat(final ChatPanel chatPanel)
     {
+
         ChatSession chatSession = chatPanel.getChatSession();
 
         if (logger.isDebugEnabled())
@@ -1165,6 +1166,8 @@ public class ChatWindow
     public void openChat(ChatPanel chatPanel, boolean setSelected)
     {
         boolean isWindowVisible = isVisible();
+
+
 
         if(getExtendedState() != JFrame.ICONIFIED)
         {

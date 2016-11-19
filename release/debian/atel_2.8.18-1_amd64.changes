@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sat, 22 Oct 2016 12:06:11 +0530
+Source: atel
+Binary: atel
+Architecture: amd64
+Version: 2.8.18-1
+Distribution: unstable
+Urgency: low
+Maintainer: Damian Minkov <damencho@altel.org>
+Changed-By: Damian Minkov <damencho@altel.org>
+Description:
+ atel       - VoIP and Instant Messaging client
+Changes:
+ atel (2.8.18-1) unstable; urgency=low
+ .
+   * Updates upstream.
+Checksums-Sha1:
+ 9a425bdd816f9d42db65c59a16c51c6ba4717e55 30515350 atel_2.8.18-1_amd64.deb
+Checksums-Sha256:
+ 10a7edd18e490d3da35e0d8ccb9d6c0f15949553e5b1e919771ba3e274210e9d 30515350 atel_2.8.18-1_amd64.deb
+Files:
+ d166625c4337c168fcba60b8086f5f88 30515350 net optional atel_2.8.18-1_amd64.deb

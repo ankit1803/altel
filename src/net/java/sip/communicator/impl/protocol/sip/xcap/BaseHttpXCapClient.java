@@ -122,6 +122,7 @@ public abstract class BaseHttpXCapClient implements HttpXCapClient
     public void connect(URI uri, Address userAddress, String username, String password)
             throws XCapException
     {
+        System.out.println("connecting **** " + userAddress.getURI());
         if (!userAddress.getURI().isSipURI())
         {
             throw new IllegalArgumentException("Address must contains SipUri");

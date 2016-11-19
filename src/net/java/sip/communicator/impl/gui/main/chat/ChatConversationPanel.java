@@ -867,6 +867,7 @@ public class ChatConversationPanel
     public void appendMessageToEnd(final String original,
                                    final String contentType)
     {
+
         if (!SwingUtilities.isEventDispatchThread())
         {
             SwingUtilities.invokeLater(new Runnable()

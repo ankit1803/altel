@@ -1510,9 +1510,11 @@ public class ServerStoredContactListSipImpl
     @Override
     public boolean isAccountImageSupported()
     {
-        return xCapClient != null &&
-                xCapClient.isConnected() &&
-                xCapClient.isPresContentSupported();
+        return true;
+
+//        return xCapClient != null &&
+//                xCapClient.isConnected() &&
+//                xCapClient.isPresContentSupported();
     }
 
     /**

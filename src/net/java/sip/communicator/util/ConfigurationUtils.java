@@ -1053,7 +1053,8 @@ public class ConfigurationUtils
      */
     public static boolean isQuitWarningShown()
     {
-        return isQuitWarningShown;
+//        return isQuitWarningShown;
+        return true;
     }
 
     /**

@@ -154,11 +154,11 @@ public class SIPCommTextButton
                                 (this.getHeight() - bgImage.getHeight(null))/2,
                                 bgImage.getWidth(null) - 1,
                                 bgImage.getHeight(null) - 1,
-                                20, 20);
+                                10, 10);
             else
                 g.fillRoundRect(0, 0,
                                 this.getWidth() - 1, this.getHeight() - 1,
-                                20, 20);
+                                10, 10);
         }
 
         if (bgImage != null)

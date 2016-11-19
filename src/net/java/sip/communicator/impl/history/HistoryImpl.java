@@ -366,7 +366,7 @@ public class HistoryImpl
         }
         catch (Exception ex)
         {
-            System.out.println("again cannot parse " + ex.getMessage());
+
             return null;
         }
     }

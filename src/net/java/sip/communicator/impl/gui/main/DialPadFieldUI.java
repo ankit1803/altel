@@ -87,7 +87,7 @@ public class DialPadFieldUI
     {
         Rectangle rect = super.getVisibleEditorRect();
 
-        if ((rect.width > 0) && (rect.height > 0))
+        if ( rect!= null && (rect.width > 0) && (rect.height > 0))
         {
             rect.x += 8;
             rect.width -= 18;

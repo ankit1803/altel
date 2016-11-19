@@ -13,7 +13,6 @@ import java.util.List;
 
 import javax.swing.*;
 import javax.swing.Timer;
-import javax.swing.border.EmptyBorder;
 import javax.swing.event.*;
 
 import net.java.sip.communicator.impl.gui.*;
@@ -22,9 +21,7 @@ import net.java.sip.communicator.impl.gui.main.call.*;
 import net.java.sip.communicator.impl.gui.main.call.conference.ConferenceInvitePanel;
 import net.java.sip.communicator.impl.gui.main.chat.*;
 import net.java.sip.communicator.impl.gui.main.chat.toolBars.*;
-import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanel;
 import net.java.sip.communicator.impl.gui.main.configforms.ConfigurationPanelCustom;
-import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanel;
 import net.java.sip.communicator.impl.gui.main.contactlist.AddContactPanelCustom;
 import net.java.sip.communicator.plugin.desktoputil.*;
 import net.java.sip.communicator.util.*;
@@ -56,7 +53,8 @@ public class SingleWindowContainer
     /**
      * The count of current conversations.
      */
-    private int conversationCount = 0;
+    private int callCount = 0;
+    private int chatCount = 0;
 
     /**
      * The <tt>Logger</tt> used by this instance for logging output.
@@ -72,13 +70,16 @@ public class SingleWindowContainer
      * The tabbed pane, containing all conversations.
      */
     private final ConversationTabbedPane tabbedPane;
+    private final ConversationTabbedPane chatTabbedPane;
 
     /**
      * Creates an instance of the <tt>SingleWindowContainer</tt>.
      */
 
     private final TransparentPanel contentPanel = new TransparentPanel();
-    private  TransparentPanel mainPanel = new TransparentPanel();
+    private  TransparentPanel mainPanel;
+    private  TransparentPanel callPanel;
+    private  TransparentPanel chatPanel;
     private  JPanel mainNorthPanel = new TransparentPanel();
 
 
@@ -87,15 +88,20 @@ public class SingleWindowContainer
         super(new BorderLayout());
         setPreferredSize(new Dimension(620, 520));
 
-        mainPanel = new TransparentPanel();
+        mainPanel = new TransparentPanel(new BorderLayout());
+        callPanel = new TransparentPanel();
+        chatPanel = new TransparentPanel();
 //        this.add(mainPanel, BorderLayout.NORTH);
-        this.add(mainPanel);
+        this.add(mainPanel, BorderLayout.CENTER );
 
         tabbedPane = new ConversationTabbedPane();
+        chatTabbedPane = new ConversationTabbedPane();
+
         contactPhotoPanel = new ContactPhotoPanel();
         mainNorthPanel = createToolbar();
 
         tabbedPane.addChangeListener(this);
+        chatTabbedPane.addChangeListener(this);
     }
 
     /**
@@ -139,35 +145,57 @@ public class SingleWindowContainer
 
     public void getbackToCall()
     {
-        if(conversationCount > 0){
+        if( (callCount + chatCount) > 0){
             togglePane(true);
         }
     }
 
+    private void resetTabbedPane(){
+        if(chatCount>0 && callCount>0){
+            mainPanel.add(callPanel, BorderLayout.WEST);
+            callPanel.add(tabbedPane);
+
+            mainPanel.add(chatPanel, BorderLayout.EAST);
+            chatPanel.add(chatTabbedPane);
+
+            mainPanel.add(mainNorthPanel, BorderLayout.NORTH);
+
+        }else if(chatCount >0){
+            chatPanel.add(chatTabbedPane);
+            mainPanel.add(chatPanel, BorderLayout.CENTER);
+            mainPanel.add(mainNorthPanel, BorderLayout.NORTH);
+
+        }else if(callCount >0){
+            callPanel.add(tabbedPane);
+            mainPanel.add(callPanel, BorderLayout.CENTER);
+
+        }
+
+    }
+
     private void togglePane(Boolean isTabPaneVisible){
+        mainPanel.removeAll();
+        contentPanel.removeAll();
+
+
         if(isTabPaneVisible){
             int zorder = getComponentZOrder(tabbedPane);
-            System.out.println("removing contentPanel zorder" + zorder);
-            contentPanel.removeAll();
-            mainPanel.remove(contentPanel);
-            System.out.println("removing from content pane");
-            if(zorder == -1){
-                mainPanel.add(tabbedPane);
-                mainPanel.add(mainNorthPanel, BorderLayout.CENTER);
-                System.out.println("adding tabbed pane");
+            int corder = getComponentZOrder(chatTabbedPane);
+
+
+            if(zorder == -1 || corder == -1){
+                resetTabbedPane();
             }
         }else{
             int zorder = getComponentZOrder(contentPanel);
-            System.out.println("removing tabbedPane zorder" + zorder);
-            mainPanel.remove(tabbedPane);
-            mainPanel.remove(mainNorthPanel);
-            System.out.println("removing tabbedPane pane");
-            contentPanel.removeAll();
-            if(zorder == -1){
-                mainPanel.add(contentPanel);
-                System.out.println("adding content pane");
-            }
 
+            callPanel.remove(tabbedPane);
+            chatPanel.remove(chatTabbedPane);
+
+            if(zorder == -1){
+                mainPanel.add(contentPanel, BorderLayout.CENTER);
+
+            }
         }
         pack();
 
@@ -184,9 +212,8 @@ public class SingleWindowContainer
      */
     public void addCallPanel(CallPanel callPanel)
     {
+        callCount++;
         togglePane(true);
-
-        conversationCount ++;
 
         callPanel.setBorder(
             BorderFactory.createMatteBorder(1, 0, 0, 0, Color.GRAY));
@@ -207,12 +234,14 @@ public class SingleWindowContainer
     public void addChat(ChatPanel chatPanel)
     {
         ChatSession chatSession = chatPanel.getChatSession();
+
+        chatCount++;
         togglePane(true);
 
         addConversationTab(chatSession.getChatName(),
             chatSession.getChatStatusIcon(), chatPanel, false);
 
-        conversationCount ++;
+
 
         chatPanel.setShown(true);
 
@@ -243,22 +272,28 @@ public class SingleWindowContainer
      * @param conversation the conversation component to add in the tab
      * @param isSelected indicates if this tab should be selected
      */
+
     private void addConversationTab(String name,
                                     Icon icon,
                                     Component conversation,
                                     boolean isSelected)
     {
-        Component currentConversation = getCurrentConversation();
+        Component currentConversation = getCurrentConversation(isSelected);
+        ConversationTabbedPane myPane = tabbedPane;
 
-        tabbedPane.addTab(name, icon, conversation);
-        tabbedPane.getParent().validate();
+        if ( !isSelected ){
+            myPane = chatTabbedPane;
+        }
+
+        myPane.addTab(name, icon, conversation);
+        myPane.getParent().validate();
 
         // If not specified explicitly, when added to the tabbed pane, the first
         // chat panel should rest the selected component.
-        tabbedPane.setSelectedComponent(
+        myPane.setSelectedComponent(
                 (currentConversation != null && !isSelected)
-                    ? currentConversation
-                    : conversation);
+                        ? currentConversation
+                        : conversation);
     }
 
     /**
@@ -342,7 +377,7 @@ public class SingleWindowContainer
      */
     public int getChatCount()
     {
-        return conversationCount;
+        return chatCount;
     }
 
     /**
@@ -354,13 +389,13 @@ public class SingleWindowContainer
     {
         ArrayList<ChatPanel> chatPanels = new ArrayList<ChatPanel>();
 
-        if(tabbedPane.getTabCount() > 0)
+        if(chatTabbedPane.getTabCount() > 0)
         {
-            int componentCount = tabbedPane.getComponentCount();
+            int componentCount = chatTabbedPane.getComponentCount();
 
             for (int i = 0; i < componentCount; i ++)
             {
-                Component c = tabbedPane.getComponent(i);
+                Component c = chatTabbedPane.getComponent(i);
 
                 if(c instanceof ChatPanel)
                 {
@@ -379,7 +414,7 @@ public class SingleWindowContainer
      */
     public ChatPanel getCurrentChat()
     {
-        Component c = getCurrentConversation();
+        Component c = getCurrentConversation(false);
 
         if (c instanceof ChatPanel)
             return (ChatPanel) c;
@@ -392,10 +427,15 @@ public class SingleWindowContainer
      *
      * @return the currently selected chat panel.
      */
-    private Component getCurrentConversation()
+    private Component getCurrentConversation(Boolean isCall)
     {
-        if(tabbedPane.getTabCount() > 0)
-            return tabbedPane.getSelectedComponent();
+        if(isCall){
+            if(tabbedPane.getTabCount() > 0)
+                return tabbedPane.getSelectedComponent();
+        }else {
+            if(chatTabbedPane.getTabCount() > 0)
+                return chatTabbedPane.getSelectedComponent();
+        }
 
         return null;
     }
@@ -417,11 +457,11 @@ public class SingleWindowContainer
      */
     private void highlightTab(ChatPanel chatPanel)
     {
-        int tabIndex = tabbedPane.indexOfComponent(chatPanel);
+        int tabIndex = chatTabbedPane.indexOfComponent(chatPanel);
 
         chatPanel.unreadMessageNumber ++;
 
-        tabbedPane.highlightTab(tabIndex, chatPanel.unreadMessageNumber);
+        chatTabbedPane.highlightTab(tabIndex, chatPanel.unreadMessageNumber);
     }
 
     /**
@@ -475,7 +515,7 @@ public class SingleWindowContainer
             setCurrentChat(chatPanel);
         }
         else if(!getCurrentChat().equals(chatPanel)
-            && tabbedPane.getTabCount() > 0)
+            && chatTabbedPane.getTabCount() > 0)
         {
             highlightTab(chatPanel);
         }
@@ -499,13 +539,13 @@ public class SingleWindowContainer
         if (logger.isDebugEnabled())
             logger.debug("Remove all tabs from the chat window.");
 
-        if(tabbedPane.getTabCount() > 0)
+        if(chatTabbedPane.getTabCount() > 0)
         {
-            this.tabbedPane.removeAll();
+            this.chatTabbedPane.removeAll();
 
-            conversationCount = 0;
+            chatCount = 0;
 
-            if (tabbedPane.getTabCount() == 0)
+            if (chatTabbedPane.getTabCount() == 0)
                 setToolbarVisible(false);
         }
     }
@@ -541,18 +581,36 @@ public class SingleWindowContainer
      *
      * @param c the conversation component
      */
+
     private void removeConversation(Component c)
     {
-        int index = tabbedPane.indexOfComponent(c);
+        ConversationTabbedPane myPane = tabbedPane;
+        Boolean decreaseCallCount = true;
+
+        if (c instanceof ChatPanel){
+            myPane = chatTabbedPane;
+            decreaseCallCount = false;
+        }
+
+        int index = myPane.indexOfComponent(c);
 
         if (index > -1)
         {
-            tabbedPane.removeTabAt(index);
+            myPane.removeTabAt(index);
 
-            conversationCount --;
+            if(decreaseCallCount){
+                callCount--;
+            }else{
+                chatCount--;
+            }
         }
 
-        if (tabbedPane.getTabCount() == 0)
+        if(chatCount < 1 || callCount < 1){
+            mainPanel.removeAll();
+            resetTabbedPane();
+        }
+
+        if ((tabbedPane.getTabCount() + chatTabbedPane.getTabCount() ) == 0)
             setToolbarVisible(false);
     }
 
@@ -573,13 +631,14 @@ public class SingleWindowContainer
             logger.debug(
                 "Set current chat panel to: " + chatSession.getChatName());
 
-        if(tabbedPane.getTabCount() > 0)
-            this.tabbedPane.setSelectedComponent(chatPanel);
+        if(chatTabbedPane.getTabCount() > 0)
+            this.chatTabbedPane.setSelectedComponent(chatPanel);
 
         this.setTitle(chatSession.getChatName());
         this.contactPhotoPanel.setChatSession(chatSession);
 
         chatPanel.requestFocusInWriteArea();
+        mainToolBar.getSmileysBox().setChat(chatPanel);
 
         for (ChatChangeListener l : this.chatChangeListeners)
         {
@@ -649,12 +708,12 @@ public class SingleWindowContainer
      */
     public void stateChanged(ChangeEvent event)
     {
-        int index = tabbedPane.getSelectedIndex();
+        int index = chatTabbedPane.getSelectedIndex();
 
         // If there's no chat panel selected we do nothing.
         if (index > -1)
         {
-            Component c = tabbedPane.getComponentAt(index);
+            Component c = chatTabbedPane.getComponentAt(index);
             setToolbarVisible(c instanceof ChatPanel);
         }
     }

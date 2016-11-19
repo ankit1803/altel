@@ -79,8 +79,10 @@ public class ChatWindowManager
         {
             ChatContainer chatContainer = chatPanel.getChatContainer();
 
+
             if(!chatPanel.isShown())
                 chatContainer.addChat(chatPanel);
+
 
             chatContainer.openChat(chatPanel, setSelected);
         }
